@@ -15,15 +15,16 @@ you produce running the system), recursively.
 You cannot mix (A)GPL code with hacks covered by the Hacking License.
 
 # Design
-We embrace an estetic of extreme minimalism almost [brutalist](https://elementor.com/blog/brutalism-in-web-design/)
+We embrace aestetics of extreme minimalism almost [brutalist](https://elementor.com/blog/brutalism-in-web-design/)
 for several long term strategic reasons, among them
 
 1) being aesthetically different, as far as possible from Material, Bootstrap and similar projects, makes it clear for managers in Public Administrations that we are not looking for visibility but only to have the Law respected and lives and rights of our people protected
 
 2) kids and teen who approach our website will see something very different from what they see elsewhere, completely focused on contents and that do not try in any way to lure them or to retain them. And they will see that the project is successful and think "Hey, you might be successful even by being that **different**?"
+
 3) we cant use the aestetic of our adversaries to oppose them without legittimizing their existance.
 
-People come (and stay) on our website for what we do and for the data and software we produce and forcing them to browse a weirdly simple site (while accessible and very readable and easy to use) open their Overton window, move them out of their usual perspective and force them to see how empty are so many media channel the are cool and fashion (as defined by USA-corporate marketing).
+People come (and stay) on our website **for what we do** and **for the data and software we produce** and forcing them to browse a weirdly simple site (while accessible and very readable and easy to use) extends their [Overton window](https://en.wikipedia.org/wiki/Overton_window), move them out of their usual perspective and force them to see how empty are so many media channel the are cool and fashion (as defined by USA-corporate marketing).
 
 # Coding Guidelines
 
