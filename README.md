@@ -22,7 +22,7 @@ for several long term strategic reasons, among them
 
 2) kids and teen who approach our website will see something very different from what they see elsewhere, completely focused on contents and that do not try in any way to lure them or to retain them. And they will see that the project is successful and think "Hey, you might be successful even by being that **different**?"
 
-3) we cant use the aestetic of our adversaries to oppose them without legittimizing their existance.
+3) we can't use the aestetics of our adversaries to oppose them without legitimizing their existance.
 
 People come (and stay) on our website **for what we do** and **for the data and software we produce** and forcing them to browse a weirdly simple site (while accessible and very readable and easy to use) extends their [Overton window](https://en.wikipedia.org/wiki/Overton_window), move them out of their usual perspective and force them to see how empty are so many media channel the are cool and fashion (as defined by USA-corporate marketing).
 
