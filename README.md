@@ -18,7 +18,7 @@ You cannot mix (A)GPL code with hacks covered by the Hacking License.
 We embrace an estetic of extreme minimalism almost [brutalist](https://elementor.com/blog/brutalism-in-web-design/)
 for several long term strategic reasons, among them
 
-1) being aesthetically different, as far as possible from Material, Bootstrap and similar projects, make it clear for managers in Public Administrations that we are not looking for visibility but only to have the Law respected and lives and rights of our people protected
+1) being aesthetically different, as far as possible from Material, Bootstrap and similar projects, makes it clear for managers in Public Administrations that we are not looking for visibility but only to have the Law respected and lives and rights of our people protected
 
 2) kids and teen who approach our website will see something very different from what they see elsewhere, completely focused on contents and that do not try in any way to lure them or to retain them. And they will see that the project is successful and think "Hey, you might be successful even by being that **different**?"
 3) we cant use the aestetic of our adversaries to oppose them without legittimizing their existance.
