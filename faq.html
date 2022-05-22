@@ -1,278 +1,386 @@
-<html lang="it" xml:lang="it">
-    <head>
-        <title>MonitoraPA</title>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" href="https://monitora-pa.it/favicon.ico">
-        <link rel="stylesheet" href="theme/mini.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <meta property="og:site_name" content="Monitora PA"/>
-        <meta property="og:title" content="Monitora PA"/>
-        <meta property="og:description" content="L'allerta Privacy per i siti della Pubblica Amministrazione"/>
-        <meta property="og:url" content="https://privacy.g0v.it/"/>
-        <meta property="og:image" content="https://privacy.g0v.it/theme/MonitoraPA-120x120.gif"/>
-        <meta property="og:locale" content="it_IT" />
-        <meta property="og:type" content="article"/>
-            
-    </head>
-    <body style="max-width:720px; margin:auto">
-        <div class="container"  style="text-align: justify">
-            <header style="height:280px; text-align:center">
-                <img src="theme/header.png" alt="Monitora PA. Viviamo in una società cibernetica. Vogliamo che sia democratica."/>
-                <h1>
-                <small><a href="/">Monitora PA</a> \ 
-                Domande Frequenti</small>
-                </h1>
-            </header>
-            <div  style="text-align: center; vertical-align:middle">
-                <a href="faq.html" title="Domande Frequenti">F.A.Q.</a> |
-                <a href="mailto:monitorapa@peceasy.it" target="_blank"><span style="font-size: large">✉</span> PEC</a> - 
-                <a href="https://friendica.opencloud.lu/profile/monitorapa" target="_blank">Fediverse</a> - 
-                <a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" target="_blank">Matrix</a> -
-                <a href="https://t.me/monitoraPA" target="_blank">Telegram</a> |
-                <a href="https://github.com/hermescenter/monitorapa" target="_blank">Sorgenti</a> |
-                <a href="LICENSE.txt" target="_blank">Hacking License</a>
-            </div>
-            <div class="row">
-            <dl>
-                <dt><a name="chi"></a>Chi siete?</dt>
-                <dd>
-                    <p>
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://monitora-pa.it/favicon.ico">
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+    <link rel="stylesheet" href="css/monito-rapa.css">
+    <link rel="stylesheet" href="css/manual-fine-tuning.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:site_name" content="Monitora PA" />
+    <meta property="og:title" content="Monitora PA" />
+    <meta property="og:description" content="Osservatorio Automatico Distribuito per la Pubblica Amministrazione" />
+    <meta property="og:url" content="https://monitora-pa.it/faq.html" />
+    <meta property="og:image" content="https://monitora-pa.it/media/MonitoraPA-120x120.gif" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:type" content="article" />
+
+    <title>Monitora PA / Domande Frequenti</title>
+
+</head>
+
+<body>
+
+    <header class="logo">
+        <img class="logo" 
+        src="media/MonitoraPA.svg"
+            alt="Monitora PA. Viviamo in una società cibernetica. Vogliamo che sia democratica." />
+        <div class="motto">
+            <div class="motto-0"><span>monitora</span><span>pa</span></div>
+            <div class="motto-1"><span>viviamo in una società</span><span>cibernetica</span></div>
+            <div class="motto-1"><span>vogliamo che sia</span><span>democratica</span></div>
+        </div>        
+    </header>
+
+    <header>
+        <h1>Domande Frequenti</h1>
+    </header>
+
+    <nav class="top-navbar">
+        <a href="/" title="Home">Home</a>
+        <a class="" title="Scrivici una PEC a monitorapa@peceasy.it" href="mailto:monitorapa@peceasy.it">
+            <i class="icon-email"></i> PEC
+        </a>
+        <a href="https://friendica.opencloud.lu/profile/monitorapa" 
+            title="Vai alla pagina del progetto su Friendica (apre una nuova finestra)"
+            target="_blank">Fediverse</a>
+        <a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" 
+            title="Vai al canale del progetto su Matrix (apre una nuova finestra)"
+            target="_blank">Matrix</a>
+        <a href="https://t.me/monitoraPA" 
+            title="Vai al canale del progetto su Telegram (apre una nuova finestra)"
+            target="_blank">Telegram</a>
+        <a href="https://github.com/MonitoraPA/" 
+            title="Vai al progetto su Github (apre una nuova finestra)"
+            target="_blank">Sorgenti</a>
+        <a href="LICENSE.txt" 
+            title="Leggi la licenza/contratto di utilizzo (apre una nuova finestra)"
+            target="_blank">Hacking License</a>
+    </nav>
+
+    <main>
+        <section class="faq">
+            <p>
+                <label><a name="chi">Chi siete?</a></label>
+                <cite>
                     Siamo una delle tante comunità hacker italiane,
                     composta da attiviste e attivisti, cittadine e cittadini
                     attenti alla riservatezza delle nostre vite ed alla
-                    libert&agrave; dei nostri concittadini.
-                    </p>
-                    <p>
+                    libert&agrave; dei nostri concittadini. <br/>
                     Al nostro fianco, sin dall'inizio, lavorano il
-                    <a href="https://www.hermescenter.org/"  target="_blank" 
-                rel="noopener nofollow ugc">Centro Hermes</a> e l'associazione <a href="https://www.hermescenter.org/"  target="_blank" 
-                rel="noopener nofollow ugc">Copernicani</a>, cui si stanno
-                unendo nuove associazioni pronte a contribuire alla
-                nostra azione di monitoraggio civico.
-                    </p>
-                </dd>
+                    <a href="https://www.hermescenter.org/" title="Visita www.hermescenter.org in una nuova finestra" target="_blank" 
+                rel="noopener nofollow ugc">Centro Hermes</a> e l'associazione <a href="https://copernicani.it/"  target="_blank" 
+                title="Visita copernicani.it in una nuova finestra" rel="noopener nofollow ugc">Copernicani</a>, cui si stanno
+                unendo nuove associazioni interessate alla Politica Cibernetica ed al nostro monitoraggio civico.
+                </cite>
+            </p>
 
-                <dt><a name="russi"></a>Hacker russi?</dt>
-                <dd>
-                    <p>No, al momento tutti i membri del nostro gruppo
-                    sono cittadini italiani.</p>
-                </dd>
+            <p>
+                <label><a name="russi">Hacker russi?</a></label>
+                <cite>
+                    No, al momento tutti i membri del nostro gruppo sono cittadini italiani.
+                </cite>
+            </p>
 
-                <dt><a name="bucate"></a>E bucate i siti?</dt>
-                <dd>
-                    <p>Per la verit&agrave;, se non si fosse capito, stiamo
-                    cercando di far chiudere i buchi (crateri) nel Perimetro
-                    di Sicurezza Nazionale.</p>
-                </dd>
+            <p>
+                <label><a name="bucate">E bucate i siti?</a></label>
+                <cite>
+                    Per la verità, se non si fosse capito, stiamo cercando di far chiudere i buchi (crateri) nel
+                    Perimetro di Sicurezza Nazionale.
+                </cite>
+            </p>
 
-                <dt><a name="why"></a>Perch&eacute; lo fate?</dt>
-                <dd>
-                    <p>Perch&eacute; crediamo nella Costituzione della Repubblica Italiana.</p>
-                    <p>Per quanto possa sembrare incredibile di questi tempi,
-                    <strong>pretendiamo</strong> il rispetto di una Legge
-                    dello Stato e di un diritto fondamentale sia per i
-                    cittadini che per la democrazia.</p>
-                </dd>
+            <p>
+                <label><a name="why">Perché lo fate?</a></label>
+                <cite>
+                    <em>Perché crediamo nella Costituzione della Repubblica Italiana.</em> <br>
+                    Per quanto possa sembrare incredibile di questi tempi, <strong>pretendiamo</strong> il rispetto di
+                    una Legge dello
+                    Stato e di un diritto fondamentale sia per i cittadini che per la democrazia.
 
-                
-                <dt><a name="ga"></a>Ma davvero dobbiamo rimuovere Google Analytics?</dt>
-                <dd><p>No!</p>
-                <p>
-                Se proprio ci tenete potete continuare ad usarlo,
-                purch&egrave; adottiate <strong>efficaci</strong> <a 
-                href="https://edpb.europa.eu/news/news/2021/edpb-adopts-final-version-recommendations-supplementary-measures-letter-eu_en" 
-                target="_blank">misure <strong>tecniche</strong> supplementari</a>
-                a protezione dei dati personali dei visitatori.</p>
-                <p>
-                Ad esempio, potreste spostare il sito internet sulla rete Tor, 
-                rendendolo accessibile esclusivamente attraverso
-                <a href="https://www.torproject.org/download/" target="_blank">TorBrowser</a>.
-                In questo modo potreste impedire efficacemente a Google
-                di identificare i visitatori.</p>
-                <p>Infatti al momento, l'<a href="https://it.wikipedia.org/wiki/Onion_routing" target="_blank">onion routing</a>
-                pu&ograve; essere considerato <strong>lo stato dell'arte</strong>
-                nella <strong>anonimizzazione delle comunicazioni</strong>.</p>
-                <p><span style="font-size:small">
-                (almeno fin quando i GAFAM non controlleranno troppi <a href="https://www.eff.org/pages/what-tor-relay" target="_blank" 
-                rel="noopener nofollow ugc">relay Tor</a>, poi per continuare ad usare Google Analytics sar&agrave; necessario spostare il sito su <a href="https://www.gnunet.org/en/" target="_blank" 
-                rel="noopener nofollow ugc">GNUnet</a> o <a href="https://freenetproject.org/" target="_blank" 
-                rel="noopener nofollow ugc">Freenet</a> :-D)</span>
-                </p>
-                </dd>
+                </cite>
+            </p>
 
-                <dt><a name="ip"></a>Ma non basta l'anonimizzazione degli IP?</dt>
-                <dd><p>No.</p>
-                <p>L’IP dei visitatori infatti raggiunge comunque i server 
-                di Google, che <strong>promette</strong>, dopo averlo 
-                processato per decodificare il pacchetto ed identificare 
-                il parametro <code>anonymize_ip</code>, di <a 
-                href="https://support.google.com/analytics/answer/2763052?hl=it" target="_blank" 
-                rel="noopener nofollow ugc">anonimizzarlo <strong>all’interno del prodotto</strong></a> 
-                (ovvero all’interno di Google Analytics).</p>
-                <p>Tuttavia la documentazione di Google,
-                sebbene studiata per lasciare intendere ben più di quanto
-                effettivamente prometta, è piuttosto... "imprecisa":</p>
-                
-                <blockquote>
-                <p>l’anonimizzazione degli indirizzi IP avviene non 
-                appena i dati vengono ricevuti da Google Analytics, 
-                prima che venga eseguita qualsiasi archiviazione 
-                o elaborazione</p>
-                </blockquote>
-                
-                <p>non è tecnicamente possibile: la connessione è 
-                protetta da <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security" target="_blank" 
-                rel="noopener nofollow ugc">TLS</a>
-                ed anche solo per identificare l’uso di tale configurazione
-                è necessario elaborare il <a href="https://en.wikipedia.org/wiki/IPv4#Packet_structure" target="_blank" 
-                rel="noopener nofollow ugc">pacchetto IP</a> inviato dal visitatore 
-                (decifrarlo, interpretare la richiesta HTTP etc...) sui server di Google.</p>
+            <p>
+                <label><a name="ga">Ma davvero dobbiamo rimuovere Google Analytics?</a></label>
+                <cite>
+                    <strong>No!</strong><br>
+                    Se proprio ci tenete potete continuare ad usarlo, purchè adottiate <strong>efficaci
+                        <a href="https://edpb.europa.eu/news/news/2021/edpb-adopts-final-version-recommendations-supplementary-measures-letter-eu_en"
+                            title="Leggi le raccomandazioni ufficiali del European Data Protection Board (in una nuova finestra)"
+                            target="_blank">misure tecniche supplementari</a>
+                    </strong>
+                    a protezione dei dati personali dei visitatori.<br>
 
-                <p>Al di là di questa “piccola imprecisione” comunque, 
-                il problema è che Google <strong>riceve</strong> quell'identificativo
-                dell'utente in chiaro (è noto che l’IP costituisce un dato personale) 
-                insieme a molti altri che permettono l’identificazione dell’utente (in gergo, <a href="https://browserleaks.com/" target="_blank" 
-                rel="noopener nofollow ugc"><em>fingerprinting</em></a>).</p>
+                    Ad esempio, potreste spostare il sito internet sulla rete Tor, rendendolo accessibile esclusivamente
+                    attraverso
+                    <a href="https://www.torproject.org/download/" title="Scarica TorBrowser (in una nuova finestra)" target="_blank">TorBrowser</a>.
+                    In questo modo potreste impedire efficacemente a Google di identificare i visitatori. <br>
 
-                <p>Google promette contrattualmente di scartare, dopo
-                averlo processato, parte di tale IP, ma se costretto da
-                una agenzia governativa degli USA nei termini del 
-                <a href="https://en.wikipedia.org/wiki/CLOUD_Act" target="_blank" 
-                rel="noopener nofollow ugc">CLOUD Act</a>, <strong>può</strong> inviarlo <strong>prima</strong> a terzi.</p>
+                    Infatti al momento, l'<a href="https://it.wikipedia.org/wiki/Onion_routing"
+                        title="Approfondisci l'Onion routing su Wikipedia (in una nuova finestra)" target="_blank">onion routing</a>
+                    può essere considerato <strong>lo stato dell'arte</strong> nella <strong>anonimizzazione delle
+                        comunicazioni</strong>.<br>
 
-                <p>Dunque un titolare del trattamento che utilizzi 
-                Google Analytics non può addurre l'utilizzo di questa
-                funzionalità come <strong>misura tecnica supplementare</strong>
-                a protezione dei dati personali di cui risponde.</p>
+                    <em>
+                        (almeno fin quando i GAFAM non controlleranno troppi
+                        <a href="https://www.eff.org/pages/what-tor-relay" target="_blank" title="Approfondisci il funzionamento dei nodi Tor sul sito del EFF (in una nuova finestra)"
+                            rel="noopener nofollow ugc">relay Tor</a>,
+                        poi per continuare ad usare Google Analytics sarà
+                        necessario spostare il sito su <a href="https://www.gnunet.org/en/" target="_blank" title="Approfondisci GNUnet (in una nuova finestra)"
+                            rel="noopener nofollow ugc">GNUnet</a> o <a href="https://freenetproject.org/" title="Approfondisci Freenet (in una nuova finestra)"
+                            target="_blank" rel="noopener nofollow ugc">Freenet</a>
+                        :-D)
+                    </em>
+                </cite>
+            </p>
 
-                <p>In altri termini, impostare <code>anonymize_ip: true</code> 
-                <strong>non è sufficiente</strong> per continuare ad
-                utilizzare Google Analytics.</p>
-                </dd>
-                
-                <dt><a name="ireland"></a>Ma allora Google Ireland Holdings che ci sta a fare?</dt>
-                <dd>
-                    <p>La <a href="https://www.kamilfranek.com/what-companies-alphabet-google-owns/#what-companies-are-owned-by-alphabet-inc-top-level-organizational-structure--subsidiaries-list" target="_blank"
-                    rel="noopener nofollow ugc">foglia di fico</a>.<br/>
-	    Ed &egrave; deprimente che certi Data <strong>Protection</strong> Officer fingano di non saperlo.</p>
-                    <p>Anche quando vengono elaborati da computer sul territorio europeo,
-                    i dati dei cittadini europei rimangono ad un comando di distanza dalla casa madre.</p>
-                    <p>D'altronde, chi controlla tutti gli aggiornamenti software 
-                    di un'organizzazione, pu&ograve; accedere a tutti i dati detenuti da quella organizzazione.</p>
-                    <p>Google potrebbe essere costretta, nei termini del CLOUD Act, ad inviare un aggiornamento
-                    malevolo a Google Ireland, prelevare qualsiasi dato di interesse e nascondere le tracce prima del riavvio.</p>
-                    <p><span style="font-size:small">(e s&igrave;: questo vale anche per il vostro cellulare Android 
-                    o per il vostro PC Windows se installate automaticamente gli
-                    aggiornamenti proposti dai produttori)</span></p>
-               </dd>
+            <p>
+                <label><a name="ip">Ma non basta l'anonimizzazione degli IP?</a></label>
+                <cite>
+                    <strong>No!</strong><br>
+                    L’IP dei visitatori infatti raggiunge comunque i server di Google, che <strong>promette</strong>,
+                    dopo averlo processato per decodificare il pacchetto ed identificare il parametro
+                    <code>anonymize_ip</code>, di
+                    <a href="https://support.google.com/analytics/answer/2763052?hl=it" target="_blank" title="Leggi la documentazione di Google (in una nuova finestra)"
+                        rel="noopener nofollow ugc">anonimizzarlo
+                        <strong>all’interno del prodotto</strong></a>
+                    (ovvero all’interno di Google Analytics).<br>
 
-                <dt><a name="ga4"></a>Ma adesso arriva Google Analytics 4!</dt>
-                <dd>
-                    <p>Fumo negli occhi.<br/>
-	                E doveva esserci una notevole quantità di <a target="_blank"
-                    rel="noopener nofollow ugc" href="https://en.wikipedia.org/wiki/Tetrahydrocannabinol">THC</a> dentro,
-                    visto la gioia sbarazzina con cui è stata accolta la notizia.</p>
-                    <p>Purtroppo si tratta per l'ennesima volta di soluzioni 
-                    che non impediscono tecnicamente a Google (e al governo USA) 
-                    di raccogliere i dati degli utenti, se decidono di farlo.</p>
-                    <p>D'altro canto una soluzione tecnica allo stato dell'arte
-                    <strong>esiste</strong> e l'abbiamo descritta 
-                    <a href="#ga">qui</a>.</p>
-               </dd>
+                    Tuttavia la documentazione di Google, sebbene studiata per lasciare intendere ben più di quanto
+                    effettivamente prometta, è piuttosto... <em>imprecisa</em>: <br>
 
-                <dt><a name="alternative"></a>Ma che alternative abbiamo?</dt>
-                <dd>
-                    <p>L'Agenzia per l'Italia Digitale ha già invitato
-                    le PA ad utilizzare  
-                    <a href="https://www.agid.gov.it/it/design-servizi/web-analytics-italia" target="_blank" 
-                    rel="noopener nofollow ugc">Web Analytics Italia</a>.</p>
-                    <p>Si tratta una piattaforma nazionale basata su 
-                    <a href="https://matomo.org/" target="_blank" 
-                    rel="noopener nofollow ugc">Matomo</a>, un software open source
-                    che consente alle amministrazioni di raccogliere e analizzare i dati statistici sul traffico 
-                    dei propri siti e servizi digitali.</p>
-                </dd>
-                
-                <dt><a name="hacking1"></a>Cos'&egrave; la <i>Hacking License</i>?</dt>
-                <dd>
-                    <p>La licenza / <a href="https://en.wikipedia.org/wiki/Shrink_wrap_contract" target="_blank" 
-                rel="noopener nofollow ugc">shrink-wrap contract</a> che abbiamo scelto per questo progetto.</p>
-                </dd>
+                    <em class="quote">
+                        l’anonimizzazione degli indirizzi IP avviene non
+                        appena i dati vengono ricevuti da Google Analytics,
+                        prima che venga eseguita qualsiasi archiviazione
+                        o elaborazione
+                    </em>
 
-                <dt><a name="hacking2"></a>Perch&eacute; proprio la Hacking License?</dt>
-                <dd>
-                    <p>Perch&eacute; siamo hacker e crediamo nei valori che <a href="LICENSE.txt" target="_blank">esprime</a>.</p>
-                </dd>
+                    non è tecnicamente possibile: la connessione è protetta da <a
+                        href="https://en.wikipedia.org/wiki/Transport_Layer_Security" target="_blank" title="Approfondisci il protocollo TLS su Wikipedia (in una nuova finestra)" 
+                        rel="noopener nofollow ugc">
+                        TLS
+                    </a>
+                    ed anche solo per identificare l’uso di tale configurazione è necessario elaborare il
+                    <a href="https://en.wikipedia.org/wiki/IPv4#Packet_structure" target="_blank" title="Approfondisci il protocollo IP su Wikipedia (in una nuova finestra)" 
+                        rel="noopener nofollow ugc">pacchetto IP</a>
+                    inviato dal visitatore (decifrarlo, interpretare la richiesta HTTP etc...) sui server di Google.
+                    <br>
 
-                <dt><a name="hacking3"></a>Ma non &egrave; open-source!!!</dt>
-                <dd>
-                    <p>Formalmente, no. Come la <a title="The Hacktivismo Enhanced-Source Software License Agreement" target="_blank" 
-                    rel="noopener nofollow ugc"
-                    href="https://web.archive.org/web/20120204033625/http://www.hacktivismo.com/about/hessla.php">HESSLA</a> prima di lei, d'altronde.</p>
-                </dd>
-                
-                <dt><a name="hacking4"></a>Ma cosa dir&agrave; Stallman?</dt>
-                <dd>
-                    <p>Appena avremo liberato la PA dai GAFAM, avremo cura di chiederglielo! :-)</p>
-                    <p>Scherzi a parte, abbiamo grande stima per la Free Software Foundation 
-                    e per il lavoro di RMS, ma riteniamo che 
-                    <a href="https://en.wikipedia.org/wiki/GitHub_Copilot" target="_blank" 
-                    rel="noopener nofollow ugc">GitHub CopyALot</a> abbia reso <a href="https://peertube.opencloud.lu/w/eW497u3UYXmQwcQu9LYEDR" target="_blank" 
-                    rel="noopener nofollow ugc">obsoleti i copyleft esistenti</a>.</p>
-                </dd>
-                
-                <dt><a name="github"></a>Ma allora perch&eacute; usate GitHub?</dt>
-                <dd>
-                    <p>Perch&eacute; Monitora PA &egrave; un hack protetto dalla Hacking License.</p>
-                    <p>Se il suo codice dovesse venir fuori da GitHub Copilot, pretenderemmo da Microsoft 
-                    la distribuzione di Copilot sotto Hacking License 
-                    o in alternativa la rimozione <strong>verificabile</strong> del nostro
-                    codice <strong>dal modello</strong> di Copilot. Non sarebbe divertente? ;-)</p>
-                </dd>
-                
-                <dt><a name="aiuto"></a>Come posso aiutare?</dt>
-                <dd>
-                    <p>Proteggi la tua riservatezza, sottraiti al capitalismo di sorveglianza.</p>
-                    <p>Ricorda: la copia dei dati non lascia tracce ed ogni nuovo bit raccolto su di te raddoppia il valore di quelli gi&agrave; raccolti da chi sorveglia te, chi &egrave; come te e chi &egrave; vicino a te.</p>
-                    
-                    <p>Se lavori in una Pubblica Amministrazione, pretendi che i tuoi dati personali non vengano trattati da aziende extra-europee. 
-                    Se puoi, facilita e promuovi la rimozione dei tracciatori dai siti e dalle App della tua PA.</p>
-                    
-                    <p>Se sei uno sviluppatore, condividi i valori del progetto e accetti la <a href="LICENSE.txt" target="_blank">Hacking License</a>, contattaci via <a rel="noopener nofollow ugc" href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" target="_blank">Matrix</a>.</p>
-                </dd>
-                
-                <dt><a name="associazioni"></a>E la mia associazione? Come pu&ograve; aiutare?</dt>
-                <dd>
-                    <p>Se la tua associazione <strong>no-profit</strong> condivide i valori e gli obbiettivi 
-                    cibernetici e politici di Monitora PA, pu&ograve; aiutarci a promuovere
-                    nella propria comunità di riferimento la missione del progetto.</p>
-                    <p>Se non avete problemi ad essere associati ad un gruppo
-                    hacker e vi fa piacere, possiamo mettere il vostro logo con un link
-                    sulla prima pagina del sito.</p>
-                    <p>Ma venite prima a <strong>conoscerci e farvi conoscere</strong> sul canale <a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" rel="noopener nofollow ugc" target="_blank">Matrix</a>/<a href="https://t.me/monitoraPA" target="_blank">Telegram</a>.</p>
-                </dd>
+                    Al di là di questa “piccola imprecisione” comunque, il problema è che Google <strong>riceve</strong>
+                    quell'identificativo dell'utente in chiaro (è noto che l’IP costituisce un dato personale) insieme
+                    a molti altri che permettono l’identificazione dell’utente 
+                    (<a href="https://browserleaks.com/" target="_blank" rel="noopener nofollow ugc"
+                        title="Approfondisci il fingerprinting su browserleaks.com (in una nuova finestra)">fingerprinting</em></a>). <br>
 
-                <dt><a name="criptomenate"></a>Accettate donazioni in cripto<strong>menate</strong>?</dt>
-                <dd>
-                    <p>No.</p>
-                    <p>Se anche un giorno ci costituissimo come associazione senza scopo di lucro,
-                    non accetteremmo mai di legittimare una rete di
-                    schemi Ponzi su scala globale che sfrutta l'ignoranza
-                    informatica per circuire nuove vittime.</p>
-                </dd>
- 
-            </dl>
-            </div>
-            <footer style="text-align: center; vertical-align:middle">
-                <a href="faq.html" title="Domande Frequenti">F.A.Q.</a> |
-                <a href="mailto:monitorapa@peceasy.it" target="_blank"><span style="font-size: large">✉</span> PEC</a> - 
-                <a href="https://friendica.opencloud.lu/profile/monitorapa" target="_blank">Fediverse</a> - 
-                <a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" target="_blank">Matrix</a> -
-                <a href="https://t.me/monitoraPA" target="_blank">Telegram</a> |
-                <a href="https://github.com/hermescenter/monitorapa" target="_blank">Sorgenti</a> |
-                <a href="LICENSE.txt" target="_blank">Hacking License</a>
-            </footer>
-        </div>
-    </body>
+                    Google promette contrattualmente di scartare, dopo averlo processato, parte di tale IP, ma se
+                    costretto da una agenzia governativa degli USA nei termini del
+                    <a href="https://en.wikipedia.org/wiki/CLOUD_Act" target="_blank" rel="noopener nofollow ugc" title="Approfondisci la storia del CLOUD Act su Wikipedia (in una nuova finestra)" >
+                        CLOUD Act</a>,
+                    <strong>può</strong> inviarlo <strong>prima</strong> a terzi. <br>
+
+                    Dunque un titolare del trattamento che utilizzi Google Analytics non può addurre l'utilizzo di
+                    questa funzionalità come <strong>misura tecnica supplementare</strong> a protezione
+                    dei dati personali di cui risponde. <br>
+
+                    In altri termini, impostare <code>anonymize_ip: true</code> <strong>non è sufficiente</strong>
+                    per continuare ad utilizzare Google Analytics.
+
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="ireland">Ma allora Google Ireland Holdings che ci sta a fare?</a></label>
+                <cite>
+                    La <a title="Approfondisci la struttura aziendale di Google su www.kamilfranek.com (in una nuova finestra)" 
+                        href="https://www.kamilfranek.com/what-companies-alphabet-google-owns/#what-companies-are-owned-by-alphabet-inc-top-level-organizational-structure--subsidiaries-list"
+                        target="_blank" rel="noopener nofollow ugc">
+                        foglia di fico</a>.<br>
+                    Ed è deprimente che certi Data <strong>Protection</strong> Officer fingano di non saperlo.<br>
+
+                    Anche quando vengono elaborati da computer sul territorio europeo, i dati dei cittadini europei
+                    rimangono ad un comando di distanza dalla casa madre.<br>
+
+                    D'altronde, chi controlla tutti gli aggiornamenti software di un'organizzazione, può accedere a
+                    tutti i dati detenuti da quella organizzazione.<br>
+
+                    Google potrebbe essere costretta, nei termini del CLOUD Act, ad inviare un aggiornamento malevolo a
+                    Google Ireland, prelevare qualsiasi dato di interesse e nascondere le tracce prima del riavvio.<br>
+
+                    <em>
+                        (e sì: questo vale anche per il vostro cellulare Android o per il vostro PC Windows se
+                        installate automaticamente gli aggiornamenti proposti dai produttori)
+                    </em>
+
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="ga4">Ma adesso arriva Google Analytics 4!</a></label>
+                <cite>
+                    Fumo negli occhi.<br>
+                    E doveva esserci una notevole quantità di
+                    <a target="_blank" rel="noopener nofollow ugc"  title="Approfondisci l'effetto del THC su www.kamilfranek.com (in una nuova finestra)" 
+                        href="https://en.wikipedia.org/wiki/Tetrahydrocannabinol">
+                        THC</a> dentro, visto la gioia sbarazzina con cui è stata accolta la notizia.
+
+                    Purtroppo si tratta per l'ennesima volta di soluzioni che non impediscono tecnicamente a Google
+                    (e al governo USA) di raccogliere i dati degli utenti, se decidono di farlo.<br/>
+                    Semplicemente, in Google Analytics 4 la feature spacciata come <em>"IP anonymization"</em> nelle versioni precedenti non può più essere disabilitata.<br/>
+                    <a href="#ip">Non funzionava prima</a>, non funziona neanche ora.<br/><br/>
+                    D'altro canto una soluzione tecnica allo stato dell'arte <strong>esiste</strong> e l'abbiamo
+                    descritta <a href="#ga">qui</a>.
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="alternative">Ma che alternative abbiamo?</a></label>
+                <cite>
+                    L'Agenzia per l'Italia Digitale ha già invitato le PA ad utilizzare
+                    <a href="https://www.agid.gov.it/it/design-servizi/web-analytics-italia" target="_blank"
+                        title="Scopri Web Analytics Italia presso il sito dell'AgID (in una nuova finestra)"
+                        rel="noopener nofollow ugc">
+                        Web Analytics Italia</a>.<br>
+
+                    Si tratta una piattaforma nazionale basata su
+                    <a href="https://matomo.org/" target="_blank"
+                        title="Visita matomo.org (in una nuova finestra)"
+                        rel="noopener nofollow ugc">
+                        Matomo</a>, un software open source che consente alle amministrazioni di raccogliere e
+                    analizzare i dati statistici sul traffico dei propri siti e servizi digitali.
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="hacking1">Cos'è la Hacking License?</a></label>
+                <cite>
+                    La licenza / <a href="https://en.wikipedia.org/wiki/Shrink_wrap_contract" target="_blank"
+                        title="Approfondisci gli shrink-wrap contract su Wikipedia (in una nuova finestra)"
+                        rel="noopener nofollow ugc">shrink-wrap contract</a> che abbiamo scelto per questo progetto.
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="hacking2">Perché proprio la Hacking License?</a></label>
+                <cite>
+                    Perché siamo hacker e crediamo nei valori che <a href="LICENSE.txt" target="_blank" title="Scopri i valori della Hacking License (in una nuova finestra)">esprime</a>.
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="hacking3">Ma non è open-source!!!</a></label>
+                <cite>
+                    Formalmente, no. Come la
+                    <a title="The Hacktivismo Enhanced-Source Software License Agreement" target="_blank"
+                        rel="noopener nofollow ugc"
+                        href="https://web.archive.org/web/20120204033625/http://www.hacktivismo.com/about/hessla.php">HESSLA</a>
+                    prima di lei, d'altronde.
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="hacking4">Ma cosa dirà Stallman?</a></label>
+                <cite>
+                    Appena avremo liberato la PA dai GAFAM, avremo cura di chiederglielo! :-) <br>
+                    Scherzi a parte, abbiamo grande stima per la Free Software Foundation e per il lavoro di RMS, ma
+                    riteniamo che
+                    <a href="https://en.wikipedia.org/wiki/GitHub_Copilot" target="_blank" rel="noopener nofollow ugc" title="Approfondisci come GitHub privatizza il lavoro non pagato di migliaia di volontari su Wikipedia (in una nuova finestra)">
+                        GitHub CopyALot
+                    </a> abbia reso
+                    <a href="https://peertube.opencloud.lu/w/eW497u3UYXmQwcQu9LYEDR" target="_blank" title="Visualizza un esempio di violazione automatizzata del copyleft da parte di GitHub Copilot (in una nuova finestra)"
+                        rel="noopener nofollow ugc">obsoleti i copyleft esistenti</a>.
+
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="github">Ma allora perché usate GitHub?</a></label>
+                <cite>
+                    Perché Monitora PA è un hack protetto dalla <em>Hacking License</em>.<br>
+                    Se il suo codice dovesse venir fuori da GitHub Copilot, pretenderemmo da Microsoft la distribuzione
+                    di Copilot sotto Hacking License o in alternativa la rimozione verificabile del nostro codice dal
+                    modello di Copilot. Non sarebbe divertente? ;-)
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="aiuto">Come posso aiutare?</a></label>
+                <cite>
+                    Proteggi la tua riservatezza, sottraiti al capitalismo di sorveglianza.<br>
+
+                    Ricorda: la copia dei dati non lascia tracce ed ogni nuovo bit raccolto su di te raddoppia il valore
+                    di quelli già raccolti da chi sorveglia te, chi è come te e chi è vicino a te.<br>
+
+                    Se lavori in una Pubblica Amministrazione, pretendi che i tuoi dati personali non vengano trattati
+                    da aziende extra-europee. Se puoi, facilita e promuovi la rimozione dei tracciatori dai siti e dalle
+                    App della tua PA.<br>
+
+                    Se sei uno sviluppatore, condividi i valori del progetto e accetti la
+                    <a href="LICENSE.txt" target="_blank" title="Leggi la Hacking License (in una nuova finestra)">Hacking License</a>, contattaci via
+                    <a rel="noopener nofollow ugc" href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu"
+                        target="_blank">Matrix</a>.
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="associazioni">E la mia associazione? Come può aiutare?</a></label>
+                <cite>
+                    Se la tua associazione <strong>no-profit</strong> condivide i valori e gli obbiettivi cibernetici e
+                    politici di Monitora PA, può aiutarci a promuovere nella propria comunità di riferimento la missione
+                    del progetto. <br>
+
+                    Se non avete problemi ad essere associati ad un gruppo hacker e vi fa piacere, possiamo mettere il
+                    vostro logo con un link sulla prima pagina del sito.<br>
+
+                    Ma venite prima a <strong>conoscerci e farvi conoscere</strong> sul canale <a title="Vai al canale del progetto su Matrix (apre una nuova finestra)"
+                        href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" rel="noopener nofollow ugc"
+                        target="_blank">Matrix</a>/<a href="https://t.me/monitoraPA" title="Vai al canale del progetto su Telegram (apre una nuova finestra)" target="_blank">Telegram</a>.
+                </cite>
+            </p>
+
+            <p>
+                <label><a name="criptomenate">Accettate donazioni in criptomenate?</a></label>
+                <cite>
+                    <strong>No.</strong><br>
+                    Se anche un giorno ci costituissimo come associazione senza scopo di lucro, non accetteremmo mai di
+                    legittimare una rete di schemi Ponzi su scala globale che sfrutta l'ignoranza informatica per
+                    circuire nuove vittime.
+                </cite>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <nav class="inline">
+            <span>Contattaci:</span>
+            <a class="" title="Scrivici una PEC a monitorapa@peceasy.it" href="mailto:monitorapa@peceasy.it">
+                <i class="icon-email"></i> PEC
+            </a>
+            <a href="https://friendica.opencloud.lu/profile/monitorapa" 
+                title="Vai alla pagina del progetto su Friendica (apre una nuova finestra)"
+                target="_blank">Fediverse</a>
+            <a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" 
+                title="Vai al canale del progetto su Matrix (apre una nuova finestra)"
+                target="_blank">Matrix</a>
+            <a href="https://t.me/monitoraPA" 
+                title="Vai al canale del progetto su Telegram (apre una nuova finestra)"
+                target="_blank">Telegram</a>
+            <a href="https://github.com/MonitoraPA/" 
+                title="Vai al progetto su Github (apre una nuova finestra)"
+                target="_blank">Sorgenti</a>
+            <a href="LICENSE.txt" 
+                title="Leggi la licenza/contratto di utilizzo (apre una nuova finestra)"
+                target="_blank">Hacking License</a>
+
+        </nav>
+    </footer>
+
+</body>
+
 </html>
