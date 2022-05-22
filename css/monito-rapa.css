@@ -72,265 +72,43 @@ Initial developer: Kitty Giraudel
 The MIT License (MIT) Copyright (c) 2016 Kitty Giraudel
 *******************************************************************************/
 /******************************************************************************/
+
 @font-face {
-  font-family: "MonospacedBold";
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedbold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedBoldItalic";
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedbolditalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedBlack";
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedheavy.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedBlackItalic";
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedheavyitalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedItalic";
+  font-family: "DefaultSerif";
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  src: url("/fonts/iosevka-extendeditalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedLight";
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedlight.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedLightItalic";
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedlightitalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Monospaced";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extended.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedSemibold";
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedsemibold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedSemiboldItalic";
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedsemibolditalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedExtralight";
-  font-weight: 200;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedthin.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MonospacedExtralightItalic";
-  font-weight: 200;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-extendedthinitalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansBold";
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansBoldItalic";
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-bolditalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansBlack";
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-heavy.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansBlackItalic";
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-heavyitalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansItalic";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-italic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansLight";
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-light.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansLightItalic";
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-lightitalic.ttf") format("truetype");
+  src: url("../fonts/iosevka-etoile-regular.woff") format("woff");
 }
 @font-face {
   font-family: "DefaultSans";
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  src: url("/fonts/iosevka-aile-regular.ttf") format("truetype");
+  src: url("../fonts/iosevka-aile-regular.woff") format("woff");
 }
 @font-face {
-  font-family: "DefaultSansSemibold";
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-semibold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansSemiboldItalic";
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-semibolditalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansExtralight";
-  font-weight: 200;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-thin.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSansExtralightItalic";
-  font-weight: 200;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-aile-thinitalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSerifBold";
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSerifBoldItalic";
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-bolditalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSerifBlack";
+  font-family: "DefaultSansBlackItalic";
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-heavy.ttf") format("truetype");
+  src: url("../fonts/iosevka-aile-heavyitalic.woff") format("woff");
 }
 @font-face {
-  font-family: "DefaultSerifBlackItalic";
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-heavyitalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSerifItalic";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-italic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSerifLight";
+  font-family: "DefaultSansLight";
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-light.ttf") format("truetype");
+  src: url("../fonts/iosevka-aile-light.woff") format("woff");
 }
 @font-face {
-  font-family: "DefaultSerifLightItalic";
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-lightitalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSerif";
+  font-family: "Monospaced";
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-regular.ttf") format("truetype");
+  src: url("../fonts/iosevka-extended.woff") format("woff");
 }
-@font-face {
-  font-family: "DefaultSerifSemibold";
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-semibold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSerifSemiboldItalic";
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-semibolditalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSerifExtralight";
-  font-weight: 200;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-thin.ttf") format("truetype");
-}
-@font-face {
-  font-family: "DefaultSerifExtralightItalic";
-  font-weight: 200;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/iosevka-etoile-thinitalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "glyphicons";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/glyphicons-halflings-regular.ttf") format("truetype");
-}
+
 /*******************************************************************************
 
 Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
@@ -492,7 +270,7 @@ CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
 }
 
 .icon-pen::before {
-  content: "🖉";
+  content: "▲";
   top: 0em;
   position: relative;
   font-size: 1em;
@@ -501,7 +279,7 @@ CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
 }
 
 .icon-eye::before {
-  content: "👁";
+  content: "▼";
   top: 0em;
   position: relative;
   font-size: 1em;
