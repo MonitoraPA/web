@@ -161,7 +161,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  color: #f5f5f5;
+  color: #424242;
   background-color: transparent;
 }
 
@@ -218,8 +218,8 @@ pre code {
   font-family: Monospaced;
   font-size: 13.6px;
   letter-spacing: 0.08rem;
-  background-color: #000000;
-  color: #0a0a0a;
+  background-color: #fafafa;
+  color: #bdbdbd;
   display: block;
   padding: 0.4rem;
 }
@@ -241,22 +241,22 @@ img {
 
 a,
 .obfu-email {
-  color: #fbc02d;
+  color: #1565c0;
   text-decoration: none;
   font-style: italic;
 }
 a:active,
 .obfu-email:active {
-  color: #f57f17;
+  color: #f9a825;
 }
 a:hover,
 .obfu-email:hover {
-  color: #f57f17;
+  color: #1976d2;
   text-decoration: underline;
 }
 a:visited,
 .obfu-email:visited {
-  color: #e1bee7;
+  color: #4a148c;
 }
 
 p {
@@ -267,7 +267,7 @@ blockquote {
   margin: 0.48rem;
   padding-left: 0.48rem;
   font-style: italic;
-  border-left: 4.8px solid white;
+  border-left: 4.8px solid #c2c2c2;
 }
 
 div.metadatas {
@@ -1181,7 +1181,7 @@ header img[src*=border-],
 main img[src*=border-],
 footer img[src*=border-],
 section img[src*=border-] {
-  border: 1px solid #000000;
+  border: 1px solid #fafafa;
 }
 header img[src*=round-],
 main img[src*=round-],
@@ -1224,7 +1224,7 @@ CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
 
 *******************************************************************************/
 body {
-  background-color: #000000;
+  background-color: #fafafa;
 }
 
 h1 {
@@ -1232,7 +1232,7 @@ h1 {
 }
 
 nav {
-  background-color: #000000;
+  background-color: #fafafa;
   padding: 0.4rem 4rem 0.4rem 4rem;
   margin: auto;
   max-width: 50rem;
@@ -1250,7 +1250,7 @@ nav span:first-child {
   padding-bottom: 0.4rem;
   padding-left: 0.2rem;
   padding-right: 0.16rem;
-  color: white;
+  color: #050505;
 }
 nav a {
   display: inline-block;
@@ -1259,7 +1259,7 @@ nav a {
   padding-bottom: 0.4rem;
   padding-left: 0.2rem;
   padding-right: 0.16rem;
-  color: white;
+  color: #050505;
   cursor: pointer;
 }
 nav a::after {
@@ -1274,7 +1274,7 @@ nav a:last-child::after {
   margin-left: 0em;
 }
 nav.top-navbar {
-  background-color: #000000;
+  background-color: #fafafa;
   font-size: 16px;
 }
 nav.top-navbar #topNavbarMenuIcon {
@@ -1282,7 +1282,7 @@ nav.top-navbar #topNavbarMenuIcon {
   display: none;
   position: relative;
   font-family: glyphicons;
-  color: white;
+  color: #050505;
 }
 nav.top-navbar #topNavbarMenuIcon:before {
   content: "\e012";
@@ -1309,7 +1309,7 @@ nav.top-navbar ul li a {
   padding-bottom: 0.4rem;
   padding-left: 0.2rem;
   padding-right: 0.16rem;
-  color: white;
+  color: #050505;
   cursor: pointer;
   display: block;
 }
@@ -1325,12 +1325,12 @@ nav.top-navbar ul li a:last-child::after {
   margin-left: 0em;
 }
 nav.top-navbar ul li a:hover {
-  background-color: #404040;
+  background-color: white;
 }
 
 header {
   overflow: hidden;
-  background-color: #000000;
+  background-color: #fafafa;
   padding: 0.4rem 4rem 0.4rem 4rem;
   margin: auto;
   max-width: 50rem;
@@ -1352,7 +1352,7 @@ header span.subtitle {
   text-align: center;
   font-weight: bold;
   line-height: 0rem;
-  color: white;
+  color: #050505;
 }
 header div.title span.logo-part-1 {
   color: #2f5f96;
@@ -1389,13 +1389,13 @@ header span.subtitle {
 }
 
 footer {
-  background-color: #000000;
+  background-color: #fafafa;
   padding: 0.4rem 4rem 0.4rem 4rem;
   margin: auto;
   max-width: 50rem;
   clear: both;
   color: white !important;
-  background-color: #000000;
+  background-color: #fafafa;
   font-size: 16px;
   display: flex;
 }
@@ -1413,17 +1413,17 @@ footer div.center ul.footer-menu {
   list-style: none;
 }
 footer * {
-  color: white;
+  color: #050505;
 }
 footer a:hover {
-  color: white;
+  color: #050505;
 }
 footer p.copyright span {
   margin: 0em 0.2em;
 }
 
 main {
-  background-color: #000000;
+  background-color: #fafafa;
   padding: 0.4rem 4rem 0.4rem 4rem;
   margin: auto;
   max-width: 50rem;
@@ -1892,7 +1892,7 @@ main p > img:first-child[src*=right-] {
   margin: 1rem 0rem 1rem 1rem;
 }
 main p > img:first-child[src*=border-] {
-  border: 1px solid #000000;
+  border: 1px solid #fafafa;
 }
 main p > img:first-child[src*=round-] {
   margin: 1rem 1rem 1rem 0rem;
@@ -1995,13 +1995,13 @@ section.news p, section.faq p {
 }
 section.news p label:first-child, section.faq p label:first-child {
   font-weight: 800;
-  color: #81c784;
+  color: #1b5e20;
   font-size: 1.1em;
   margin: 0.4em 0em 0.4em 0em;
   width: 100%;
 }
 section.news p label:first-child a, section.faq p label:first-child a {
-  color: #81c784;
+  color: #1b5e20;
   text-decoration: none;
   cursor: default;
 }
@@ -2013,7 +2013,7 @@ section.news p cite, section.faq p cite {
   font-style: normal;
   font-size: 0.9em;
   margin-left: 1em;
-  border-left: 0.3em solid white;
+  border-left: 0.3em solid #a8a8a8;
   padding-left: 1em;
 }
 section.news p cite em.quote, section.faq p cite em.quote {
@@ -2221,8 +2221,8 @@ header.logo .motto .motto-1 span:last-child {
   margin: 0.4em;
   display: inline-block;
   padding: 0em;
-  background-color: #81c784;
-  border: 0.4em solid #2e7d32;
+  background-color: #fafafa;
+  border: 0.4em solid #fafafa;
 }
 .image-tiles .tile-2 {
   width: 46% !important;
@@ -2236,4 +2236,4 @@ header.logo .motto .motto-1 span:last-child {
   transform: translateY(-50%);
 }
 
-/*# sourceMappingURL=monito-rapa-dark.css.map */
+/*# sourceMappingURL=monito-rapa-light.css.map */
