@@ -15,3 +15,7 @@ img.logo { max-width: 40%; }
 #wemoved:target a {
     color: blue;
 }
+ul.triangles{
+    list-style: disclosure-closed;
+    margin-left: 1em;
+}
