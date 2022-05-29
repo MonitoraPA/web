@@ -1,2 +1,17 @@
 header.subtitle { text-align: center; }
 img.logo { max-width: 40%; }
+
+#wemoved { display: none }
+#wemoved:target {
+    color: black;
+    margin: auto;
+    padding: 1rem;
+    border: 1px dotted;
+    background-color: antiquewhite;
+    max-width: 50rem;
+    display: block;
+}
+
+#wemoved:target a {
+    color: blue;
+}
