@@ -19,3 +19,6 @@ ul.triangles{
     list-style: disclosure-closed;
     margin-left: 1em;
 }
+.news cite a {
+    margin: 0px;
+}
