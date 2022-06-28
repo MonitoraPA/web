@@ -22,3 +22,6 @@ ul.triangles{
 .news cite a {
     margin: 0px;
 }
+body {
+    text-rendering: optimizeSpeed;
+}

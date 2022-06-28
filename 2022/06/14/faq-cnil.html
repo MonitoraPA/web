@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://monitora-pa.it/favicon.ico">
+    <link rel="stylesheet" href="/css/vendor/normalize.css">
+    <link rel="stylesheet" href="/css/monito-rapa-light.css">
+    <link rel="alternate stylesheet" href="/css/monito-rapa-dark.css" type="text/css" title="Modalità Oscura">
+    <link rel="stylesheet" type="text/css" media="screen and (prefers-color-scheme: dark)" href="/css/monito-rapa-dark.css  ">
+    <link rel="stylesheet" type="text/css" media="screen and (prefers-color-scheme: light)" href="/css/monito-rapa-light.css"> 
+    <link rel="stylesheet" href="/css/manual-fine-tuning.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:site_name" content="Monitora PA" />
+    <meta property="og:title" content="CNIL: Domande e risposte sull'uso di Google Analytics" />
+    <meta property="og:description" content="Traduzione italiana delle recenti FAQ del Garante della Privacy francese sull'utilizzo di Google Analytics." />
+    <meta property="og:url" content="https://monitora-pa.it/2022/06/14/faq-cnil.html" />
+    <meta property="og:image" content="https://monitora-pa.it/2022/06/14/google_analytics.png" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:type" content="article" />
+
+    <title>Monitora PA</title>
+    <style type="text/css">
+       .ul-emu {
+            display:block; 
+            margin-left: 2em;
+            list-style: disclosure-closed;
+        }
+       .ul-emu::before {
+            content: '- ';
+            margin-left: -1em;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <header class="logo">
+        <img class="logo" src="/media/MonitoraPA.svg"
+            alt="Monitora PA. Viviamo in una società cibernetica. Vogliamo che sia democratica." />
+        <div class="motto">
+            <div class="motto-0"><span>monitora</span><span>pa</span></div>
+            <div class="motto-1"><span>viviamo in una società</span><span>cibernetica</span></div>
+            <div class="motto-1"><span>vogliamo che sia</span><span>democratica</span></div>
+        </div>
+    </header>
+
+    <header class="subtitle">
+        <h1>Domande e risposte sulle diffide della CNIL relative all'uso di Google Analytics</h1>
+    </header>
+    
+    <nav class="top-navbar">
+        <a href="/" title="Home">Home</a>
+        <a class="" title="Scrivici una PEC a monitorapa@peceasy.it" href="mailto:monitorapa@peceasy.it">
+            <i class="icon-email"></i> PEC
+        </a>
+        <a href="https://friendica.opencloud.lu/profile/monitorapa" 
+            title="Vai alla pagina del progetto su Friendica (apre una nuova finestra)"
+            target="_blank">Fediverse</a>
+        <a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" 
+            title="Vai al canale del progetto su Matrix (apre una nuova finestra)"
+            target="_blank">Matrix</a>
+        <a href="https://t.me/monitoraPA" 
+            title="Vai al canale del progetto su Telegram (apre una nuova finestra)"
+            target="_blank">Telegram</a>
+        <a href="https://github.com/MonitoraPA/" 
+            title="Vai al progetto su Github (apre una nuova finestra)"
+            target="_blank">Sorgenti</a>
+        <a href="LICENSE.txt" 
+            title="Leggi la licenza/contratto di utilizzo (apre una nuova finestra)"
+            target="_blank">Hacking License</a>
+    </nav>
+    <main>
+         <section>
+            <p style="font-style: italic">
+                Pubblichiamo di seguito una traduzione italiana delle 
+                <a title="Leggi le FAQ in francese (nuova finestra)" href="https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/questions-reponses-sur-les-mises-en-demeure-de-la-cnil-concernant-lutilisation-de-google-analytics" target="_blank" rel="noopener nofollow ugc">FAQ concernenti Google Analytics</a>
+                recentemente pubblicate 
+                dal <a href="https://www.cnil.fr/" target="_blank" rel="noopener nofollow ugc">Garante della Privacy francese</a>.<br/>
+                
+                (a cura di <a href="#ivo">Ivo Grimaldi</a>)
+            </p>
+         </section>
+         <section class="faq">
+            
+            <h1>07 giugno 2022</h1>
+            <p style="font-style: italic">
+               La CNIL ha ammonito diverse organizzazioni a mettersi in regola rispetto all'uso di Google Analytics, a
+               causa del trasferimento di dati negli Stati Uniti senza garanzie sufficienti per i diritti
+               degli utenti europei.&nbsp;Quali sono le conseguenze per gli enti coinvolti?            
+            </p>
+            <img src="google_analytics.png" style="max-width:100%" alt="Screenshot da Google Analytics"/>
+            <p id="contesto-faq" style="border: 10px solid #d1ccb9; padding: 20px; margin: 20px">
+            Queste domande frequenti riguardano solo le decisioni di costituzione in mora della CNIL in
+    merito all'uso di Google Analytics a seguito dell'invalidazione del Privacy Shield.<br/><br/>
+    La dichiarazione congiunta della Commissione europea e degli Stati Uniti nel marzo 2022 in
+    merito a una futura decisione volta a fornire un quadro soddisfacente per i flussi di dati
+    verso gli Stati Uniti è in questa fase solo un annuncio politico. Il 6 aprile il GEPD ha
+    pubblicato una dichiarazione in cui ha chiarito che tale dichiarazione non costituisce un
+    quadro giuridico su cui le organizzazioni possono fare affidamento per trasferire i dati negli
+    Stati Uniti.
+            </p>
+            <h1 id="diffide">Sulle diffide</h1>
+            <p>
+            <label><a name="01">Cosa ricordare, in sintesi, dalle diffide emesse dalla CNIL?</a></label>
+            <cite>
+                <b>Il contesto</b><br>
+                Il 16 luglio 2020 la Corte di Giustizia dell'Unione Europea ha emesso un'importante sentenza:
+                il Privacy Shield, che disciplinava i trasferimenti di dati tra l'Unione Europea e gli Stati
+                Uniti, è stato invalidato perché non offriva garanzie adeguate contro il rischio di abusi
+                accesso da parte delle autorità statunitensi ai dati personali dei residenti in Europa. Solo
+                l'istituzione di ulteriori misure di protezione tecnica, giuridica e organizzativa da parte
+                delle organizzazioni per impedire tale accesso potrebbe, in pratica, consentire tali
+                trasferimenti. Ad agosto 2020 l'associazione NOYB ha presentato 101 reclami alle diverse
+                autorità europee per la protezione dei dati personali riguardanti siti web utilizzando in
+                particolare il diffusissimo strumento di analisi dell'audience Google Analytics, la cui casa
+                madre si trova negli Stati Uniti.<br>
+                <br>
+                <b>La decisione</b><br>
+                Nella diffida pubblicata il 10 febbraio 2022&nbsp;relativa a uno di questi organismi, la
+                CNIL ha ritenuto che:
+                <span class="ul-emu">
+                  le misure messe in atto da Google non sono sufficienti ad escludere la possibilità di
+                  accesso ai dati dei residenti europei;
+                  </span>
+                <span class="ul-emu">
+                  i dati degli utenti Internet europei vengono quindi trasferiti illegalmente tramite
+                  questo strumento.
+                </span>
+                </ul>
+            </cite>
+            </p>
+            <p>
+            <label><a name="02.0">Perché la diffida pubblicata online è stata resa anonima?</a></label>
+            <cite>
+Una delle comunicazioni formali relative all'uso di Google Analytics è stata pubblicata in forma anonima sul sito web della CNIL il 16 febbraio 2022.<br>
+
+La decisione è stata anonimizzata perché non sembrava utile citare il nome di un particolare editore di siti web, dato che l'uso di questo strumento è molto diffuso.<br><br>
+
+L'obiettivo è che tutti i responsabili del trattamento dei dati che utilizzano questo strumento si rendano conformi.
+            </cite>
+            </p>
+            <p>
+            <label><a name="02">Le organizzazioni hanno una scadenza da rispettare?</a></label>
+            <cite>
+                Le organizzazioni a cui è stata data formale diffida hanno un periodo di un mese per
+                conformarsi e giustificare tale conformità alla CNIL. Tale periodo di un mese può essere
+                rinnovato, su richiesta delle organizzazioni interessate.<br>
+                <br>
+                Tutti i titolari del trattamento dei dati che utilizzano Google Analytics in modo simile a
+                queste organizzazioni devono ora considerare questo utilizzo illegale ai sensi del
+                GDPR.<br>
+                <br>
+                Devono quindi rivolgersi a un prestatore di servizi che offra sufficienti garanzie di
+                conformità.
+            </cite>
+            </p>
+            <p>
+            <label><a name="03">Questa interpretazione delle conseguenze della sentenza “Schrems 2” della CNIL è
+        condivisa a livello europeo?</a></label>
+            <cite>
+                Al fine di armonizzare le decisioni e offrire certezza del diritto per le parti interessate, le
+        autorità europee a cui sono state deferite denunce dall'associazione NOYB (nessuno dei tuoi
+        affari in inglese) in materia di trasferimenti da parte di Google Analytics si sono
+        organizzate in un gruppo di lavoro insieme per esaminare le questioni legali sollevate in
+        questi fascicoli e coordinare le loro posizioni e decisioni.<br>
+        <br>
+        La decisione della CNIL non è quindi la prima a livello europeo: un mese prima della CNIL,
+        l'autorità austriaca per la protezione dei dati ha emesso a gennaio una prima decisione che
+        va nella stessa direzione di quella francese.
+            </cite>
+            </p>
+            <p>
+            <label><a name="04">Perché tutte le denunce presentate dall'associazione NOYB non sono state trattate
+        contemporaneamente?</a></label>
+            <cite>
+                Tutte le denunce presentate dall'associazione NOYB riferite alla CNIL sono state oggetto di
+        un'indagine coordinata: le situazioni sono state però esaminate caso per caso e sulla base
+        delle risposte fornite dalle organizzazioni.<br>
+        <br>
+        Tutte le organizzazioni in Francia il cui utilizzo di Google Analytics è stato oggetto di
+        reclami da parte di noyb sono state ora oggetto di diffide formali.
+            </cite>
+            </p>
+            
+            <h1 id="ga">Sull'utilizzo dello strumento Google Analytics</h1>
+            <p>
+            <label><a name="05">Le clausole contrattuali standard e le garanzie aggiuntive possono consentire l'utilizzo di
+        Google Analytics?</a></label>
+            <cite>
+                Le organizzazioni notificate avevano stabilito con Google clausole contrattuali standard,
+        che Google offre per impostazione predefinita agli utenti di questa soluzione. Tali
+        clausole contrattuali standard non possono, da sole, garantire un livello di protezione
+        sufficiente in caso di richiesta di accesso da parte di autorità estere, in particolare se
+        tale accesso è previsto da leggi locali.<br>
+        <br>
+        Nella sua risposta alle richieste della CNIL, Google ha indicato di aver posto in essere
+        ulteriori misure legali, organizzative e tecniche, ritenute tuttavia insufficienti a
+        garantire l'effettiva protezione dei dati personali trasferiti, in particolare contro le
+        richieste di protezione dei dati. dai servizi di intelligence statunitensi.
+            </cite>
+            </p>
+            <p>
+            <label><a name="06">È possibile configurare lo strumento Google Analytics in modo da non trasferire dati
+        personali al di fuori dell'Unione Europea?</a></label>
+            <cite>
+                No.<br>
+        <br>
+        In risposta al questionario inviato dalla CNIL, Google ha indicato che tutti i dati
+        raccolti tramite Google Analytics erano ospitati negli Stati Uniti.<br>
+        <br>
+        Anche in assenza di trasferimento, l'utilizzo delle soluzioni offerte da società soggette a
+        giurisdizioni extraeuropee rischia di porre difficoltà in termini di accesso ai dati. In
+        effetti, le organizzazioni possono essere obbligate dalle autorità di paesi terzi a
+        divulgare dati personali ospitati su server situati nell'Unione Europea.<br>
+        <br>
+        L'articolo 48 del GDPR limita tali comunicazioni ai soli casi in cui il Paese terzo
+        richiedente e l'Unione Europea o lo Stato membro interessato siano parti di un accordo
+        internazionale che prevede tali comunicazioni.
+            </cite>
+            </p>
+            <p>
+            <label><a name="07">È possibile configurare Google Analytics in modo che solo i dati anonimi vengano
+        trasferiti negli Stati Uniti?</a></label>
+            <cite>
+                Come parte dell'avviso formale, Google ha indicato di utilizzare misure di
+        pseudonimizzazione, ma non l' anonimizzazione. Google offre una funzione di
+        anonimizzazione dell'indirizzo IP, ma non è applicabile a tutti i trasferimenti. Inoltre,
+        gli elementi forniti da Google non consentono di determinare se tale anonimizzazione
+        avvenga prima del trasferimento negli Stati Uniti.<br>
+        <br>
+        Inoltre, il solo uso di identificatori univoci per differenziare le persone può aiutare a
+        rendere i dati identificabili, specialmente se combinati con altre informazioni come i
+        metadati del browser e del sistema operativo. Questi dati consentono il tracciamento
+        preciso degli utenti, in alcuni casi su più dispositivi separati. Se il GEPD lo ammette
+        nelle sue raccomandazioni del 18 giugno 2021 la possibilità di utilizzare la
+        pseudonimizzazione come misura aggiuntiva, il utilizzo è subordinato ad un'analisi sua
+        volta aguarantee che tutte le informazioni trasmesse non consentano in alcun modo una
+        reidentificazione della persona, anche tenendo conto delle ingenti risorse a disposizione
+        delle autorità potrebbe volta effettuare una tale reidentificazione.<br>
+        Infine, l'uso di Google Analytics insieme ad altri servizi Google, compreso il marketing,
+        può amplificare il rischio di tracciamento. In effetti, questi servizi, ampiamente
+        utilizzati in Francia, possono consentire il controllo dell'indirizzo IP e quindi tracciare
+        la cronologia di navigazione della maggior parte degli utenti di incroci Internet su un
+        gran numero di siti.
+            </cite>
+            <div id="anonimizzazione-vs-pseudonimizzazione" style="border: 10px solid #d1ccb9; padding: 20px; margin: 20px">
+                <h2>Differenza tra anonimizzazione e pseudonimizzazione</h2>
+                <p>
+                La pseudonimizzazione è il trattamento dei dati personali in modo tale che i dati relativi
+        a una persona fisica non possono più essere assegnati senza ulteriori informazioni. In
+        pratica la pseudonimizzazione consiste in un data set con dati direttamente identificabili
+        (cognome, nome, ecc.) di un data set con dati indirettamente identificabili (alias, numero
+        progressivo, ecc.).
+                </p>
+                <p>
+        L'anonimizzazione consiste nell'utilizzare un insieme di tecniche in modo da rendere
+        impossibile, in pratica, identificazione della persona con qualsiasi mezzo ed
+        irreversibilmente. I dati anonimi non sono più soggetti al GDPR.
+                </p>
+            </div>
+            </p>
+            <p>
+            <label><a name="08">La crittografia potrebbe essere una protezione aggiuntiva sufficiente?</a></label>
+            <cite>
+                Sì, ma a determinate condizioni.<br>
+        L'implementazione della crittografia dei dati da parte di Google si è rivelata una misura
+        tecnica insufficiente in quanto Google LLC crittografa i dati stessi e ha l'obbligo di
+        concedere l'accesso o fornire i dati importati di cui è in possesso, comprese le chiavi di
+        crittografia necessarie per effettuare il dati intelligibili. Google LLC conserva la
+        possibilità di accedere in chiaro ai dati delle persone fisiche, tali misure tecniche non
+        possono ritenersi efficaci in questo caso (si vedano le raccomandazioni dell'European Data
+        Protection Board sulle misure aggiuntive per i trasferimenti, punto 85).<br>
+        <br>
+        La crittografia è quindi una garanzia aggiuntiva insufficiente se l'organizzazione soggetta
+        alle richieste delle autorità statunitensi può accedere ai dati personali in chiaro.<br>
+        <br>
+        Affinché la crittografia possa essere considerata una sufficiente garanzia aggiuntiva, le
+        chiavi di crittografia dovrebbero in particolare essere mantenute sotto il controllo
+        esclusivo dell'esportatore di dati, o di altri soggetti stabiliti in un territorio che
+        offra un livello di protezione adeguato (cfr. raccomandazioni 01/2020 del Comitato europeo
+        per la protezione dei dati, punto 84).
+            </cite>
+            </p>
+            <p>
+            <label><a name="09">Ci sono sufficienti garanzie aggiuntive per continuare a utilizzare lo strumento
+        Google Analytics da solo?</a></label>
+            <cite>
+                Nessuna delle ulteriori garanzie presentate alla CNIL nell'ambito della costituzione in
+        mora impedirebbe o renderebbe inefficace l'accesso dei servizi di intelligence statunitensi
+        ai dati personali degli utenti europei quando utilizzano il solo strumento Google
+        Analytics.<br>
+        <br>
+        Tuttavia, si può ipotizzare una soluzione che permetta di coinvolgere un server proxy (o “proxy”) 
+        per evitare qualsiasi contatto diretto tra il terminale dell'utente Internet ed i
+        server dello strumento di misura. Tuttavia, occorre garantire che questo server soddisfi
+        una serie di criteri per poter ritenere che questa misura aggiuntiva sia in linea con
+        quanto previsto dal GEPD nelle sue raccomandazioni del 18 giugno 2021.
+            </cite>
+            </p>
+            <p>
+            <label><a name="10">È possibile continuare a trasferire i dati con il consenso esplicito delle persone
+        fisiche?</a></label>
+            <cite>
+                Il consenso esplicito degli interessati è una delle possibili deroghe previste in alcuni
+        casi specifici dall'articolo 49 del GDPR. Tuttavia, come indicato nelle linee guida del
+        Comitato europeo per la protezione dei dati su tali deroghe, possono essere utilizzate
+        solo per trasferimenti non sistematici, e non possono costituire una soluzione duratura e a
+        lungo termine, il ricorso a una deroga non può non diventare la regola generale.
+            </cite>
+            </p>
+            <h1 id="alternative">Sulle soluzioni alternative disponibili</h1>
+            <p>
+            <label><a name="11">Esistono strumenti alternativi?</a></label>
+            <cite>
+                La CNIL ha pubblicato un elenco di strumenti di misurazione dell'audience che possono
+        essere esentati dal consenso se correttamente configurati.<br>
+        <br>
+        Tale elenco comprende gli strumenti che hanno già dimostrato alla CNIL di poter essere
+        configurati in modo da essere limitati a quanto strettamente necessario per l'erogazione
+        del servizio, e quindi non richiedono il consenso dell'utente, ai sensi dell'articolo 82
+        del Codice in materia di protezione dei dati personali Atto.<br>
+        <br>
+        Tuttavia, questo elenco non esamina attualmente le questioni sollevate dai trasferimenti
+        internazionali, in particolare le conseguenze della sentenza “Schrems II”.
+            </cite>
+            </p>
+            <p>
+            <label><a name="12">Come garantire che gli strumenti di misurazione dell'audience non trasferiscano i
+        dati a un paese terzo inappropriato?</a></label>
+            <cite>
+                Nel caso in cui lo strumento previsto trasferisca dati al di fuori dell'Unione Europea o
+        quando la società che pubblica lo strumento abbia legami patrimoniali o organizzativi con
+        una società controllante situata in un Paese che preveda la possibilità per i servizi di
+        intelligence di richiedere l'accesso a dati personali ubicati in un altro territorio, è
+        necessario valutare il quadro giuridico del paese terzo.<br>
+        <br>
+        Tale valutazione può basarsi su:<br><br>
+        <span class="ul-emu">le decisioni della CGUE o della Corte europea dei diritti dell'uomo, che hanno potuto
+      valutare la conformità di determinate normative agli standard europei in materia di
+      protezione dei dati.</span>
+      <span class="ul-emu">le raccomandazioni della CNIL europea, che hanno ad esempio dettagliato le garanzie
+      essenziali che devono essere riscontrate, in termini di sorveglianza, nel paese terzo per
+      valutare il livello di protezione dei dati.</span>
+      <br>Si può anche considerare di utilizzare il metodo di proxyification, che consente, quando è
+        ben configurato, di inviare solo dati pseudonimizzati a un server situato al di fuori
+        dell'Unione Europea.
+            </cite>
+            </p>
+            <p>
+            <label><a name="13">I titolari del trattamento possono adottare un approccio basato sul rischio, tenendo
+        conto della probabilità delle richieste di accesso ai dati?</a></label>
+            <cite>
+                No.<br>
+        <br>
+        I dati personali trasferiti in un Paese al di fuori dell'Unione Europea devono beneficiare
+        di un livello di protezione "sostanzialmente equivalente" a quello garantito nell'UE.<br>
+        <br>
+        In particolare, la possibilità di accesso illecito ai dati personali che va al di là di
+        quanto necessario e proporzionato in una società democratica da parte delle autorità
+        pubbliche lede gravemente i diritti e le libertà fondamentali degli interessati.<br>
+        <br>
+        Nel caso in cui tale accesso sia possibile (e non solo quando l'accesso sia probabile) e
+        le garanzie che regolano l'emissione delle richieste di accesso ai dati non consentano di
+        garantire un livello di protezione dei dati sostanzialmente equivalente a quello garantito
+        nell'Unione Europea (si vedano le raccomandazioni del GEPD sulle salvaguardie essenziali), 
+        è necessario adottare misure tecniche aggiuntive per rendere impossibile o inefficace
+        tale accesso.<br>
+        <br>
+        Tali misure sono previste nelle raccomandazioni del Comitato europeo per la protezione dei
+        dati sulle misure aggiuntive ai trasferimenti.
+            </cite>
+            </p>
+            <hr style="width:50%; margin-top:30px;margin-bottom:30px"/>
+            <p id="ivo" style="display:block; margin:auto; text-align:center;margin-bottom:30px">
+                Traduzione di Ivo Grimaldi:
+                <a href="https://t.me/ivoermejo" target="_blank" rel="noopener nofollow ugc">Telegram</a> |
+                <a href="https://ivoermejo.bandcamp.com/" target="_blank" rel="noopener nofollow ugc">BandCamp</a> |
+                <a href="https://en.opensuse.org/User:Ivoermejo" target="_blank" rel="noopener nofollow ugc">openSUSE</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav class="inline">
+            <span>Contattaci:</span>
+            <a class="" title="Scrivici una PEC a monitorapa@peceasy.it" href="mailto:monitorapa@peceasy.it">
+                <i class="icon-email"></i> PEC
+            </a>
+            <a href="https://friendica.opencloud.lu/profile/monitorapa" 
+                title="Vai alla pagina del progetto su Friendica (apre una nuova finestra)"
+                target="_blank">Fediverse</a>
+            <a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" 
+                title="Vai al canale del progetto su Matrix (apre una nuova finestra)"
+                target="_blank">Matrix</a>
+            <a href="https://t.me/monitoraPA" 
+                title="Vai al canale del progetto su Telegram (apre una nuova finestra)"
+                target="_blank">Telegram</a>
+            <a href="https://github.com/MonitoraPA/" 
+                title="Vai al progetto su Github (apre una nuova finestra)"
+                target="_blank">Sorgenti</a>
+            <a href="LICENSE.txt" 
+                title="Leggi la licenza/contratto di utilizzo (apre una nuova finestra)"
+                target="_blank">Hacking License</a>
+
+        </nav>
+    </footer>
+
+</body>
+
+</html>
