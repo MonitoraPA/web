@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://monitora-pa.it/favicon.ico">
+    <link rel="stylesheet" href="/css/vendor/normalize.css">
+    <link rel="stylesheet" href="/css/monito-rapa-light.css">
+    <link rel="alternate stylesheet" href="/css/monito-rapa-dark.css" type="text/css" title="Modalità Oscura">
+    <link rel="stylesheet" type="text/css" media="screen and (prefers-color-scheme: dark)" href="/css/monito-rapa-dark.css  ">
+    <link rel="stylesheet" type="text/css" media="screen and (prefers-color-scheme: light)" href="/css/monito-rapa-light.css"> 
+    <link rel="stylesheet" href="/css/manual-fine-tuning.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:site_name" content="Monitora PA" />
+    <meta property="og:title" content="Google Analytics 4: Monitora PA risponde a Tag Manager Italia." />
+    <meta property="og:description" content="Proviamo a fare chiarezza su Google Analytics 4 approfondendo sugli spunti forniti da chi lavora con Google Analytics." />
+    <meta property="og:url" content="https://monitora-pa.it/2022/07/14/GoogleAnalytics4_MonitoraPA_risponde_a_TagManagerItalia.html" />
+    <meta property="og:image" content="https://monitora-pa.it/2022/06/14/google_analytics.png" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:type" content="article" />
+
+    <title>Monitora PA</title>
+    <style type="text/css">
+       .ul-emu {
+            display:block; 
+            margin-left: 2em;
+            list-style: disclosure-closed;
+        }
+       .ul-emu::before {
+            content: '- ';
+            margin-left: -1em;
+        }
+        main ul {
+            list-style: initial;
+            padding-left: 3em;
+        }
+        main li blockquote {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <header class="logo">
+        <img class="logo" src="/media/MonitoraPA.svg"
+            alt="Monitora PA. Viviamo in una società cibernetica. Vogliamo che sia democratica." />
+        <div class="motto">
+            <div class="motto-0"><span>monitora</span><span>pa</span></div>
+            <div class="motto-1"><span>viviamo in una società</span><span>cibernetica</span></div>
+            <div class="motto-1"><span>vogliamo che sia</span><span>democratica</span></div>
+        </div>
+    </header>
+
+    <header class="subtitle">
+        <h1>Google Analytics 4<br/>Monitora PA risponde a Tag Manager Italia</h1>
+    </header>
+        
+    <nav class="top-navbar">
+        <a href="/" title="Home">Home</a>
+        <a class="" title="Scrivici una PEC a monitorapa@peceasy.it" href="mailto:monitorapa@peceasy.it">
+            <i class="icon-email"></i> PEC
+        </a>
+        <a href="https://friendica.opencloud.lu/profile/monitorapa" 
+            title="Vai alla pagina del progetto su Friendica (apre una nuova finestra)"
+            target="_blank">Fediverse</a>
+        <a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" 
+            title="Vai al canale del progetto su Matrix (apre una nuova finestra)"
+            target="_blank">Matrix</a>
+        <a href="https://t.me/monitoraPA" 
+            title="Vai al canale del progetto su Telegram (apre una nuova finestra)"
+            target="_blank">Telegram</a>
+        <a href="https://github.com/MonitoraPA/" 
+            title="Vai al progetto su Github (apre una nuova finestra)"
+            target="_blank">Sorgenti</a>
+        <a href="/LICENSE.txt" 
+            title="Leggi la licenza/contratto di utilizzo (apre una nuova finestra)"
+            target="_blank">Hacking License</a>
+    </nav>
+    <main>
+         <section>
+<div style="display: block; clear:both; margin: 20px;">di <a href="https://www.tesio.it" rel="author" target="_blank">Giacomo Tesio</a><br/>Co-fondatore di Monitora PA</div>
+
+<p>Abbiamo letto con interesse una recente risposta <a target="_blank" rel="noopener nofollow ugc" title="Google Analytics 4, non è illegale: come usarlo bene ed evitare problemi col Gdpr (nuova finestra)" href="https://www.agendadigitale.eu/sicurezza/privacy/google-analytics-4-non-e-illegale-come-usarlo-bene-ed-evitare-problemi-col-gdpr/">pubblicata da Tag Manager Italia su
+AgendaDigitale</a> al precedente <a target="_blank" rel="noopener nofollow ugc" title="Privacy, Google Analytics 4 è fumo negli occhi: ecco perché non risolve il problema (nuova finestra)" href="https://www.agendadigitale.eu/sicurezza/privacy/monitorapa-risponde-a-google-ecco-perche-analytics-4-e-fumo-negli-occhi/">articolo di Pietro Biase sui gravi problemi di conformità al GDPR di Google Analytics 4</a> sulla stessa testata.</p>
+<p>Speriamo dunque di far cosa utile e gradita arricchendo questo dibattito pubblico 
+che, traendo spunto dal caso di Google Analytics, Roberto Guiotto e Matteo Zambon
+hanno giustamente <strong>esteso a tutti i servizi e tutti i software che hanno gli stessi problemi</strong>
+nel rispettare i diritti dei cittadini italiani ed europei.</p>
+
+<img src="/media/monitorapa-is-coming-for-gafam.jpg" style="max-width:100%" />
+
+<h2 id="ga4-mattone-o-tritolo"><a href="#ga4-mattone-o-tritolo-" class="anchor"></a>GA4: mattone... o tritolo?</h2>
+<p>I fondatori di Tag Manager Italia aprono l'articolo con un paragone piuttosto forzato: </p>
+<blockquote>
+<p>L’utilizzo di GA4 non è di per sé illegale, come di per sé non è illegale 
+possedere un mattone, che può essere scagliato contro una vetrina, 
+oppure usato per costruire una casa.</p>
+</blockquote>
+<p>Bisogna subito osservare che la destinazione d'uso  per cui un mattone viene realizzato e venduto è legale
+(costruire case), mentre la destinazione d'uso per cui Google Analytics 4 è
+stato realizzato e viene diffuso gratuitamente è, al momento, illegale in quanto 
+consiste nella raccolta di dati personali di cittadini spesso inconsapevoli
+per inviarli a Google, abilitandone il trasferimento extra UE senza adeguate garanzie.</p>
+<p>Dunque sarebbe forse stato più appropriato paragonare l'utilizzo di GA4
+al possesso di un chilo di tritolo: il privato cittadino che venisse scoperto a detenerlo
+nella propria cantina potrebbe avere qualche problema a giustificarne la presenza
+alle Forze dell'Ordine in caso di esplosione.<br/>
+Naturalmente potrebbe riuscirci, ad esempio se questo privato cittadino fosse
+anche un demolitore autorizzato in procinto di demolire la propria abitazione!<br/>
+L'importante è comprendere che si tratta di eccezioni rarissime. E da dimostrare.
+</p>
+<p>Paragonare GA4 ad un esplosivo può sembrare una provocazione infondata
+solo a chi non abbia letto l'<a target="_blank" rel="noopener nofollow ugc" title="Data protection by design and by default (nuova finestra)" href="https://gdpr-info.eu/art-25-gdpr/">articolo 25 del GDPR</a>: il Titolare del Trattamento
+è tenuto a scegliere tecnologie <strong>progettate per proteggere i dati degli
+interessati</strong> e che <strong>proteggano tali dati sin dalla propria configurazione
+predefinita</strong>.
+Se anche fosse vero che, come spiegato da Guiotto e Zambon,
+una ipotetica configurazione GDPR-compliant di Google Analytics 4 
+"richiede delle opportune competenze tecniche", ne conseguerebbe logicamente che
+<strong>GA4 non protegge la privacy dei cittadini europei by design e by default</strong>,
+costituendo di fatto una soluzione incompatibile con i doveri di protezione
+e cautela del Titolare del Trattamento.</p>
+<p>Titolare su cui comunque Google scarica ogni responsabilità legale in caso di errori
+di configurazione che le facciano ottenere "suo malgrado" qualsiasi dato personale.</p>
+<h2 id="ma-cosa-ne-dice-il-garante-della-privacy-"><a href="#ma-cosa-ne-dice-il-garante-della-privacy-" class="anchor"></a>Ma cosa ne pensa il Garante della Privacy?</h2>
+<p>Tag Manager Italia tira poi subito in ballo Guido Scorza, componente del 
+Garante per la protezione dei dati personali, che <a target="_blank" rel="noopener nofollow ugc" title="Google Analytics, Scorza: “Ecco cosa devono sapere le aziende” (nuova finestra)" href="https://www.agendadigitale.eu/sicurezza/privacy/google-analytics-scorza-ecco-cosa-devono-sapere-le-aziende/">in un recente articolo per Agenda Digitale scrive</a>:</p>
+<blockquote>
+<p><strong>Gli uffici del Garante non hanno avuto occasione di esaminare la versione 4 di Google Analytics</strong> semplicemente perché il titolare del trattamento oggetto del provvedimento non la utilizzava, né sin qui tale versione è venuta in rilievo in altri procedimenti analoghi.<br>Impossibile in queste condizioni, pertanto, dire se essa sia o meno in grado di risolvere il problema e consentire l’uso di Google Analytics in conformità alla disciplina europea sul trasferimento dei dati personali negli USA.</p>
+</blockquote>
+<p>Tuttavia gli autori hanno inavvertitamente dimenticato di citare le parole 
+subito seguenti dell'articolo di Scorza:</p>
+<blockquote>
+<p>Quello che, tuttavia, si può certamente dire è che <strong>per rendere il servizio 
+conforme alle regole europee non basta né che gli indirizzi IP degli utenti 
+siano cancellati da Google un istante dopo la raccolta, né che non siano 
+affatto raccolti se, al loro posto, sono comunque raccolti e trasferiti 
+nella disponibilità della casa madre americana di Big G</strong> altri dati 
+che consentano a quest’ultima [...] di identificare o re-identificare un utente.</p>
+</blockquote>
+<p>In altri termini, Scorza chiarisce che <strong>non è sufficiente rimuovere tutti gli identificativi
+dal set di dati ricevuti da Google per rendere legale l'utilizzo di Google Analytics</strong>.
+Il Titolare del Trattamento dovrà essere in grado di dimostrare che l'azienda Google LLC non può tecnicamente utilizzare i dati personali descrittivi che riceve per identificare 
+anche un solo, singolo cittadino europeo, attraverso una delle innumerevoli
+tecniche di deanonimizzazione disponibili a Google stessa.</p>
+<p>Una sfida che nemmeno noi hacker sapremmo come affrontare.</p>
+<p>Nell'allegato tecnico che <a href="/2022/06/22/segnalazione-al-garante.html">Monitora PA ha recentemente inviato al Garante della Privacy</a>
+viene infatti spiegato come i dati personali descrittivi possano essere facilmente
+utilizzati come <a target="_blank" rel="noopener nofollow ugc" title="Efficient Algorithms for Masking and Finding Quasi-Identifiers" href="https://www.csee.umbc.edu/~kunliu1/p3dm08/proceedings/2.pdf">identificativi di fatto</a> per <a target="_blank" rel="noopener nofollow ugc"  title="Robust De-anonymization of Large Sparse Datasets (PDF)" href="https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf">deanonimizzare</a> le persone
+associate ad una singola sessione di lavoro su un sito web.</p>
+<p>Per fare un esempio banale: se una persona con un comune cellulare Android
+utilizzasse ad una certa ora un chiosco informativo la cui posizione GPS 
+è nota a Google e su cui è installato Google Analytics, Google potrebbe
+istantaneamente correlare la posizione GPS del chiosco a quella dell'utente
+(ottenuta attraverso le varie App che la monitorano dal suo cellulare),
+deanonimizzando l'intera navigazione effettuata a quell'ora nel chiosco.
+In altri termini, un dato descrittivo apparentemente anonimo come una coppia
+di coordinate satellitari diventano identificativi di fatto in grado di
+permettere la deanonimizzazione dei dati raccolti attraverso il chiosco 
+informativo apparentemente sicuro.</p>
+<p>Il Titolare del Trattamento del nostro ipotetico chiosco pubblico, per utilizzare 
+Google Analytics, dovrà dunque adottare <strong>ulteriori</strong> misure <strong>tecniche</strong> per proteggere
+i dati personali degli utenti, in modo tale che nessun cittadino europeo possa
+avvicinarsi al chiosco con un cellulare Android in tasca. E dovrà
+dichiarare un data-breach ogni volta che queste misure <strong>tecniche</strong>
+dovessero accidentalmente fallire.</p>
+<p>Per questo possiamo dire che ad oggi l'utilizzo di GA4 non é di per sé illegale...
+come di per sé non è illegale possedere del tritolo.</p>
+<p>Il tritolo può essere usato per scavare una buca oppure 
+per compiere un attentato: molto dipende dall'utilizzo che si fa
+dell'oggetto in questione, ma in questo caso è <strong>estremamente difficile</strong>
+utilizzare Google Analytics 4 su un sito web legalmente, ovvero senza 
+trasferire a Google dati personali che questi potrebbe ricondurre 
+ai soggetti interessati.</p>
+<p>Anche perché Google riceve e registra qualsiasi cosa venga scritta nella
+barra del browser Chrome, come chiaramente spiegato nel divertente <a target="_blank" rel="noopener nofollow ugc" title="ContraChrome (nuova finestra)" href="https://contrachrome.com/">fumetto 
+di Leah Elliot</a> recentemente <a target="_blank" rel="noopener nofollow ugc" title="ContraChrome in italiano (PDF)" href="https://copernicani.it/wp-content/uploads/2022/07/ContraChrome_IT_final.pdf">tradotto dall'Associazione Copernicani</a>.</p>
+<h2 id="ma-il-cnil-dice-che-ga4-ok-"><a href="#ma-il-cnil-dice-che-ga4-ok-" class="anchor"></a>Ma il CNIL dice che GA4 è OK...</h2>
+<p>Tag Manager Italia continua:</p>
+<blockquote>
+<p>Non a caso, la CNIL  l’Autorità Garante della protezione dei dati 
+francese  ha messo nero su bianco <strong>le misure necessarie da adottare
+per utilizzare Google Analytics e il tracciamento Server-Side in 
+modo conforme alle norme <a target="_blank" rel="noopener nofollow ugc" href="https://www.agendadigitale.eu/documenti/gazzetta-ufficiale-cose-e-come-consultarla-online/">GDPR</a></strong>.</p>
+<p>In breve, la CNIL precisa che l’utilizzo di un <strong>server proxy</strong> proprietario 
+a monte del server proxy nativo in Google Analytics 4, ossia un server
+intermediario localizzato in Europa su cui far giungere i dati degli 
+utenti, è <strong>una soluzione efficace</strong> per rispettare le disposizioni europee 
+in materia di Privacy, perché evita che i dati personali degli utenti
+arrivino direttamente sui server di Google prima in EU e poi nei 
+server situati negli USA.</p>
+</blockquote>
+<p>Sorpresi dall'ingenuità del CNIL, abbiamo provato a seguire il link
+fornito dagli autori cliccando sul link "GDPR", ma siamo atterrati
+su un articolo di Nicoletta Pisanu intitolato "Gazzetta ufficiale, 
+come consultare i DPCM coronavirus, bandi e concorsi (online)".</p>
+<p>Perplessi dall'apperente presenza di un <em><a target="_blank" rel="noopener nofollow ugc" href="https://it.wikipedia.org/wiki/Argumentum_ab_auctoritate">argumentum ab auctoritate</a></em>
+privo di riferimenti precisi all'autorità in questione, possiamo solo
+ipotizzare che gli autori facessero riferimento <a target="_blank" rel="noopener nofollow ugc" title="Questions-réponses sur les mises en demeure de la CNIL concernant l’utilisation de Google Analytics (nuova finestra)" href="https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/questions-reponses-sur-les-mises-en-demeure-de-la-cnil-concernant-lutilisation-de-google-analytics">alle FAQ del CNIL</a>
+(recentemente <a href="/2022/06/14/faq-cnil.html">tradotte da Ivo Grimaldi per Monitora PA</a>) pubblicate
+in concomitanza con il comunicato su "<a target="_blank" rel="noopener nofollow ugc" title="Google Analytics et transferts de données: comment mettre son outil de mesure d’audience en conformité avec le RGPD? (nuova finestra)" href="https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/google-analytics-et-transferts-de-donnees-comment-mettre-son-outil-de-mesure-daudience-en-conformite">Google Analytics et transferts de données: comment
+mettre son outil de mesure d’audience en conformité avec le RGPD?</a>" </p>
+<h3 id="ma-cosa-ha-detto-davvero-il-cnil-"><a href="#ma-cosa-ha-detto-davvero-il-cnil-" class="anchor"></a>Cosa ha detto davvero il CNIL?</h3>
+<p>Nelle FAQ, il CNIL menziona l'utilizzo di <strong>server proxy</strong> rispondendo 
+a due domande di cui riportiamo, per facilitare il lettore, 
+alcuni passaggi rilevanti tratti dalle risposte:</p>
+<ul>
+<li><p><a href="/2022/06/14/faq-cnil.html#09">Ci sono sufficienti garanzie aggiuntive per continuare a utilizzare lo strumento Google Analytics da solo?</a></p>
+<blockquote>
+<p>si può ipotizzare una soluzione che permetta di coinvolgere un server proxy 
+(o “proxy”) per evitare qualsiasi contatto diretto tra il terminale dell'utente 
+Internet ed i server dello strumento di misura. Tuttavia, <strong>occorre garantire 
+che questo server soddisfi una serie di criteri</strong> per poter ritenere che questa 
+misura aggiuntiva sia in linea con quanto previsto dal GEPD nelle 
+sue raccomandazioni del 18 giugno 2021. </p>
+</blockquote>
+</li>
+<li><p><a href="/2022/06/14/faq-cnil.html#12">Come garantire che gli strumenti di misurazione dell'audience non trasferiscano i dati a un paese terzo inappropriato?</a></p>
+<blockquote>
+<p>Si può anche considerare di utilizzare il metodo di proxyification, 
+che consente, <strong>quando è ben configurato</strong>, di inviare solo dati
+pseudonimizzati a un server situato al di fuori dell'Unione Europea. </p>
+</blockquote>
+</li>
+</ul>
+<p>Ancora più interessante è il comunicato del CNIL che chiarisce:</p>
+<blockquote>
+<p>Come indicato da tali raccomandazioni, tale esportazione non è possibile
+se non quando il titolare del trattamento ha stabilito, <strong>per mezzo di una 
+analisi approfondita</strong>, che i dati personali pseudonimizzati <strong>non possano 
+essere attribuiti a una persona fisica identificata o identificabile</strong>, 
+anche attraverso la correlazione con altre informazioni.</p>
+<p>Si tratta dunque, al di là della semplice rimozione della richiesta dal 
+terminale dell’utilizzatore verso i server dello strumento di misurazione,
+<strong>di assicurarsi che l’insieme delle informazioni trasmesse non permetta 
+in alcun caso una reidentificazione della persona, anche prendendo 
+in considerazione i mezzi considerevoli di cui dispongono le entità
+che potrebbero voler procedere ad una tale reidentificazione.</strong></p>
+</blockquote>
+<p>Inoltre il CNIL aggiunge:</p>
+<blockquote>
+<p>La messa in atto delle misure descritte qui sopra può rivelarsi 
+costosa e complessa e <strong>non permette sempre</strong> di rispondere ai bisogni
+operativi dei professionisti.</p>
+<p>Per evitare tali difficoltà è comunque possibile per i professionisti
+ricorrere a soluzioni che non comportino trasferimenti di dati 
+personali al di fuori dell’Unione Europea</p>
+</blockquote>
+<p>Il CNIL elenca anche alcune caratteristiche necessarie a rendere efficace l'introduzione di un server proxy come misura supplementare a protezione dei dati personali:</p>
+<ul>
+<li>l'assenza dell'IP fra i dati trasferiti nonché di una localizzazione
+sufficientemente specifica da permettere l'identificazione dell'utente
+(come nel caso del chiosco, ad esempio)</li>
+<li>la continua sostituzione degli pseudonimi dell'utente, che non devono
+permettere l'attribuzione di diverse sessioni di navigazione ad uno stesso utente</li>
+<li>la soppressione delle informazioni provenienti dall'esterno del sito, come le pagine di arrivo (<em>referer</em>)</li>
+<li>la soppressione di tutti i parametri utilizzati dalla richiesta del browser,
+anche quelli utilizzati per la navigazione interna del sito stesso</li>
+<li>la rimozione di tutte le informazioni che possano permettere la generazione
+di un'impronta digitale (<em>fingerprint</em>), come lo <em>User Agent</em> o le informazioni
+dedotte dal runtime di esecuzione del browser</li>
+<li>l'assenza di identificativi da altri siti o di identificativi deterministici,
+come possono essere l'unique ID, un identificativo di sessione o un cookie di terze parti</li>
+<li>la rimozione di <strong>qualsiasi dato che potrebbe permettere A GOOGLE 
+una reidentificazione dell'utente</strong></li>
+</ul>
+
+<img src="analytics-proxy.png" style="width: 100%; margin-top: 10px; margin-bottom:10px"/>
+
+<p>E si noti come il CNIL definisce queste caratteristiche <strong>necessarie</strong>, 
+ma non le definisce affatto come <strong>sufficienti</strong>!</p>
+<p>Questo perché, come amano sottolineare molti DPO, la protezione dei dati
+non può prescindere dal contesto concreto in cui il dato viene raccolto
+e trattato: il Titolare del Trattamento deve <strong>garantire tale protezione</strong>
+a ogni singolo cittadino, qualunque siano le condizioni della sua interazione
+con il sistema sotto la propria responsabilità.</p>
+<p>Non c'è soluzionismo tecnologico che tenga: <strong>in moltissimi casi concreti,
+questi accorgimenti non saranno sufficienti</strong> a proteggere i dati
+dei cittadini europei e sarà responsabilità del Titolare del Trattamento
+impedire concretamente che queste condizioni si verifichino evitando
+l'utilizzo illegale di Google Analytics 4.</p>
+<p>Il CNIL chiarisce inoltre che il proxy deve ovviamente essere 
+eseguito su server che non comportino gli stessi rischi che 
+Google Analytics determina: niente cloud GAFAM, per intederci, ma 
+neanche cloud cinesi o russi, ad esempio.</p>
+<p>Dunque rispetto alla sintesi di Tag Manager Italia è importante chiarire
+come il CNIL</p>
+<ul>
+<li><strong>non abbia mai affermato</strong> che il server proxy sotto il controllo del Titolare
+<strong>possa essere software proprietario</strong></li>
+<li><strong>non abbia mai affermato</strong> che tale <em>proxyification</em> "<strong>è</strong> una soluzione efficace 
+per rispettare le disposizioni europee in materia di Privacy", ma al massimo
+che <strong>può essere presa in considerazione</strong> in alcuni casi specifici.</li>
+</ul>
+<p>Insomma, sarà pur vero che l'uso di GA4 non è di per sé illegale, ma sono 
+infinitamente più numerosi i casi concreti in cui è illegale rispetto a quelli
+in cui non lo è.</p>
+<p>Infatti il CNIL stesso mette in guardia i Titolari del Trattamento 
+rispetto alla soluzione in questione, sottolineandone la complessità tecnica ed i costi,
+in quanto la verifica della sua effettiva efficacia concreta
+ed il mantenimento di tale efficacia nel tempo  ad ogni aggiornamento dei prodotti
+di Google ricadono sotto la loro esclusiva responsabilità legale.</p>
+<p>Si tratta di una responsabilità molto seria, perché le alternative 
+ai servizi di Google esistono e sono innumerevoli, sebbene non si trovino su Google. ;-)</p>
+
+<p>Anche l'asimmetria nel potere contrattuale rispetto a Google non può
+essere addotta come scusa: tale asimmetria evidenzia <a target="_blank" rel="noopener nofollow ugc" title="Biennale Democrazia 2021 - Discorsi - Big tech: l’ora della responsabilità (nuova finestra)" href="https://yewtu.be/watch?v=1pBWyFvzsxo">un enorme problema 
+dell'economia di mercato europea</a>, ma non rende Google titolare o cotitolare del trattamento 
+proprio perché il Titolare stesso potrebbe facilmente scegliere fra una vasta 
+gamma di soluzioni alternative che offrono garanzie decisamente più 
+efficaci nella tutela dei diritti fondamentali dei cittadini europei.</p>
+
+<h2 id="eh-ma-monitora-pa-stata-imprecisa"><a href="#eh-ma-monitora-pa-stata-imprecisa-" class="anchor"></a>Eh ma Monitora PA è stata imprecisa...</h2>
+<p>In effetti Tag Manager Italia riporta una semplificazione eccessiva che è sfuggita
+all'ultima rilettura dell'articolo di Pietro Biase che abbiamo fatto congiuntamente in Monitora PA:</p>
+<blockquote>
+<p>ci è capitato di leggere diverse inesattezze come ad esempio: “...la tecnologia 
+con cui il codice di Google Analytics viene incorporato nel sito web è cambiata
+nel tempo: nella versione Universal Analytics si trattava di codice Javascript
+richiamato all’interno dell’HTML; a partire da Google Analytics 4 (GA4) questa
+modalità è stata sostituita da una nuova tecnologia chiamata Google Tag Manager.”<br/>
+Come è noto, Google Tag Manager (GTM) è stato introdotto nel 2012, quindi non è affatto una nuova tecnologia.
+</p>
+</blockquote>
+<p>Non era nostra intenzione far passare un sistema di sorveglianza attivo dal 2012
+come un'invenzione recente e ci scusiamo per il malinteso.</p>
+<p>La semplificazione (come detto, eccessiva) è stata fatta ad uso dei molti Titolari
+del Trattamento e dei molti Data Processor Officers privi di una adeguata formazione
+informatica.</p>
+<p>Dopo le dovute scuse, è importante chiarire cosa intendessimo: Google Tag Manager, 
+quando configurato per ricevere chiamate HTTP dal browser del visitatore di un sito
+(ad esempio per scaricare i JS necessari all'introduzione del banner) riceve istantaneamente
+dati personali dell'utente (IP, Cookie, UserAgent etc...) e può inevitabilmente ottenere 
+accesso a molti altri dati personali nel momento in cui il JavaScript che serve 
+al browser viene eseguito nello stesso contesto della pagina.</p>
+<p>Va inoltre osservato che ogni JavaScript servito da Google può essere personalizzato
+da Google stessa, esattamente come personalizza i messaggi promozionali che invia
+a ciascun utente via Google Ads.</p>
+<p>Ciò significa che, potenzialmente, potrebbe essere costretta dalle agenzie governative
+degli Stati Uniti d'America a servire segretamente script "dedicati" a persone 
+di interesse dell'intelligence USA all'insaputa non solo delle vittime di tale data breach,
+ma anche dei Titolari del Trattamento.</p>
+<p>Titolari del Trattamento che però rimangono responsabili di questa possibilità e
+devono dunque poter dimostrare di aver preso <strong>adeguate misure tecniche supplementari</strong>
+per impedire <strong>efficacemente</strong> il suo verificarsi.</p>
+<p>Detto questo, non siamo a conoscenza di ulteriori "imprecisioni tecniche legate
+a GA e GTM" nei nostri testi, ma saremmo molto felici se Tag Manager Italia
+volesse indicarcele, in particolare qualora fossero presenti 
+<a href="/2022/06/22/Allegato-Tecnico.pdf">nell'allegato tecnico inviato al Garante della Privacy</a>.</p>
+<p>Come hacker non siamo infallibili, solo curiosi: apprezziamo ogni occasione
+di imparare qualcosa di nuovo. </p>
+<p>L'importante è ricordare sempre che con noi le supercazzole non funzionano. ;-)</p>
+<h2 id="legittimit-del-trasferimento-di-dati-extra-ue-il-problema-non-solo-di-ga4">
+<a href="#legittimit-del-trasferimento-di-dati-extra-ue-il-problema-non-solo-di-ga4" class="anchor"></a>Legittimità del trasferimento di dati extra-Ue: il problema non è solo di GA4</h2>
+<p>Nonostante tutte le imprecisioni ed i problemi elencati fin qui, abbiamo apprezzato
+moltissimo il coraggio e l'onestà intellettuale di Guiotto e Zambon laddove
+ammettono che <strong>non è solo Google Analytics ad essere incompatibile con i
+diritti dei cittadini europei</strong>. </p>
+<p>Scrivono infatti:</p>
+<blockquote>
+<p>è importante sottolineare che ciò che viene contestato a Google Analytics,
+ossia la potenziale violazione alle condizioni di legittimità del trasferimento
+di dati al di fuori dell’Europa, è  con buona probabilità  una caratteristica
+comune a centinaia (o più probabilmente migliaia) di software di utilizzo
+comune nell’ambito del web marketing e del web hosting.</p>
+<p>Non è un mistero che il web marketing contemporaneo si basi in larghissima 
+parte su tecnologie e servizi ospitati su server controllati da aziende USA 
+(es. Facebook Ads, Google Ads, YouTube Ads, etc.)</p>
+<p>Di conseguenza [...] è ragionevole ritenere
+che le piattaforme pubblicitarie Ads utilizzate dalla stragrande maggioranza 
+dei web marketer, ma anche i software di email marketing, i CRM, le piattaforme 
+di Content Delivery Network, i web hosting, etc. si trovino in una posizione
+simile rispetto a quella di Google Analytics.</p>
+<img src="MonitoraPA-looking-for-you.png" style="float:right; max-width:35%"/>
+<p>[...] è un dato di fatto che i principi di funzionamento di tutte le piattaforme
+sopra citate (nonché la nazionalità delle aziende che le erogano) non sono
+particolarmente dissimili da quelli di Google Analytics.</p>
+</blockquote>
+<p>Monitora PA sottoscrive ogni parola.</p>
+<p>Si tratta di un passaggio importante che spiega perché nei prossimi mesi
+Monitora PA dovrà inevitabilmente segnalare al Garante della Privacy tutti 
+i Titolari del Trattamento che continueranno ad utilizzare tali servizi 
+in palese violazione del GDPR. </p>
+<h2 id="conclusioni"><a href="#conclusioni" class="anchor"></a>Conclusioni</h2>
+<p>Considerazioni tecniche a parte, vorremmo condividere una breve riflessione con il lettore.</p>
+<p>Il 60% dei cittadini europei acquista online; il fatturato globale 
+dell’e-commerce in Europa vale 732 miliardi di dollari; la sola spesa 
+in digital advertising in Europa è stimata in 57,64 miliardi di dollari nel 2022.</p>
+<p>Queste cifre sono espresse in dollari perché gli Stati Uniti estraggono 
+la stragrande maggioranza di questo valore, lasciando alle società 
+IT europee poche briciole.</p>
+<p>Società che non possono permettersi di aggirare le normative scaricandone
+la responsabilità sui Titolari, ma grazie alla capacità ed alla caparbietà
+di tecnici e imprenditori resistono, pur a stento, sul mercato.</p>
+<p>Monitora PA ha a cuore solo <strong>la libertà delle persone</strong> e 
+<strong>le sorti delle nostre democrazie</strong> e combatte per proteggerle. </p>
+<p>Ma chi difende la produttività delle aziende italiane ed europee 
+che competono con Google &amp; friends, senza <a target="_blank" rel="noopener nofollow ugc" title="Piccolo è importante anche per il Cloud: il gigantismo fuori tempo del ministro Colao (nuova finestra)" href="https://www.key4biz.it/piccolo-e-importante-anche-per-il-cloud-il-gigantismo-fuori-tempo-del-ministro-colao/409687/">appoggi politici</a>, senza 
+<a target="_blank" rel="noopener nofollow ugc" title="Thousands of contracts highlight quiet ties between Big Tech and U.S. military (nuova finestra)" href="https://www.nbcnews.com/tech/tech-news/thousands-contracts-highlight-quiet-ties-between-big-tech-u-s-n1233171">sovvenzioni militari</a> e... <br/>
+<strong>rispettando pure la Legge</strong>?</p>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <nav class="inline">
+            <span>Contattaci:</span>
+            <a class="" title="Scrivici una PEC a monitorapa@peceasy.it" href="mailto:monitorapa@peceasy.it">
+                <i class="icon-email"></i> PEC
+            </a>
+            <a href="https://friendica.opencloud.lu/profile/monitorapa" 
+                title="Vai alla pagina del progetto su Friendica (apre una nuova finestra)"
+                target="_blank">Fediverse</a>
+            <a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" 
+                title="Vai al canale del progetto su Matrix (apre una nuova finestra)"
+                target="_blank">Matrix</a>
+            <a href="https://t.me/monitoraPA" 
+                title="Vai al canale del progetto su Telegram (apre una nuova finestra)"
+                target="_blank">Telegram</a>
+            <a href="https://github.com/MonitoraPA/" 
+                title="Vai al progetto su Github (apre una nuova finestra)"
+                target="_blank">Sorgenti</a>
+            <a href="/LICENSE.txt" 
+                title="Leggi la licenza/contratto di utilizzo (apre una nuova finestra)"
+                target="_blank">Hacking License</a>
+
+        </nav>
+    </footer>
+
+</body>
+
+</html>
+
+
+

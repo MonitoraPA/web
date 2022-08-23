@@ -15,23 +15,41 @@
 
     <meta property="og:site_name" content="Monitora PA" />
     <meta property="og:title" content="Monitora PA" />
-    <meta property="og:description" content="Osservatorio Automatico Distribuito sulla Pubblica Amministrazione" />
+    <meta property="og:description" content="Osservatorio Automatico Distribuito sulla Democrazia Cibernetica" />
     <meta property="og:url" content="https://monitora-pa.it/" />
     <meta property="og:image" content="https://monitora-pa.it/media/MonitoraPA-120x120.gif" />
     <meta property="og:locale" content="it_IT" />
     <meta property="og:type" content="article" />
 
     <title>Monitora PA</title>
+    <script type="text/javascript">
+        function countDown(t, l){
+            setInterval(function(){
+                var now = new Date().getTime();
+                var d = t - now;
+                if (d > 0){
+                    var days = Math.floor(d / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((d % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.round((d % (1000 * 60)) / 1000);
+                    l.innerText = '- ' + days + ' giorni ' + hours + ' ore ' + minutes + ' minuti e ' + seconds + ' secondi';
+                }
+            }, 1000);
+        }
+        window.addEventListener('load', function() {
+            var l = document.getElementById('ga-countdown');
+            var t = new Date("Sep 7, 2022 23:59:59").getTime();
+            if(t - (new Date().getTime()) > 0){
+                countDown(t, l);
+            } else {
+                l.innerText = 'Hai già tolto Google Analytics?'
+            }
+        });
+    </script>
 
 </head>
 
 <body>
-        <div id="wemoved">
-            NOTA BENE: Il nostro nuovo indirizzo Web è 
-            <a href="https://monitora-pa.it"
-                   title="Apri il nuovo sito">
-                    https://monitora-pa.it</a>
-        </div>
 
     <header class="logo">
         <img class="logo" src="/media/MonitoraPA.svg"
@@ -72,29 +90,497 @@
     <main>
         
         <section>
-            <p>
-                Sono ancora troppe le Pubbliche Amministrazioni che non rispettano il
-                <a href="https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN"
-                   title="Leggi il GDPR su eur-lex.europa.eu (in una nuova finestra)"
-                    target="_blank">
-                    Regolamento Generale per la Protezione dei Dati Personali (GDPR)</a>,
-                diffondendo dati emessi dai cittadini e permettendone la manipolazione politica e commerciale.
-            </p>
-            <p>
-                Per conoscere, e far conoscere, la gravità di questo problema, la nostra comunità hacker ha realizzato
-                MonitoraPA, un vero e proprio <strong>osservatorio automatizzato</strong> in grado di individuare e
-                segnalare i problemi di conformità al GDPR delle pubbliche amministrazioni italiane.
-            </p>
-            <p>
-                <a class="button-primary" href="MonitoraPA_2022-06-01.zip">
-                    Scarica il Report
-                </a>
-            </p>
+            <img style="max-width: 100%" src="/media/this-is-fine.jpg"/>
+            <a class="button-primary" href="MonitoraPA_2022-08-01.zip" style="float:left">
+                Scarica il Report
+            </a>
+            <a class="button-primary" href="https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9782874"
+               target="_blank" rel="noopener nofollow ugc" title="Leggi il comunicato del Garante della Privacy (nuova finestra)"
+               style="background-color: red; float: right" id="ga-countdown" >
+               Quanto manca al 7 settembre?
+            </a>
         </section>
 
         <section class="news">
             <a name="news"></a>
             <h2><span class="icon-input"></span> <span>I/O</span> <span class="icon-output"></span></h2>
+
+            <p>
+                <label>2022-08-17<span class="icon-output"></span></label>
+                <a target="_blank" title="Apri il PDF (nuova finestra)"
+				   href="/2022/08/17/guida_google-fonts_local-DRUPAL.pdf">
+				Come utilizzare i Google Fonts localmente su Drupal
+                </a>
+                <cite>
+				Diffondiamo questa guida pratica alla rimozione di Google Fonts da Drupal, 
+				gentilmente creata e condivisa dalla Professoressa Stefania Concas sulla chat di Monitora PA
+                </cite>
+            </p>
+			
+
+            <p>
+                <label>2022-08-12<span class="icon-input"></span></label>
+                <a target="_blank" title="Leggi su www.cybersecurity360.it (nuova finestra)"
+				   href="https://www.cybersecurity360.it/legal/privacy-dati-personali/google-fonts-un-nuovo-problema-per-i-siti-delle-pa-e-delle-scuole-ecco-come-risolverlo/">
+				Google Fonts, un nuovo problema per i siti delle PA e delle scuole: ecco come risolverlo
+                </a>
+                <cite>
+				L’API Google Fonts registra i dettagli della richiesta HTTP, inclusi il timestamp, l’URL richiesto e tutte le intestazioni HTTP (incluse la stringa referrer e user agent) fornite in relazione all’utilizzo dell’API CSS. [...]
+				Il gestore del sito web impiegherà pochi minuti a rendere sicuro e conforme al GDPR il portale istituzionale, disattivando il servizio da remoto di Google Fonts e impostandolo in locale.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-08-09<span class="icon-input"></span></label>
+                <a target="_blank" title="Leggi su blog.sinetinformatica.it (nuova finestra)"
+				   href="https://blog.sinetinformatica.it/2022/08/09/google-fonts-una-nuova-mina-vagante-per-i-siti-internet/">
+				Google Fonts, una nuova mina vagante per i siti internet
+                </a>
+                <cite>
+				Quando l’utente apre la pagina e li richiama, chiede dunque a Google di scaricarli: Google, rispondendo alla richiesta, traccia l’indirizzo IP del richiedente sui propri server (in paesi extra-europei), raccogliendo informazioni sull’utente che ne arricchiscono il profilo cognitivo-comportamentale.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-08-08<span class="icon-input"></span></label>
+                <a target="_blank" title="Leggi su www.key4biz.it (nuova finestra)" href="https://www.key4biz.it/pa-non-basta-laddio-a-google-analytics-10mila-siti-violano-privacy-cittadini-con-google-fonts/413335/">
+			Pa, non basta l’addio a Google Analytics: “10mila siti violano privacy cittadini con Google Fonts”
+                </a>
+                <cite>
+			La nuova battaglia di MonitoraPa: “Stamattina abbiamo inviato 10.162 PEC per rimuovere Google Fonts dai siti della PA. La soluzione da noi proposta richiede 5-10 minuti per attivarla”.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-08-08<span class="icon-output"></span></label>
+                <a href="/2022/08/08/GoogleFonts_in_vista.html">
+                    Google Fonts in vista!
+                </a>
+                <cite>
+                    Dopo un lungo lavoro durante il mese di luglio, ad agosto abbiamo finalmente varato la nuova architettura del nostro osservatorio automatico distribuito.
+                    Speriamo in questo modo di aiutare 10.162 Pubbliche Amministrazioni a ridurre la sorveglianza dei cittadini che vi si affidano...
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-08-07<span class="icon-input"></span></label>
+                <a href="https://www.redhotcyber.com/post/caro-interessato-ora-te-la-faccio-pagarela-richiesta/"
+					target="_blank" rel="noopener nofollow ugc" title="Leggi su www.redhotcyber.com (nuova finestra)">
+                    Caro interessato, ora te la faccio pagare... la richiesta
+                </a>
+                <cite>
+                    nel caso in cui vi sia un ingiustificato ritardo o una condotta che non agevola ma anzi
+                    ostacola l’esercizio dei diritti è possibile incorrere in provvedimenti sanzionatori
+                    come la recente sanzione del Garante Privacy in seguito ad un reclamo presentato da
+                    un interessato per il mancato riscontro di una richiesta di accesso.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-08-03<span class="icon-input"></span></label>
+                <a href="https://studiolegalelisi.it/novita/prosegue-lo-scambio-pubblichiamo-la-nuova-risposta-a-federico-leva/"
+					target="_blank" rel="noopener nofollow ugc" title="Leggi su studiolegalelisi.it (nuova finestra)">
+                    Prosegue lo scambio: pubblichiamo la nuova risposta a Federico Leva
+                </a>
+                <cite>
+                    La informiamo di aver provveduto alla cancellazione dei Suoi dati personali. [...]<br/>
+                    Ci riserviamo, infine, anche alla luce delle informazioni emerse in seguito alle nostre verifiche, 
+                    di valutare la ricorrenza degli estremi per formulare una richiesta di risarcimento dei danni causati 
+                    dalla Sua condotta, oltre all’addebito di un contributo spese commisurato ai costi amministrativi 
+                    sostenuti per dar seguito alle Sue richieste.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-08-02<span class="icon-output"></span></label>
+                <a href="/2022/08/02/Domande_allo_StudioLisi_sulla_risposta_per_FedericoLeva.html" >
+                    Domande allo Studio Lisi sulla risposta inviata a Federico Leva
+                </a>
+				<a href="/2022/08/02/Domande_allo_StudioLisi_sulla_risposta_per_FedericoLeva.pdf" >PDF</a>
+                <cite>
+                    Pubblichiamo la missiva inviata dal co-fondatore di Monitora PA allo Studio Lisi riguardo al 
+					recente articolo contenente la risposta dello Studio stesso a Federico Leva.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-08-02<span class="icon-input"></span></label>
+                <a href="https://federicoleva.eu/it/richiesta-rimozione-google-analytics/"
+					target="_blank" rel="noopener nofollow ugc" title="Leggi su federicoleva.eu (nuova finestra)">
+                    Federico Leva: Richiesta di rimozione di Google Analytics ex art. 17 GDPR
+                </a>
+                <cite>
+                    Informazioni aggiuntive per chi ha ricevuto un mio messaggio a oggetto 
+					“Uso illegittimo di Google Analytics: richiesta di rimozione ex art. 17 GDPR”.
+                </cite>
+            </p>
+			
+            <p>
+                <label>2022-08-02<span class="icon-input"></span></label>
+                <a href="https://www.cybersecurity360.it/legal/privacy-dati-personali/trasferimento-transfrontaliero-dei-dati-personali-come-tutelarsi-dopo-il-caso-caffeina-media/"
+					target="_blank" rel="noopener nofollow ugc" title="Leggi su www.cybersecurity360.it (nuova finestra)">
+                    Google Analytics: Trasferimento transfrontaliero dei dati personali: come tutelarsi dopo il caso Caffeina Media
+                </a>
+                <cite>
+                    Il caso di Caffeina Media ha generato immediatamente una conseguenza: i titolari del trattamento che desiderano
+                    evitare ogni problema farebbero bene a non appoggiarsi a Google Analytics per misurare le prestazioni di un qualsiasi
+                    sito web (neppure nella nuova versione G4).
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-08-01<span class="icon-input"></span></label>
+                <a href="https://www.lentepubblica.it/pa-digitale/google-analytics-soluzioni-enti-locali-pubbliche-amministrazioni/#Soluzione_Google_Analytics_4_No_non_e_GDPR_compliant"
+					target="_blank" rel="noopener nofollow ugc" title="Leggi su www.lentepubblica.it (nuova finestra)">
+                    Google Analytics: quali soluzioni devono adottare enti locali e Pubbliche Amministrazioni?
+                </a>
+                <cite>
+                    Google Analytics 4 è una <strong>non</strong> soluzione poiché, parimenti al suo predecessore Universal Analytics, trasferendo verso Google i dati personali degli utenti non può considerarsi riguardoso dei dettami privacy. [...]
+					Esaminiamo più nel dettaglio i software che aziende e Pubbliche Amministrazioni possono scegliere.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-29<span class="icon-input"></span></label>
+                <a href="https://studiolegalelisi.it/novita/google-analytics-pubblichiamo-la-risposta-inviata-a-federico-leva/"
+					target="_blank" rel="noopener nofollow ugc" title="Leggi su studiolegalelisi.it (nuova finestra)">
+                    Google Analytics: pubblichiamo la risposta inviata a Federico Leva
+                </a>
+                <cite>
+                    Nella risposta a Leva che leggerete qui di seguito, sono presenti due elementi che riteniamo opportuno sottolineare:
+					<span class="ul-emu">la necessità di acquisire ulteriori informazioni, per poter assolvere correttamente alla richiesta cancellazione;</span>
+					<span class="ul-emu">l’addebito di un contributo spese, in considerazione dei costi che il Titolare dovrà sostenere per intraprendere le azioni richieste.</span>
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-26<span class="icon-output"></span></label>
+                <a href="/2022/07/26/il-luglio-caldo-di-MonitoraPA.html" >
+                    Il luglio caldo di Monitora PA
+                </a>
+                <cite>
+                    La liberazione della PA da Google Analytics procede inesorabile mentre i vostri eroi
+                    si preparano a nuove battaglie: dalle segnalazioni di Luglio al FOIA al Registro .IT...<br/>
+                    passando per lo "Speciale Elezioni".
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-21<span class="icon-input"></span></label>
+                <a href="https://www.econopoly.ilsole24ore.com/2022/07/21/google-analytics-garante/"
+					target="_blank" rel="noopener nofollow ugc" title="Leggi su ilsole24ore.com (nuova finestra)">
+                    Perché è così importante la battaglia europea contro Google Analytics
+                </a>
+                <cite>
+					Iniziamo con l’affermare che la nuova versione di Google Analytics (GA4), 
+					la cui adozione Google renderà obbligatoria da giugno 2023 per tutti coloro 
+					che stiano già utilizzando Universal Analytics o Analytics 360, non appare 
+					essere immune dai problemi sollevati dalle Autorità Garanti europee 
+					in materia di trasferimento dei dati personali in territori al di fuori dell’UE.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-20<span class="icon-input"></span></label>
+                <a href="https://www.agendadigitale.eu/mercati-digitali/google-analytics-fuorilegge-migliaia-di-posti-di-lavoro-a-rischio-quali-alternative-per-le-aziende/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su www.agendadigitale.eu (nuova finestra)">
+                    Google Analytics fuorilegge, migliaia di posti di lavoro a rischio: quali alternative per le aziende?
+                </a>
+                <cite>
+                    A nostro avviso, questa situazione di grave incertezza  se possibile  
+                    è perfino peggiore dell’ammettere che il trasferimento dei dati degli 
+                    utenti al di fuori dall’Europa sia illegale tout-court.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-15<span class="icon-input"></span></label>
+                <a href="https://www.digeat.it/webinar-cpt/come-gestire-le-problematiche-legate-a-google-analytics-microsoft-365-fanpage-di-facebook-servizi-simili/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Vedi su Digeat (nuova finestra, registrazione gratuita)">
+                    Come gestire le problematiche legate a Google Analytics. Microsoft 365, Fanpage di Facebook &amp; servizi simili
+                </a>
+            </p>
+
+            <p>
+                <label>2022-07-15<span class="icon-input"></span></label>
+                <a href="https://www.infosec.news/2022/07/15/news/riservatezza-dei-dati/cosa-fare-quando-una-richiesta-dellinteressato-e-infondata-o-eccessiva/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su Infosec News (nuova finestra)">
+                    Cosa fare quando una richiesta dell’interessato è infondata o eccessiva?
+                </a>
+                <cite>
+                    Il criterio orientativo generale cui il titolare deve conformarsi è comunque 
+                    il dovere di agevolare l’esercizio dei diritti dell’interessato (art. 12.2 GDPR), 
+                    e dunque di predisporre misure tecniche e organizzative in tal senso ed essere 
+                    in grado di comprovarle. 
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-15<span class="icon-input"></span></label>
+                <a href="https://www.federprivacy.org/informazione/flash-news/soluzioni-per-i-siti-web-della-pubblica-amministrazione-che-utilizzano-ancora-google-analytics" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su Federprivacy (nuova finestra)">
+                    Le possibili soluzioni per i siti web della Pubblica Amministrazione che utilizzano ancora Google Analytics
+                </a>
+                <cite>
+                    Sul versante della Pubblica Amministrazione, un servizio messo a disposizione dall’AGID permetterebbe un 
+                    trattamento compliant dei dati in questione. Si tratta del portale Web Analytics Italia (WAI) che, 
+                    a differenza ad es. di Google Analitycs, offre il totale controllo (e la proprietà) del dato raccolto 
+                    e che utilizza di default il sistema di anonimizzazione dell'indirizzo IP degli utenti, 
+                    con più immediate compliance al GDPR e tutela degli interessati.
+                </cite>
+            </p>
+            
+            <p>
+                <label>2022-07-14<span class="icon-output"></span></label>
+                <a href="/2022/07/14/GoogleAnalytics4_MonitoraPA_risponde_a_TagManagerItalia.html">
+                    Google Analytics 4: Monitora PA risponde a Tag Manager Italia
+                </a>
+                <cite>
+                    Chi difende la produttività delle aziende italiane ed europee che competono 
+                    con Google &amp; friends, senza appoggi politici, senza sovvenzioni militari 
+                    e rispettando la Legge?
+                </cite>
+            </p>           
+
+            <p>
+                <label>2022-07-13<span class="icon-input"></span></label>
+                <a href="https://www.agendadigitale.eu/sicurezza/privacy/google-analytics-4-non-e-illegale-come-usarlo-bene-ed-evitare-problemi-col-gdpr/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su Agenda Digitale (nuova finestra)">
+                    Google Analytics 4, non è illegale: come usarlo bene ed evitare problemi col Gdpr
+                </a>
+                <cite>
+                    L’utilizzo di GA4 non è di per sé illegale, come di per sé non è illegale possedere un mattone, 
+                    che può essere scagliato contro una vetrina, oppure usato per costruire una casa.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-13<span class="icon-input"></span></label>
+                <a href="https://www.agendadigitale.eu/sicurezza/google-analytics-leffetto-domino-del-provvedimento-del-garante-come-superare-limpasse/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su Agenda Digitale (nuova finestra)">
+                    Google Analytics, l’effetto domino del provvedimento del Garante: come superare l’impasse?
+                </a>
+                <cite>
+                    Le conseguenze di fatto del provvedimento del Garante sono ineludibili e quasi ovvie, 
+                    eppure non del tutto previste. Il loro effetto, infatti, non può non estendersi agli 
+                    altri servizi di Google, che sono assoggettati alle stesse regole di funzionamento, 
+                    alle stesse politiche privacy, allo stesso corredo legale, condizioni d’uso e 
+                    informative che accompagnano Analitycs.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-12<span class="icon-input"></span></label>
+                <a href="https://www.spreaker.com/user/runtime/dk-6x33" 
+                    target="_blank" rel="noopener nofollow ugc" title="Ascolta su www.spreaker.com (nuova finestra)">
+                    DK 6x33 - La Lunga Marcia
+                </a>
+                <cite>
+                    Il punto è che il cloud statunitense è <strong>un</strong> modello di cloud, ritagliato esattamente
+                    sulle necessità politiche ed economiche degli Stati Uniti.<br/>
+                    In altre parole è un oligopolio la cui competitività (o <i>dumping</i>, che dir si voglia) è garantita
+                    dalle commesse militari. <br/>
+                    Per l'Europa un modello del genere non soltanto <strong>non serve</strong>, ma è <strong>dannoso</strong>
+                    perché porta a un depauperamento di competenze in un settore che gli americani vedono giustamente come strategico.<br/>
+                    E lo vedono come strategico dalla fine della seconda guerra mondiale.
+                </cite>
+            </p>
+            
+            <p>
+                <label>2022-07-12<span class="icon-input"></span></label>
+                <a href="https://www.federprivacy.org/informazione/primo-piano/la-funzione-di-anonimizzazione-dell-indirizzo-ip-non-risolve-i-problemi-di-privacy-di-google-analytics" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su Federprivacy (nuova finestra)">
+                    La funzione di 'anonimizzazione' dell’indirizzo IP non risolve i problemi di privacy di Google Analytics
+                </a>
+                <cite>
+                    In base al principio di <i>accountability</i>, i titolari del trattamento, in qualità di esportatori, sono comunque tenuti a verificare [...]
+                    se le garanzie previste dalle clausole contrattuali tipo possano essere rispettate nella pratica.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-09<span class="icon-input"></span></label>
+                <a href="https://www.infosec.news/2022/07/09/news/riservatezza-dei-dati/il-trolling-etico-come-leva-per-i-diritti-digitali/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su www.infosec.news (nuova finestra)">
+                    Il trolling etico come leva per i diritti digitali
+                </a>
+                <cite>
+                    Questa non è stata altro che una delle molteplici modalità di espressione di un attivismo digitale 
+                    che molti già stanno intraprendendo e hanno intrapreso. Naturalmente imperfetta nei modi, perché 
+                    per ragioni di contesto è ben lungi dall’essere infallibile nell’attuazione, ma indubbiamente 
+                    è in grado di far parlare di sé.<br/>
+                    Tutto sta ora nell’evoluzione: la scommessa riguarda il potenziale di stimolare  o provocare
+                    una più ampia discussione riguardante il mondo digitale e dei relativi diritti.
+                </cite>
+            </p>
+ 
+            <p>
+                <label>2022-07-07<span class="icon-output"></span></label>
+                <a href="/2022/07/07/1311_nuove_pec.html">
+                    1311 nuove PEC
+                </a>
+                <cite>
+                    Breve resoconto del nostro giugno di fuoco e due parole sulle 1311 nuove PEC inviate da Monitora PA.
+                </cite>
+            </p>
+            
+            <p>
+                <label>2022-07-06<span class="icon-input"></span></label>
+                <a href="https://www.agendadigitale.eu/sicurezza/privacy/google-analytics-che-devono-fare-le-aziende-qualche-risposta-possibile/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su www.agendadigitale.eu (nuova finestra)">
+                    Google Analytics, che devono fare le aziende? Qualche risposta possibile
+                </a>
+                <cite>
+                    Una valutazione che ogni titolare del dato dovrà fare per conto proprio
+                    senza aspettare ricette pronte dal Garante secondo il principio di accountability
+                    iscritto nel GDPR.
+                </cite>
+            </p>
+ 
+            <p>
+                <label>2022-07-06<span class="icon-input"></span></label>
+                <a href="https://web.archive.org/web/20220707132719/https://www.linkedin.com/pulse/gdpr-i-dubbi-amletici-tra-titolarit%C3%A0-contitolarit%C3%A0-nei-andrea-lisi" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su web.archive.org (nuova finestra)">
+                    GDPR: i dubbi amletici tra titolarità, contitolarità, responsabilità nei rapporti con Google, Microsoft, Facebook &amp; C.
+                </a>
+                <cite>
+                    Magari nel frattempo arriverà il Trans-Atlantic Data Privacy Framework o quanto meno il Comitato dei Garanti, come auspicabile, 
+                    avrà avuto modo di esprimersi autorevolmente in proposito.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-05<span class="icon-input"></span></label>
+                <a href="https://www.giornalettismo.com/mail-di-federico-leva-analisi-guido-scorza-garante-privacy/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su www.giornalettismo.com (nuova finestra)">
+                    Guido Scorza sulla mail di Federico Leva: «È una sorta di caso Schrems, il diritto gli viene riconosciuto dalle norme vigenti»
+                </a>
+                <cite>
+                     «La richiesta che viene effettuata, al di là del provvedimento del Garante che l’ha preceduta, va nella direzione di esercitare un suo diritto e i dati vanno assolutamente cancellati, anche se le modalità con cui è stata rivolta ai soggetti interessati può essere in qualche modo interpretata come un gesto politico - ci spiega Guido Scorza - [...]
+                     Non vedo grande spazio per il grigio: la richiesta va adempiuta. Forse per evitare di incorrere in richieste simili e portarsi avanti con il lavoro, si potrebbero accorciare i tempi di retention di determinati dati, così da evitare di ritrovarsi sommersi da queste richieste o perlomeno di poter rispondere efficacemente a queste richieste, dimostrando che in questo preciso momento non si stanno trattando i dati dei richiedenti»
+                </cite>
+            </p>
+             
+            <p>
+                <label>2022-07-05<span class="icon-input"></span></label>
+                <a href="https://www.agendadigitale.eu/sicurezza/privacy/google-analytics-scorza-ecco-cosa-devono-sapere-le-aziende/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su www.agendadigitale.eu (nuova finestra)">
+                    Google Analytics, Scorza: “Ecco cosa devono sapere le aziende”
+                </a>
+                <cite>
+                    [...] trascorsi i tre mesi in questione, inizierà a fare ispezioni e verifiche per fare in modo, per quanto possibile, che tutti quanti si trovino in posizioni identiche, siano trattati allo stesso modo, così da evitare il crearsi di antipatiche asimmetrie.<br/>
+                    Ed è egualmente vero che la portata del provvedimento trascende il perimetro degli utilizzatori di Google Analytics perché ci sono decine di altri servizi forniti da società americane che per funzionare presuppongo il trasferimento di dati personali dal vecchio al nuovo continente. [...]<br>
+                    Gli uffici del Garante non hanno avuto occasione di esaminare la versione 4 di Google Analytics [...] tuttavia, si può certamente dire è che per rendere il servizio conforme alle regole europee non basta né che gli indirizzi IP degli utenti siano cancellati da Google un istante dopo la raccolta,
+                    né che non siano affatto raccolti se, al loro posto, sono comunque raccolti e trasferiti nella disponibilità della casa madre americana di Big G altri dati che consentano a quest’ultima e, dunque  agendo essa in qualità di responsabile del trattamento  almeno in astratto al titolare del trattamento di identificare o re-identificare un utente.
+                </cite>
+            </p>
+       
+            <p>
+                <label>2022-07-04<span class="icon-output"></span></label>
+                <a href="https://www.agendadigitale.eu/sicurezza/privacy/monitorapa-risponde-a-google-ecco-perche-analytics-4-e-fumo-negli-occhi/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su www.agendadigitale.eu (nuova finestra)">
+                    Privacy, Google Analytics 4 è fumo negli occhi: ecco perché non risolve il problema
+                </a>
+                <cite>
+                    Anche Google Analytics 4 trasferisce verso Google i dati personali degli utenti e non è, quindi, Gdpr compliant. Restano tutti i problemi segnalati da MonitoraPA e evidenziati dai Garanti Ue. Tutto quello che Google sa di noi e come influisce sui nostri comportamenti grazie ai dati raccolti coi suoi servizi.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-04<span class="icon-input"></span></label>
+                <a href="https://www.giornalettismo.com/federico-leva-mail-google-analytics-cosa-fare/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su www.giornalettismo.com (nuova finestra)">
+                    La mail di Federico Leva e i cittadini che richiedono la rimozione dei dati desunti da Google Analytics
+                </a>
+                <cite>
+                    Si tratta di richieste che sono legittime, in virtù della decisione del Garante della Privacy. Noi abbiamo provato a chiedere informazioni sul merito a Guido Scorza, membro del collegio del Garante. [...]
+                    Federico Leva è una persona fisica, esiste, ha inviato una mail con lo scopo di informare i siti web di quelli che sono i diritti degli utenti. E ai siti web conviene rispondere  magari richiedendo ulteriori informazioni via mail all’interessato  cercando di ottemperare questi stessi diritti.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-03<span class="icon-input"></span></label>
+                <a href="https://yewtu.be/watch?v=1lUPak9qJkg" 
+                    target="_blank" rel="noopener nofollow ugc" title="Vedi su YewTube (nuova finestra)">
+                    FEDERICO LEVA: cosa fare con la mail, le motivazioni ed un INTERVISTA ESCLUSIVA
+                </a>
+                <cite>
+                    Il nome FEDERICO LEVA è girato molto in questi giorni tra gli addetti del settore per #Analytics e #GDPR, per via di DECINE DI MIGLIAIA di richieste di cancellazione dati arrivate ad aziende Italiane.<br/>
+                    Facciamo un po' di chiarezza, in mezzo a tante fesserie, di COSA FARE, anche con una intervista in esclusiva proprio all'autore, FEDERICO LEVA!
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-07-02<span class="icon-output"></span></label>
+                <a href="https://www.infosec.news/2022/07/02/news/riservatezza-dei-dati/monitorapa-ora-parlano-gli-hacker/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su Infosec News (nuova finestra)">
+                    MonitoraPA: ora parlano gli hacker
+                </a>
+                <cite>
+                    Intervista a MonitoraPA, la comunità hacker che vuole individuare e segnalare al Garante problemi di conformità delle pubbliche amministrazioni italiane.
+                </cite>
+            </p>
+            
+            <p>
+                <label>2022-07-01<span class="icon-input"></span></label>
+                <a href="https://www.spreaker.com/user/webradioiuslaw/google-analytics-problemi-soluzioni-e-du" 
+                    target="_blank" rel="noopener nofollow ugc" title="Ascolta su www.spreaker.com (nuova finestra)">
+                    Google Analytics: problemi soluzioni e dubbi da DPO
+                </a>
+                <cite>
+                    Il Garante per la protezione dei dati personali ha pubblicato un provvedimento sulla questione 
+                    Google analytics. In questa puntata commentiamo l'impatto che questo provvedimento avrà nel 
+                    settore del web marketing e quali alternative europee si possono adottare nel settore pubblico 
+                    e nel settore privato. Ne parliamo con l'avv. Pietro Calorio, consulente privacy 
+                    e DPO nel settore pubblico e privato.
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-06-29<span class="icon-input"></span></label>
+                <a href="https://www.infosec.news/2022/06/29/news/riservatezza-dei-dati/mal-comune-accesso-foia/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su Infosec News (nuova finestra)">
+                    Mal Comune, accesso FOIA
+                </a>
+                <cite>
+                    Il ruolo attivo del cittadino digitale per la tutela dei dati personali.
+                </cite>
+            </p>
+ 
+            <p>
+                <label>2022-06-28<span class="icon-input"></span></label>
+                <a href="https://www.infodata.ilsole24ore.com/2022/06/28/stretta-del-garante-privacy-italiano-google-analytics-ragione-monitorapa/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su il Sole 24 Ore (nuova finestra)">
+                    Stretta del Garante Privacy italiano su Google Analytics. Aveva ragione MonitoraPa?
+                </a>
+                <cite>
+                    Per capire qualcosa di più abbiamo invitato a Think Tally Talk Fabio Pietrosanti, attivista e co-founder di Monitora.
+                </cite>
+            </p>
+            
+            <p>
+                <label>2022-06-27<span class="icon-input"></span></label>
+                <a href="https://www.spreaker.com/user/runtime/dk-6x32" 
+                    target="_blank" rel="noopener nofollow ugc" title="Ascolta l'eposodio di DataKnightmare su www.spreaker.com (nuova finestra)">
+                    DK 6x32 - Acqua cheta rovina i ponti
+                </a>
+                <cite>
+                    Tomo tomo cacchio cacchio, il Garante lavora. E ha tirato fuori dal cappello la bomba: usare 
+                    Google Analytics in Italia è illecito, salvo che si dimostri il contrario (e buona fortuna).
+                    Ma le autorità stanno palesemente parlando a nuora perché suocera intenda. Come lo vedete il cloud?
+                </cite>
+            </p>
+
+            <p>
+                <label>2022-06-26<span class="icon-input"></span></label>
+                <a href="https://www.infodata.ilsole24ore.com/2022/06/28/stretta-del-garante-privacy-italiano-google-analytics-ragione-monitorapa/" 
+                    target="_blank" rel="noopener nofollow ugc" title="Leggi su il Sole 24 Ore (nuova finestra)">
+                    Stretta del Garante Privacy italiano su Google Analytics. Aveva ragione MonitoraPa?
+                </a>
+                <cite>
+                    Per capire qualcosa di più abbiamo invitato a Think Tally Talk Fabio Pietrosanti, attivista e co-founder di Monitora.
+                </cite>
+            </p>
 
             <p>
                 <label>2022-06-25<span class="icon-output"></span></label>
@@ -600,6 +1086,12 @@
                 <a href="https://ascii.it/" rel="noopener nofollow ugc"
                     title="Conoscili su ascii.it (nuova finestra)" target="_blank">
                     <img src="/media/compagni/ascii.png" alt="Associazione Consumatori Italiani Internet" />
+                </a>
+            </p>
+            <p class="tile tile-2">
+                <a href="https://www.softwarelibero.it/" rel="noopener nofollow ugc"
+                    title="Conoscili su softwarelibero.it (nuova finestra)" target="_blank">
+                    <img src="/media/compagni/assoli.png" alt="Associazione per il Software Libero" />
                 </a>
             </p>
 

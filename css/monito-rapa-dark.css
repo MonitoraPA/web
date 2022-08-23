@@ -107,41 +107,7 @@ Initial developer: Kitty Giraudel
 The MIT License (MIT) Copyright (c) 2016 Kitty Giraudel
 *******************************************************************************/
 /******************************************************************************/
-@font-face {
-  font-family: "Monospaced";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("../fonts/iosevka-extended.woff") format("woff");
-}
-@font-face {
-  font-family: "DefaultSansBlack";
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("../fonts/iosevka-aile-heavy.woff") format("woff");
-}
-@font-face {
-  font-family: "DefaultSansLight";
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("../fonts/iosevka-aile-light.woff") format("woff");
-}
-@font-face {
-  font-family: "DefaultSans";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("../fonts/iosevka-aile-regular.woff") format("woff");
-}
-@font-face {
-  font-family: "DefaultSerif";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("../fonts/iosevka-etoile-regular.woff") format("woff");
-}
+
 /*******************************************************************************
 
 Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
@@ -154,7 +120,7 @@ CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
 *******************************************************************************/
 html,
 body {
-  font-family: DefaultSerif, Courier, "Courier New", serif;
+  font-family: monospace;
   font-size: 16px;
   line-height: 1.45rem;
   border: none;
@@ -215,7 +181,7 @@ pre div.language-type {
   text-align: right;
 }
 pre code {
-  font-family: Monospaced;
+  font-family: monospace;
   font-size: 13.6px;
   letter-spacing: 0.08rem;
   background-color: #000000;
@@ -223,7 +189,7 @@ pre code {
   display: block;
   padding: 0.4rem;
 }
-
+/*
 ul,
 ol,
 dl {
@@ -234,7 +200,7 @@ dl {
   padding-left: 0.4rem;
   width: calc(100% - 0.8rem);
 }
-
+*/
 img {
   margin: 0em;
 }
@@ -1911,9 +1877,11 @@ main p > img:first-child[src*=block-] {
 main p > img:first-child[src*=inline-] {
   display: inline-block;
 }
+/*
 main ul {
   list-style: none;
 }
+*/
 main li p,
 main li pre,
 main li blockquote {
@@ -2120,34 +2088,36 @@ header.logo .motto * {
   position: relative;
 }
 header.logo .motto .motto-0 {
-  font-family: DefaultSans, "DejaVu Sans Mono", "Lucida Sans", "Lucida Sans Typewriter", sans-serif;
+  font-family: sans-serif;
   margin-bottom: 2em;
   font-size: 2em;
-  transform: scale(3, 2);
+  transform: scale(2.5, 2.5);
 }
 header.logo .motto .motto-0 span:first-child {
-  font-family: DefaultSans, "DejaVu Sans Mono", "Lucida Sans", "Lucida Sans Typewriter", sans-serif;
+  font-family: sans-serif;
   display: inline-block;
   color: #d32f2f;
 }
 header.logo .motto .motto-0 span:last-child {
-  font-family: DefaultSansBlack, "DejaVu Sans Mono", "Lucida Sans", "Lucida Sans Typewriter", sans-serif;
+  font-family: sans-serif;
   display: inline-block;
   color: #b71c1c;
+  font-weight: bold;
 }
 header.logo .motto .motto-1 {
-  font-family: DefaultSans, "DejaVu Sans Mono", "Lucida Sans", "Lucida Sans Typewriter", sans-serif;
+  font-family: sans-serif;
   margin-top: 1.4em;
   font-size: 1.4em;
   letter-spacing: 0.2em;
 }
 header.logo .motto .motto-1 span:first-child {
-  font-family: DefaultSansLight, "DejaVu Sans Mono", "Lucida Sans", "Lucida Sans Typewriter", sans-serif;
+  font-family: sans-serif;
   display: block;
 }
 header.logo .motto .motto-1 span:last-child {
-  font-family: DefaultSansBlack, "DejaVu Sans Mono", "Lucida Sans", "Lucida Sans Typewriter", sans-serif;
+  font-family: sans-serif;
   display: block;
+  font-weight: bold;
 }
 @media (min-width: 100px) and (max-width: 280px) {
   header.logo .motto .motto-0 {
@@ -2180,7 +2150,7 @@ header.logo .motto .motto-1 span:last-child {
 }
 @media (min-width: 501px) and (max-width: 767px) {
   header.logo .motto .motto-0 {
-    transform: scale(1.6, 1.4);
+    transform: scale(1.4, 1.4);
     margin-bottom: 1em;
   }
   header.logo .motto .motto-1 {
@@ -2198,7 +2168,7 @@ header.logo .motto .motto-1 span:last-child {
 }
 @media (min-width: 901px) and (max-width: 920px) {
   header.logo .motto .motto-0 {
-    transform: scale(2.5, 1.4);
+    transform: scale(2, 1.4);
     margin-top: -0.3em;
     margin-bottom: 1em;
   }
