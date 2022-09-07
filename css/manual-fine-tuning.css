@@ -24,4 +24,5 @@ ul.triangles{
 }
 body {
     text-rendering: optimizeSpeed;
+	font-size: 18px;
 }

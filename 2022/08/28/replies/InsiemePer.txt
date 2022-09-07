@@ -1,0 +1,68 @@
+Subject: Re: POSTA CERTIFICATA: [RIF SE22-02.InsiemePer] Segnalazione di illecito utilizzo di Google Fonts su https://www.insieme-per.it/ e invito a risolvere la violazione del Regolamento Europeo 2016/679 (GDPR)
+Date: 28/08/2022, 18:12
+To: monitorapa@peceasy.it
+
+Gentile signore, non apriamo allegati inviati da sconosciuti
+__________________________________________________________________________
+
+Subject: Re:POSTA CERTIFICATA: [RIF SE22-02.InsiemePer] Segnalazione di illecito utilizzo di Google Fonts su https://www.insieme-per.it/ e invito a risolvere la violazione del Regolamento Europeo 2016/679 (GDPR)
+Date: 06/09/2022, 18:49
+To: monitorapa@peceasy.it
+
+All'attenzione di Fabio Pietrosanti.
+
+Ringraziamo per la segnalazione delle due problematiche relative all'utilizzo di Google Font e di Google Analytics, di cui ignoravamo l'esistenza.
+Abbiamo provveduto nei giorni scorsi alla loro rimozione, risolvendo il problema alla radice.
+
+Con i più cordiali saluti
+__________________________________________________________________________
+
+Subject: Re: ANOMALIA MESSAGGIO: Re:POSTA CERTIFICATA: [RIF SE22-02.InsiemePer] Segnalazione di illecito utilizzo di Google Fonts su https://www.insieme-per.it/ e invito a risolvere la violazione del Regolamento Europeo 2016/679 (GDPR)
+Date: Wed, 7 Sep 2022 00:22:09 +0200
+From: Monitora PA <monitorapa@peceasy.it>
+
+Facciamo seguito alla Vostra PEC per rilevare che, fatti i dovuti
+controlli, i trasferimenti sistematici verso Google ci risultano
+ancora attivi sul vostro sito https://www.insieme-per.it/
+
+In particolare, suddetti trasferimenti di dati personali vengono avviati
+dall'inclusione delle seguenti risorse:
+
+- https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2
+- https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2
+- https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVI.woff2
+- https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVI.woff2
+- https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjvmyN.woff2
+- https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVI.woff2
+- https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcQ72.woff2
+- https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3jvmyN.woff2
+
+cui si sommano diversi ulteriori trasferimenti dovuti all'utilizzo
+di altri servizi di Google LLC, fra cui:
+
+- Google Calendar
+- reCAPTCHA
+
+Tale circostanza può essere verificata facilmente utilizzando
+uno dei numerosissimi servizi presenti in rete (ad esempio
+https://webbkoll.dataskydd.net/it/ ) oppure analizzando accuratamente
+il codice sorgente della pagina web e delle risorse incorporate
+tramite l'apposita funzione presente in tutti i principali browser
+attualmente sul mercato (Firefox, Chrome, Edge).
+
+Vi invitiamo ad interrompere suddetti trasferimenti nei termini
+già precedentemente indicati, ma cogliamo altresì l'occasione
+per ringraziarvi di aver già correttamente interrotto i trasferimenti
+di dati personali sensibili dovuti all'utilizzo di Google Analytics.
+
+
+Rimaniamo a disposizione per ogni eventuale ulteriore chiarimento.
+
+Con i più cordiali saluti.
+
+
+Giacomo Tesio
+Attivista del progetto Monitora PA.
+https://monitora-pa.it
+
+

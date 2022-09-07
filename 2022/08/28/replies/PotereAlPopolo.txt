@@ -1,0 +1,70 @@
+https://sociale.network/@poterealpopolo/108912135418900305
+
+@monitorapa segnaliamo che abbiamo provveduto a rimuovere Google Fonts,
+e che già mesi fa avevamo rimosso Google Analytics, come del resto risulta
+dal vostro monitoraggio. Grazie per il lavoro che avete svolto!
+__________________________________________________________________________
+
+https://sociale.network/@poterealpopolo/108923353426967916
+
+@monitorapa Abbiamo risposto su google fonts che era la cosa segnalata da 
+monitora-pa. Usando un tema wordpress ci sta che ci siano altre fughe di dati, 
+ci possiamo lavorare, onestamente nei limiti imposti dai tempi della campagna 
+elettorale che ricadono su un partito che si regge sul lavoro volontario. 
+Cmq ringraziamo x queste segnalazioni,  chi ci chiarirà questa storia del 
+data breach, laddove possiamo intervenjamo.
+__________________________________________________________________________
+
+https://friendica.opencloud.lu/display/5a211d91-1763-10b9-3c14-05d316520602
+
+@poterealpopolo Il problema è che le "fughe di dati" in questione sono gravissime.
+
+Come spiegato nella mail e nell'articolo, state cedendo a #Google dati sulle 
+opinioni politiche dei vostri simpatizzanti che Google utilizzerà per manipolarli 
+e manipolare i risultati delle elezioni.
+
+Peraltro anche a danno del vostro stesso partito.
+
+E ogni bit raccolto da Google duplica l'efficacia di tali manipolazioni
+
+Per questo è importante informare **al più presto** i visitatori del vostro sito 
+che loro dati personali sensibili sono stati carpiti da Google a vostra insaputa.
+
+Prendiamo Google Maps che il vostro sito incorpora.
+
+Sembra uno strumento utile ma esegue sul browser dei visitatori un programma 
+JavaScript che esfiltra verso Google diverse informazioni personali 
+(ad esempio richiamando a sua volta Google Fonts).
+
+In altri termini costituisce, per definizione, un trojan di tipo infostealer 
+che il vostro sito sta iniettando ed eseguendo sul browser di ogni visitatore 
+e senza nemmeno informarlo (non si tratta infatti di una questione di cookie).
+
+Per questo vi invitiamo a darne al più presto notifica all'Autorità Garante 
+per la Protezione dei Dati Personali (articolo 33 del GDPR) e a pubblicare, 
+nei termini dell'articolo 34 del GDPR, una notifica sufficientemente visibile 
+sul vostro sito.
+
+
+https://friendica.opencloud.lu/display/5a211d91-1363-10bd-772c-3c3980744283
+
+@poterealpopolo Aggiungiamo una ulteriore nota tecnica: l'osservatorio di #MonitoraPA identifica 
+i trasferimenti basati su #GoogleFonts sia quando sono avviati dal sito stesso, 
+sia quando sono avviati da altri servizi di #Google.
+
+Come annunciato, a 10 giorni dall'invio della nostra segnalazione, procederemo 
+ad effettuare un nuovo test su tutti i siti dei partiti ed invieremo una segnalazione 
+(e probabilmente alcuni reclami) al Garante, esattamente come facemmo a giugno per le 
+Pubbliche Amministrazioni che ancora usavano #GoogleAnalytics.
+
+Se possibile, con chi si candida al governo di questo Paese, saremo persino più 
+severi ed inflessibili che con le Pubbliche Amministrazioni.
+
+Dopo due anni dalla sentenza SchremsII e nove dalle rivelazioni di Snowden, questa 
+lotta cibernetica non violenta è l'unica che possa funzionare.
+__________________________________________________________________________
+
+https://sociale.network/@poterealpopolo/108923668821400855
+
+@monitorapa
+Riferisco

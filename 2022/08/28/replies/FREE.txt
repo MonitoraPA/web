@@ -1,0 +1,139 @@
+Subject: vostra segnalazione
+Date: 28/08/2022, 21:45
+To: "monitorapa@peceasy.it" <monitorapa@peceasy.it>
+
+Buonasera,
+
+premetto che quasi tutto quanto scritto nella vostra comunicazione è per me incomprensibile; dal numero di telefono inserito nel form pensavo foste un contatto totalmente fake, ma dopo avere fatto alcune ricerche su internet ho capito che i nomi con cui vi presentate possono essere reali e il sito internet che indicate esiste davvero.
+Citate la Costituzione della Repubblica Italiana e per tale motivo meritate una risposta.
+Il fatto poi, che uno di voi sia stato espulso dal M5S quando invece doveva essere ringraziato, mi porta anche a provare simpatia.
+Detto questo, evidenzio che siamo in piena campagna elettorale, quindi evitiamo le perdite di tempo e cerchiamo di definire la questione.
+Io non capisco nulla di siti web, ho acquistato il dominio su Register.it perchè si riesce a costruire un sito facilmente ed in modo intuitivo, tutti i paroloni che scrivete non saprei dove collocarli nel tempo/spazio di www.freetalia.it ; sono però sensibile al controllo che il web fa in modo illegale dei nostri dati e delle nostre abitudini, perciò se posso fare qualcosa per evitare questo controllo sono disponibile a farlo.
+Non abbiamo soldi, siamo comitati civici che si autofinanziano, quindi se siete venditori di qualcosa avete sbagliato cliente.
+preferirei essere contattato telefonicamente, è più facile capirsi e se ho dubbi pongo subito le domande e ci capiamo al volo; le infinite e-mail non sono adatte al mio carattere.
+cordiali saluti 
+
+Gruppo politico FREE
+__________________________________________________________________________
+
+Subject: Re: POSTA CERTIFICATA: vostra segnalazione
+From: Monitora PA <monitorapa@peceasy.it>
+Date: 29/08/2022, 13:03
+
+Salve, in estrema sintesi:
+
+in data 2022-08-28 alle 03:11:34.658574 il nostro osservatorio
+automatizzato ha rilevato che il vostro sito inviava sistematicamente
+dati personali sensibili come le opinioni politiche dei visitatori
+del vostro sito a Google LLC violando:
+
+- l'articolo 15 della Costituzione
+- il GDPR
+
+Google utilizza tali dati per orientare i comportamenti degli elettori,
+riducendone l'autonomia, svuotando la nostra democrazia di significato e
+danneggiando anche il vostro stesso partito qualora non sia
+perfettamente allineato agli interessi economici dei Big Tech
+come Google e agli interessi geopolitici degli Stati Uniti d'America.
+
+Potete verificare autonomamente i trasferimenti avviati dal sito
+attraverso servizi online come https://webbkoll.dataskydd.net/ da
+cui al momento risulta:
+
+- che avete correttamente interrotto i trasferimenti verso Google LLC
+  dovuti a Google Fonts.
+
+- che state effettuando ulteriori trasferimenti transfrontalieri gravati
+  dalle medesime criticità legali, causati da 25 richieste HTTP verso
+  server di Amazon.com, Inc
+
+https://webbkoll.dataskydd.net/en/results?url=http%3A%2F%2Fwww.freetalia.it#requests
+
+- che il sito stesso è ospitato presso server di Amazon.com, Inc
+  soggetti alla normativa USA che permette alle agenzie governative
+  statunitensi di accedere a tutti i dati personali registrati da
+  tali server, senza informare gli interessati, i Titolari (voi)
+  e senza l'autorizzazione di un Giudice
+  https://bgp.he.net/ip/18.193.36.153
+
+I trasferimenti verso Amazon.com, LLC non sono, al momento, ancora
+oggetto delle nostre verifiche automatizzate e delle conseguenti
+segnalazioni.
+
+Tuttavia ogni visitatore del vostro sito ha il diritto di sporgere
+reclamo presso l'Autorità Garante per la Protezione dei Dati Personali
+per tali trasferimenti.
+
+Pertanto, vi suggeriamo di interrompere anche suddetti trasferimenti
+ed ogni altro trasferimento di dati personali presso società di Paesi
+con normative incompatibili con il diritto italiano ed europeo.
+
+
+Ribadiamo che questa mail, come tutta la corrispondenza di Monitora PA
+relativa allo speciale elezioni, inclusa ogni risposta ricevuta
+alla presente comunicazione, sarà oggetto di pubblicazione,
+privata esclusivamente dai dati personali del mittente,
+sul sito web della nostra comunità hacker.
+
+Questo per rendere la cittadinanza consapevole della sensibilità
+del vostro Partito rispetto alla protezione dei dati personali
+e della democrazia del nostro Paese.
+
+
+Rimaniamo a disposizione per ogni eventuale ulteriore chiarimento.
+
+Con i più cordiali saluti.
+
+
+Il team tecnico-legale di Monitora PA.
+https://monitora-pa.it
+__________________________________________________________________________
+
+Subject: Re: POSTA CERTIFICATA: Re: POSTA CERTIFICATA: vostra segnalazione
+Date: 30/08/2022, 13:14
+To: monitorapa@peceasy.it
+
+Buongiorno,
+possiamo fissare un appuntamento in videochiamata su zoom, io mi collego a "register.it" e voi mi dite passo a passo cosa devo fare per risolvere il problema.
+grazie mille
+a presto 
+
+Gruppo politico FREE 
+__________________________________________________________________________
+
+Subject: Re: POSTA CERTIFICATA: Re: POSTA CERTIFICATA: Re: POSTA CERTIFICATA: vostra segnalazione
+From: Monitora PA <monitorapa@peceasy.it>
+Date: 31/08/2022, 00:16
+
+Salve,
+
+pur apprezzando la buona volontà, non siamo in condizione
+di fornire una consulenza di questo tipo gratuitamente a tutti
+i partiti e certamente non potremmo fornirla solo ad uno.
+
+Possiamo tuttavia invitarvi presso la nostra comunità, dove è
+possibile che diversi volontari vi diano, a titolo gratuito,
+qualche indicazione utile.
+
+La chat è raggiungibile tramite due canali:
+
+- Element.io / Matrix https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu
+- Telegram https://t.me/monitoraPA
+
+Vi consigliamo comunque di rivolgervi ad un webmaster di vostra fiducia.
+
+
+Con i più cordiali saluti.
+
+
+Il team tecnico-legale di Monitora PA.
+https://monitora-pa.it
+__________________________________________________________________________
+
+Subject: Re: POSTA CERTIFICATA: Re: POSTA CERTIFICATA: Re: POSTA CERTIFICATA: Re: POSTA CERTIFICATA: vostra segnalazione
+Date: 31/08/2022, 08:37
+To: monitorapa@peceasy.it
+
+ok grazie mille,
+vi contatterò tramite la chat
+saluti 
