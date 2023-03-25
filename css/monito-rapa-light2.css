@@ -1,0 +1,2205 @@
+@charset "UTF-8";
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+/*******************************************************************************
+ based color palette:
+ https://material.io/guidelines/style/color.html#color-color-palette
+
+*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+/*******************************************************************************
+Initial developer: Kitty Giraudel
+The MIT License (MIT) Copyright (c) 2016 Kitty Giraudel
+*******************************************************************************/
+/******************************************************************************/
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+/*******************************************************************************
+Initial developer: Kitty Giraudel
+The MIT License (MIT) Copyright (c) 2016 Kitty Giraudel
+*******************************************************************************/
+/******************************************************************************/
+
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+html,
+body {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.45rem;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  color: #424242;
+  background-color: transparent;
+}
+
+h6 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  font-size: 4.5714285714px;
+  clear: both;
+}
+
+h5 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 9.1428571429px;
+  clear: both;
+}
+
+h4 {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  font-size: 13.7142857143px;
+  clear: both;
+}
+
+h3 {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  font-size: 18.2857142857px;
+  clear: both;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 22.8571428571px;
+  clear: both;
+}
+
+h1 {
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+  font-size: 27.4285714286px;
+  clear: both;
+}
+
+pre {
+  font-size: 13.6px;
+}
+pre div.language-type {
+  font-size: 12.8px;
+  text-align: right;
+}
+pre code {
+  font-family: monospace;
+  font-size: 13.6px;
+  letter-spacing: 0.08rem;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  display: block;
+  padding: 0.4rem;
+}
+
+ul,
+ol,
+dl {
+  font-size: 15.2px;
+  list-style-position: inside;
+  margin-top: 0.24rem;
+  margin-bottom: 0.24rem;
+  padding-left: 0.4rem;
+  width: calc(100% - 0.8rem);
+}
+
+img {
+  margin: 0em;
+}
+
+a,
+.obfu-email {
+  color: #1565c0;
+  text-decoration: none;
+  font-style: italic;
+}
+a:active,
+.obfu-email:active {
+  color: #f9a825;
+}
+a:hover,
+.obfu-email:hover {
+  color: #1976d2;
+  text-decoration: underline;
+}
+a:visited,
+.obfu-email:visited {
+  color: #4a148c;
+}
+
+p {
+  margin: 0em;
+}
+
+blockquote {
+  margin: 0.48rem;
+  padding-left: 0.48rem;
+  font-style: italic;
+  border-left: 4.8px solid #c2c2c2;
+}
+
+div.metadatas {
+  display: none;
+}
+
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+.icon-email::before {
+  content: "✉";
+  top: 0em;
+  position: relative;
+  font-size: 1em;
+  margin: 0em 0.1em 0em 0.1em;
+  display: inline-block;
+  font-size: 1.6em;
+  top: 0.1em;
+}
+
+.icon-output::before {
+  content: "▲";
+  top: 0em;
+  position: relative;
+  font-size: 1em;
+  margin: 0em 0.1em 0em 0.1em;
+  display: inline-block;
+}
+
+.icon-input::before {
+  content: "▼";
+  top: 0em;
+  position: relative;
+  font-size: 1em;
+  margin: 0em 0.1em 0em 0.1em;
+  display: inline-block;
+}
+
+.icon-video::before {
+  content: "📼";
+  top: 0em;
+  position: relative;
+  font-size: 1em;
+  margin: 0em 0.1em 0em 0.1em;
+  display: inline-block;
+}
+
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+header img,
+main img,
+footer img,
+section img {
+  vertical-align: middle;
+}
+header img[src*="2p-"],
+main img[src*="2p-"],
+footer img[src*="2p-"],
+section img[src*="2p-"] {
+  width: 2% !important;
+}
+header img[src*="5p-"],
+main img[src*="5p-"],
+footer img[src*="5p-"],
+section img[src*="5p-"] {
+  width: 5% !important;
+}
+header img[src*="10p-"],
+main img[src*="10p-"],
+footer img[src*="10p-"],
+section img[src*="10p-"] {
+  width: 10% !important;
+}
+header img[src*="20p-"],
+main img[src*="20p-"],
+footer img[src*="20p-"],
+section img[src*="20p-"] {
+  width: 20% !important;
+}
+header img[src*="25rp-"],
+main img[src*="25rp-"],
+footer img[src*="25rp-"],
+section img[src*="25rp-"] {
+  width: 25% !important;
+}
+header img[src*="30p-"],
+main img[src*="30p-"],
+footer img[src*="30p-"],
+section img[src*="30p-"] {
+  width: 30% !important;
+}
+header img[src*="35p-"],
+main img[src*="35p-"],
+footer img[src*="35p-"],
+section img[src*="35p-"] {
+  width: 35% !important;
+}
+header img[src*="40p-"],
+main img[src*="40p-"],
+footer img[src*="40p-"],
+section img[src*="40p-"] {
+  width: 40% !important;
+}
+header img[src*="45p-"],
+main img[src*="45p-"],
+footer img[src*="45p-"],
+section img[src*="45p-"] {
+  width: 45% !important;
+}
+header img[src*="50p-"],
+main img[src*="50p-"],
+footer img[src*="50p-"],
+section img[src*="50p-"] {
+  width: 50% !important;
+}
+header img[src*="55p-"],
+main img[src*="55p-"],
+footer img[src*="55p-"],
+section img[src*="55p-"] {
+  width: 55% !important;
+}
+header img[src*="60p-"],
+main img[src*="60p-"],
+footer img[src*="60p-"],
+section img[src*="60p-"] {
+  width: 60% !important;
+}
+header img[src*="65p-"],
+main img[src*="65p-"],
+footer img[src*="65p-"],
+section img[src*="65p-"] {
+  width: 65% !important;
+}
+header img[src*="70p-"],
+main img[src*="70p-"],
+footer img[src*="70p-"],
+section img[src*="70p-"] {
+  width: 70% !important;
+}
+header img[src*="75p-"],
+main img[src*="75p-"],
+footer img[src*="75p-"],
+section img[src*="75p-"] {
+  width: 75% !important;
+}
+header img[src*="80p-"],
+main img[src*="80p-"],
+footer img[src*="80p-"],
+section img[src*="80p-"] {
+  width: 80% !important;
+}
+header img[src*="85p-"],
+main img[src*="85p-"],
+footer img[src*="85p-"],
+section img[src*="85p-"] {
+  width: 85% !important;
+}
+header img[src*="90p-"],
+main img[src*="90p-"],
+footer img[src*="90p-"],
+section img[src*="90p-"] {
+  width: 90% !important;
+}
+header img[src*="95p-"],
+main img[src*="95p-"],
+footer img[src*="95p-"],
+section img[src*="95p-"] {
+  width: 95% !important;
+}
+header img[src*="100p-"],
+main img[src*="100p-"],
+footer img[src*="100p-"],
+section img[src*="100p-"] {
+  width: 100% !important;
+}
+header img[src*="2vw-"],
+main img[src*="2vw-"],
+footer img[src*="2vw-"],
+section img[src*="2vw-"] {
+  width: 2vw !important;
+}
+header img[src*="5vw-"],
+main img[src*="5vw-"],
+footer img[src*="5vw-"],
+section img[src*="5vw-"] {
+  width: 5vw !important;
+}
+header img[src*="10vw-"],
+main img[src*="10vw-"],
+footer img[src*="10vw-"],
+section img[src*="10vw-"] {
+  width: 10vw !important;
+}
+header img[src*="20vw-"],
+main img[src*="20vw-"],
+footer img[src*="20vw-"],
+section img[src*="20vw-"] {
+  width: 20vw !important;
+}
+header img[src*="25rvw-"],
+main img[src*="25rvw-"],
+footer img[src*="25rvw-"],
+section img[src*="25rvw-"] {
+  width: 25vw !important;
+}
+header img[src*="30vw-"],
+main img[src*="30vw-"],
+footer img[src*="30vw-"],
+section img[src*="30vw-"] {
+  width: 30vw !important;
+}
+header img[src*="35vw-"],
+main img[src*="35vw-"],
+footer img[src*="35vw-"],
+section img[src*="35vw-"] {
+  width: 35vw !important;
+}
+header img[src*="40vw-"],
+main img[src*="40vw-"],
+footer img[src*="40vw-"],
+section img[src*="40vw-"] {
+  width: 40vw !important;
+}
+header img[src*="45vw-"],
+main img[src*="45vw-"],
+footer img[src*="45vw-"],
+section img[src*="45vw-"] {
+  width: 45vw !important;
+}
+header img[src*="50vw-"],
+main img[src*="50vw-"],
+footer img[src*="50vw-"],
+section img[src*="50vw-"] {
+  width: 50vw !important;
+}
+header img[src*="55vw-"],
+main img[src*="55vw-"],
+footer img[src*="55vw-"],
+section img[src*="55vw-"] {
+  width: 55vw !important;
+}
+header img[src*="60vw-"],
+main img[src*="60vw-"],
+footer img[src*="60vw-"],
+section img[src*="60vw-"] {
+  width: 60vw !important;
+}
+header img[src*="65vw-"],
+main img[src*="65vw-"],
+footer img[src*="65vw-"],
+section img[src*="65vw-"] {
+  width: 65vw !important;
+}
+header img[src*="70vw-"],
+main img[src*="70vw-"],
+footer img[src*="70vw-"],
+section img[src*="70vw-"] {
+  width: 70vw !important;
+}
+header img[src*="75vw-"],
+main img[src*="75vw-"],
+footer img[src*="75vw-"],
+section img[src*="75vw-"] {
+  width: 75vw !important;
+}
+header img[src*="80vw-"],
+main img[src*="80vw-"],
+footer img[src*="80vw-"],
+section img[src*="80vw-"] {
+  width: 80vw !important;
+}
+header img[src*="85vw-"],
+main img[src*="85vw-"],
+footer img[src*="85vw-"],
+section img[src*="85vw-"] {
+  width: 85vw !important;
+}
+header img[src*="90vw-"],
+main img[src*="90vw-"],
+footer img[src*="90vw-"],
+section img[src*="90vw-"] {
+  width: 90vw !important;
+}
+header img[src*="95vw-"],
+main img[src*="95vw-"],
+footer img[src*="95vw-"],
+section img[src*="95vw-"] {
+  width: 95vw !important;
+}
+header img[src*="100vw-"],
+main img[src*="100vw-"],
+footer img[src*="100vw-"],
+section img[src*="100vw-"] {
+  width: 100vw !important;
+}
+header img[src*="2em-"],
+main img[src*="2em-"],
+footer img[src*="2em-"],
+section img[src*="2em-"] {
+  width: 2em !important;
+}
+header img[src*="3em-"],
+main img[src*="3em-"],
+footer img[src*="3em-"],
+section img[src*="3em-"] {
+  width: 3em !important;
+}
+header img[src*="4em-"],
+main img[src*="4em-"],
+footer img[src*="4em-"],
+section img[src*="4em-"] {
+  width: 4em !important;
+}
+header img[src*="5em-"],
+main img[src*="5em-"],
+footer img[src*="5em-"],
+section img[src*="5em-"] {
+  width: 5em !important;
+}
+header img[src*="10em-"],
+main img[src*="10em-"],
+footer img[src*="10em-"],
+section img[src*="10em-"] {
+  width: 10em !important;
+}
+header img[src*="20em-"],
+main img[src*="20em-"],
+footer img[src*="20em-"],
+section img[src*="20em-"] {
+  width: 20em !important;
+}
+header img[src*="25rem-"],
+main img[src*="25rem-"],
+footer img[src*="25rem-"],
+section img[src*="25rem-"] {
+  width: 25em !important;
+}
+header img[src*="30em-"],
+main img[src*="30em-"],
+footer img[src*="30em-"],
+section img[src*="30em-"] {
+  width: 30em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="30em-"],
+main img[src*="30em-"],
+footer img[src*="30em-"],
+section img[src*="30em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="35em-"],
+main img[src*="35em-"],
+footer img[src*="35em-"],
+section img[src*="35em-"] {
+  width: 35em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="35em-"],
+main img[src*="35em-"],
+footer img[src*="35em-"],
+section img[src*="35em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="40em-"],
+main img[src*="40em-"],
+footer img[src*="40em-"],
+section img[src*="40em-"] {
+  width: 40em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="40em-"],
+main img[src*="40em-"],
+footer img[src*="40em-"],
+section img[src*="40em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="45em-"],
+main img[src*="45em-"],
+footer img[src*="45em-"],
+section img[src*="45em-"] {
+  width: 45em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="45em-"],
+main img[src*="45em-"],
+footer img[src*="45em-"],
+section img[src*="45em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="50em-"],
+main img[src*="50em-"],
+footer img[src*="50em-"],
+section img[src*="50em-"] {
+  width: 50em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="50em-"],
+main img[src*="50em-"],
+footer img[src*="50em-"],
+section img[src*="50em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="55em-"],
+main img[src*="55em-"],
+footer img[src*="55em-"],
+section img[src*="55em-"] {
+  width: 55em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="55em-"],
+main img[src*="55em-"],
+footer img[src*="55em-"],
+section img[src*="55em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="60em-"],
+main img[src*="60em-"],
+footer img[src*="60em-"],
+section img[src*="60em-"] {
+  width: 60em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="60em-"],
+main img[src*="60em-"],
+footer img[src*="60em-"],
+section img[src*="60em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="65em-"],
+main img[src*="65em-"],
+footer img[src*="65em-"],
+section img[src*="65em-"] {
+  width: 65em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="65em-"],
+main img[src*="65em-"],
+footer img[src*="65em-"],
+section img[src*="65em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="70em-"],
+main img[src*="70em-"],
+footer img[src*="70em-"],
+section img[src*="70em-"] {
+  width: 70em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="70em-"],
+main img[src*="70em-"],
+footer img[src*="70em-"],
+section img[src*="70em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="75em-"],
+main img[src*="75em-"],
+footer img[src*="75em-"],
+section img[src*="75em-"] {
+  width: 75em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="75em-"],
+main img[src*="75em-"],
+footer img[src*="75em-"],
+section img[src*="75em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="80em-"],
+main img[src*="80em-"],
+footer img[src*="80em-"],
+section img[src*="80em-"] {
+  width: 80em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="80em-"],
+main img[src*="80em-"],
+footer img[src*="80em-"],
+section img[src*="80em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="85em-"],
+main img[src*="85em-"],
+footer img[src*="85em-"],
+section img[src*="85em-"] {
+  width: 85em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="85em-"],
+main img[src*="85em-"],
+footer img[src*="85em-"],
+section img[src*="85em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="90em-"],
+main img[src*="90em-"],
+footer img[src*="90em-"],
+section img[src*="90em-"] {
+  width: 90em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="90em-"],
+main img[src*="90em-"],
+footer img[src*="90em-"],
+section img[src*="90em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="95em-"],
+main img[src*="95em-"],
+footer img[src*="95em-"],
+section img[src*="95em-"] {
+  width: 95em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="95em-"],
+main img[src*="95em-"],
+footer img[src*="95em-"],
+section img[src*="95em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="100em-"],
+main img[src*="100em-"],
+footer img[src*="100em-"],
+section img[src*="100em-"] {
+  width: 100em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="100em-"],
+main img[src*="100em-"],
+footer img[src*="100em-"],
+section img[src*="100em-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="2rem-"],
+main img[src*="2rem-"],
+footer img[src*="2rem-"],
+section img[src*="2rem-"] {
+  width: 2rem !important;
+}
+header img[src*="3rem-"],
+main img[src*="3rem-"],
+footer img[src*="3rem-"],
+section img[src*="3rem-"] {
+  width: 3rem !important;
+}
+header img[src*="4rem-"],
+main img[src*="4rem-"],
+footer img[src*="4rem-"],
+section img[src*="4rem-"] {
+  width: 4rem !important;
+}
+header img[src*="5rem-"],
+main img[src*="5rem-"],
+footer img[src*="5rem-"],
+section img[src*="5rem-"] {
+  width: 5rem !important;
+}
+header img[src*="10rem-"],
+main img[src*="10rem-"],
+footer img[src*="10rem-"],
+section img[src*="10rem-"] {
+  width: 10rem !important;
+}
+header img[src*="20rem-"],
+main img[src*="20rem-"],
+footer img[src*="20rem-"],
+section img[src*="20rem-"] {
+  width: 20rem !important;
+}
+header img[src*="25rrem-"],
+main img[src*="25rrem-"],
+footer img[src*="25rrem-"],
+section img[src*="25rrem-"] {
+  width: 25rem !important;
+}
+header img[src*="30rem-"],
+main img[src*="30rem-"],
+footer img[src*="30rem-"],
+section img[src*="30rem-"] {
+  width: 30rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="30rem-"],
+main img[src*="30rem-"],
+footer img[src*="30rem-"],
+section img[src*="30rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="35rem-"],
+main img[src*="35rem-"],
+footer img[src*="35rem-"],
+section img[src*="35rem-"] {
+  width: 35rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="35rem-"],
+main img[src*="35rem-"],
+footer img[src*="35rem-"],
+section img[src*="35rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="40rem-"],
+main img[src*="40rem-"],
+footer img[src*="40rem-"],
+section img[src*="40rem-"] {
+  width: 40rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="40rem-"],
+main img[src*="40rem-"],
+footer img[src*="40rem-"],
+section img[src*="40rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="45rem-"],
+main img[src*="45rem-"],
+footer img[src*="45rem-"],
+section img[src*="45rem-"] {
+  width: 45rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="45rem-"],
+main img[src*="45rem-"],
+footer img[src*="45rem-"],
+section img[src*="45rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="50rem-"],
+main img[src*="50rem-"],
+footer img[src*="50rem-"],
+section img[src*="50rem-"] {
+  width: 50rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="50rem-"],
+main img[src*="50rem-"],
+footer img[src*="50rem-"],
+section img[src*="50rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="55rem-"],
+main img[src*="55rem-"],
+footer img[src*="55rem-"],
+section img[src*="55rem-"] {
+  width: 55rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="55rem-"],
+main img[src*="55rem-"],
+footer img[src*="55rem-"],
+section img[src*="55rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="60rem-"],
+main img[src*="60rem-"],
+footer img[src*="60rem-"],
+section img[src*="60rem-"] {
+  width: 60rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="60rem-"],
+main img[src*="60rem-"],
+footer img[src*="60rem-"],
+section img[src*="60rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="65rem-"],
+main img[src*="65rem-"],
+footer img[src*="65rem-"],
+section img[src*="65rem-"] {
+  width: 65rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="65rem-"],
+main img[src*="65rem-"],
+footer img[src*="65rem-"],
+section img[src*="65rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="70rem-"],
+main img[src*="70rem-"],
+footer img[src*="70rem-"],
+section img[src*="70rem-"] {
+  width: 70rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="70rem-"],
+main img[src*="70rem-"],
+footer img[src*="70rem-"],
+section img[src*="70rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="75rem-"],
+main img[src*="75rem-"],
+footer img[src*="75rem-"],
+section img[src*="75rem-"] {
+  width: 75rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="75rem-"],
+main img[src*="75rem-"],
+footer img[src*="75rem-"],
+section img[src*="75rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="80rem-"],
+main img[src*="80rem-"],
+footer img[src*="80rem-"],
+section img[src*="80rem-"] {
+  width: 80rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="80rem-"],
+main img[src*="80rem-"],
+footer img[src*="80rem-"],
+section img[src*="80rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="85rem-"],
+main img[src*="85rem-"],
+footer img[src*="85rem-"],
+section img[src*="85rem-"] {
+  width: 85rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="85rem-"],
+main img[src*="85rem-"],
+footer img[src*="85rem-"],
+section img[src*="85rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="90rem-"],
+main img[src*="90rem-"],
+footer img[src*="90rem-"],
+section img[src*="90rem-"] {
+  width: 90rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="90rem-"],
+main img[src*="90rem-"],
+footer img[src*="90rem-"],
+section img[src*="90rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="95rem-"],
+main img[src*="95rem-"],
+footer img[src*="95rem-"],
+section img[src*="95rem-"] {
+  width: 95rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="95rem-"],
+main img[src*="95rem-"],
+footer img[src*="95rem-"],
+section img[src*="95rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="100rem-"],
+main img[src*="100rem-"],
+footer img[src*="100rem-"],
+section img[src*="100rem-"] {
+  width: 100rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  header img[src*="100rem-"],
+main img[src*="100rem-"],
+footer img[src*="100rem-"],
+section img[src*="100rem-"] {
+    width: 100% !important;
+  }
+}
+header img[src*="8px-"],
+main img[src*="8px-"],
+footer img[src*="8px-"],
+section img[src*="8px-"] {
+  width: 8px !important;
+}
+header img[src*="16px-"],
+main img[src*="16px-"],
+footer img[src*="16px-"],
+section img[src*="16px-"] {
+  width: 16px !important;
+}
+header img[src*="24px-"],
+main img[src*="24px-"],
+footer img[src*="24px-"],
+section img[src*="24px-"] {
+  width: 24px !important;
+}
+header img[src*="32px-"],
+main img[src*="32px-"],
+footer img[src*="32px-"],
+section img[src*="32px-"] {
+  width: 32px !important;
+}
+header img[src*="40px-"],
+main img[src*="40px-"],
+footer img[src*="40px-"],
+section img[src*="40px-"] {
+  width: 40px !important;
+}
+header img[src*="48px-"],
+main img[src*="48px-"],
+footer img[src*="48px-"],
+section img[src*="48px-"] {
+  width: 48px !important;
+}
+header img[src*="56px-"],
+main img[src*="56px-"],
+footer img[src*="56px-"],
+section img[src*="56px-"] {
+  width: 56px !important;
+}
+header img[src*="64px-"],
+main img[src*="64px-"],
+footer img[src*="64px-"],
+section img[src*="64px-"] {
+  width: 64px !important;
+}
+header img[src*="72px-"],
+main img[src*="72px-"],
+footer img[src*="72px-"],
+section img[src*="72px-"] {
+  width: 72px !important;
+}
+header img[src*="80px-"],
+main img[src*="80px-"],
+footer img[src*="80px-"],
+section img[src*="80px-"] {
+  width: 80px !important;
+}
+header img[src*="88px-"],
+main img[src*="88px-"],
+footer img[src*="88px-"],
+section img[src*="88px-"] {
+  width: 88px !important;
+}
+header img[src*="96px-"],
+main img[src*="96px-"],
+footer img[src*="96px-"],
+section img[src*="96px-"] {
+  width: 96px !important;
+}
+header img[src*=extended-],
+main img[src*=extended-],
+footer img[src*=extended-],
+section img[src*=extended-] {
+  width: 100vw !important;
+  margin-left: calc(100vw - 4rem - 100vw);
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+header img[src*=left-],
+main img[src*=left-],
+footer img[src*=left-],
+section img[src*=left-] {
+  float: left;
+  margin: 1rem 1rem 1rem 0rem;
+}
+header img[src*=right-],
+main img[src*=right-],
+footer img[src*=right-],
+section img[src*=right-] {
+  float: right;
+  margin: 1rem 0rem 1rem 1rem;
+}
+header img[src*=border-],
+main img[src*=border-],
+footer img[src*=border-],
+section img[src*=border-] {
+  border: 1px solid #fafafa;
+}
+header img[src*=round-],
+main img[src*=round-],
+footer img[src*=round-],
+section img[src*=round-] {
+  margin: 1rem 1rem 1rem 0rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 99em;
+}
+header img[src*=avatar-],
+main img[src*=avatar-],
+footer img[src*=avatar-],
+section img[src*=avatar-] {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  padding: 0.2rem;
+}
+header img[src*=block-],
+main img[src*=block-],
+footer img[src*=block-],
+section img[src*=block-] {
+  display: block;
+}
+header img[src*=inline-],
+main img[src*=inline-],
+footer img[src*=inline-],
+section img[src*=inline-] {
+  display: inline-block;
+}
+
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+body {
+  background-color: #fafafa;
+}
+
+h1 {
+  line-height: 2.175rem;
+}
+
+nav {
+  background-color: #fafafa;
+  padding: 0.4rem 4rem 0.4rem 4rem;
+  margin: auto;
+  max-width: 50rem;
+}
+nav.inline {
+  padding: 0em;
+  margin: 0em;
+  max-width: unset;
+  min-width: unset;
+}
+nav span:first-child {
+  display: inline-block;
+  font-style: normal;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.2rem;
+  padding-right: 0.16rem;
+  color: #050505;
+}
+nav a {
+  display: inline-block;
+  font-style: normal;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.2rem;
+  padding-right: 0.16rem;
+  color: #050505;
+  cursor: pointer;
+}
+nav a::after {
+  content: "|";
+  display: inline-block;
+  position: relative;
+  margin: 0em 0em 0em 0.4em;
+  text-decoration: none !important;
+}
+nav a:last-child::after {
+  content: "";
+  margin-left: 0em;
+}
+nav.top-navbar {
+  background-color: #fafafa;
+  font-size: 16px;
+}
+nav.top-navbar #topNavbarMenuIcon {
+  cursor: pointer;
+  display: none;
+  position: relative;
+  font-family: glyphicons;
+  color: #050505;
+}
+nav.top-navbar #topNavbarMenuIcon:before {
+  content: "\e012";
+}
+nav.top-navbar #topNavbarMenuTrigger {
+  display: none;
+}
+nav.top-navbar ul {
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+  display: flex;
+}
+nav.top-navbar ul li {
+  display: inline-block;
+}
+nav.top-navbar ul li.locale-link a {
+  display: inline-block;
+}
+nav.top-navbar ul li a {
+  display: inline-block;
+  font-style: normal;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.2rem;
+  padding-right: 0.16rem;
+  color: #050505;
+  cursor: pointer;
+  display: block;
+}
+nav.top-navbar ul li a::after {
+  content: "|";
+  display: inline-block;
+  position: relative;
+  margin: 0em 0em 0em 0.4em;
+  text-decoration: none !important;
+}
+nav.top-navbar ul li a:last-child::after {
+  content: "";
+  margin-left: 0em;
+}
+nav.top-navbar ul li a:hover {
+  background-color: white;
+}
+
+header {
+  overflow: hidden;
+  background-color: #fafafa;
+  padding: 0.4rem 4rem 0.4rem 4rem;
+  margin: auto;
+  max-width: 50rem;
+}
+header img,
+header canvas {
+  display: block;
+  width: 100%;
+  height: 16rem;
+  padding: 0em;
+  margin: 0rem;
+}
+header div.title,
+header span.subtitle {
+  position: absolute;
+  margin-top: -96px;
+  font-size: 64px;
+  width: 100vw;
+  text-align: center;
+  font-weight: bold;
+  line-height: 0rem;
+  color: #050505;
+}
+header div.title span.logo-part-1 {
+  color: #2f5f96;
+  letter-spacing: 0.22em;
+  font-weight: bold;
+  text-shadow: -1px 0px #5e92cd;
+  text-rendering: optimizeLegibility;
+}
+header div.title span.logo-part-2 {
+  color: #50be95;
+  letter-spacing: 0.22em;
+  font-weight: bold;
+  text-shadow: -1px 0px #9adac2;
+  text-rendering: optimizeLegibility;
+}
+header div.title span.logo-part-3 {
+  color: #e0c038;
+  letter-spacing: 0.22em;
+  font-weight: bold;
+  text-shadow: -1px 0px #f5eabc;
+  text-rendering: optimizeLegibility;
+}
+header div.title span.logo-part-4 {
+  color: #2f5f96;
+  letter-spacing: 0.5em;
+  font-weight: bold;
+  text-shadow: -1px 0px #5e92cd;
+  text-rendering: optimizeLegibility;
+}
+header span.subtitle {
+  display: block;
+  font-size: 32px;
+  margin-top: calc(-16px + 4.2rem);
+}
+
+footer {
+  background-color: #fafafa;
+  padding: 0.4rem 4rem 0.4rem 4rem;
+  margin: auto;
+  max-width: 50rem;
+  clear: both;
+  color: white !important;
+  background-color: #fafafa;
+  font-size: 16px;
+  display: flex;
+}
+footer div {
+  width: 25%;
+}
+footer div.center {
+  display: flex;
+}
+footer div.center ul {
+  width: 50%;
+  margin: 0rem;
+}
+footer div.center ul.footer-menu {
+  list-style: none;
+}
+footer * {
+  color: #050505;
+}
+footer a:hover {
+  color: #050505;
+}
+footer p.copyright span {
+  margin: 0em 0.2em;
+}
+
+main {
+  background-color: #fafafa;
+  padding: 0.4rem 4rem 0.4rem 4rem;
+  margin: auto;
+  max-width: 50rem;
+}
+main p {
+  text-align: left;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.025em;
+  line-height: 1.45rem;
+}
+main p > img:first-child {
+  width: 100% !important;
+  clear: both;
+  vertical-align: middle;
+}
+main p > img:first-child[src*="2p-"] {
+  width: 2% !important;
+}
+main p > img:first-child[src*="5p-"] {
+  width: 5% !important;
+}
+main p > img:first-child[src*="10p-"] {
+  width: 10% !important;
+}
+main p > img:first-child[src*="20p-"] {
+  width: 20% !important;
+}
+main p > img:first-child[src*="25rp-"] {
+  width: 25% !important;
+}
+main p > img:first-child[src*="30p-"] {
+  width: 30% !important;
+}
+main p > img:first-child[src*="35p-"] {
+  width: 35% !important;
+}
+main p > img:first-child[src*="40p-"] {
+  width: 40% !important;
+}
+main p > img:first-child[src*="45p-"] {
+  width: 45% !important;
+}
+main p > img:first-child[src*="50p-"] {
+  width: 50% !important;
+}
+main p > img:first-child[src*="55p-"] {
+  width: 55% !important;
+}
+main p > img:first-child[src*="60p-"] {
+  width: 60% !important;
+}
+main p > img:first-child[src*="65p-"] {
+  width: 65% !important;
+}
+main p > img:first-child[src*="70p-"] {
+  width: 70% !important;
+}
+main p > img:first-child[src*="75p-"] {
+  width: 75% !important;
+}
+main p > img:first-child[src*="80p-"] {
+  width: 80% !important;
+}
+main p > img:first-child[src*="85p-"] {
+  width: 85% !important;
+}
+main p > img:first-child[src*="90p-"] {
+  width: 90% !important;
+}
+main p > img:first-child[src*="95p-"] {
+  width: 95% !important;
+}
+main p > img:first-child[src*="100p-"] {
+  width: 100% !important;
+}
+main p > img:first-child[src*="2vw-"] {
+  width: 2vw !important;
+}
+main p > img:first-child[src*="5vw-"] {
+  width: 5vw !important;
+}
+main p > img:first-child[src*="10vw-"] {
+  width: 10vw !important;
+}
+main p > img:first-child[src*="20vw-"] {
+  width: 20vw !important;
+}
+main p > img:first-child[src*="25rvw-"] {
+  width: 25vw !important;
+}
+main p > img:first-child[src*="30vw-"] {
+  width: 30vw !important;
+}
+main p > img:first-child[src*="35vw-"] {
+  width: 35vw !important;
+}
+main p > img:first-child[src*="40vw-"] {
+  width: 40vw !important;
+}
+main p > img:first-child[src*="45vw-"] {
+  width: 45vw !important;
+}
+main p > img:first-child[src*="50vw-"] {
+  width: 50vw !important;
+}
+main p > img:first-child[src*="55vw-"] {
+  width: 55vw !important;
+}
+main p > img:first-child[src*="60vw-"] {
+  width: 60vw !important;
+}
+main p > img:first-child[src*="65vw-"] {
+  width: 65vw !important;
+}
+main p > img:first-child[src*="70vw-"] {
+  width: 70vw !important;
+}
+main p > img:first-child[src*="75vw-"] {
+  width: 75vw !important;
+}
+main p > img:first-child[src*="80vw-"] {
+  width: 80vw !important;
+}
+main p > img:first-child[src*="85vw-"] {
+  width: 85vw !important;
+}
+main p > img:first-child[src*="90vw-"] {
+  width: 90vw !important;
+}
+main p > img:first-child[src*="95vw-"] {
+  width: 95vw !important;
+}
+main p > img:first-child[src*="100vw-"] {
+  width: 100vw !important;
+}
+main p > img:first-child[src*="2em-"] {
+  width: 2em !important;
+}
+main p > img:first-child[src*="3em-"] {
+  width: 3em !important;
+}
+main p > img:first-child[src*="4em-"] {
+  width: 4em !important;
+}
+main p > img:first-child[src*="5em-"] {
+  width: 5em !important;
+}
+main p > img:first-child[src*="10em-"] {
+  width: 10em !important;
+}
+main p > img:first-child[src*="20em-"] {
+  width: 20em !important;
+}
+main p > img:first-child[src*="25rem-"] {
+  width: 25em !important;
+}
+main p > img:first-child[src*="30em-"] {
+  width: 30em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="30em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="35em-"] {
+  width: 35em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="35em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="40em-"] {
+  width: 40em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="40em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="45em-"] {
+  width: 45em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="45em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="50em-"] {
+  width: 50em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="50em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="55em-"] {
+  width: 55em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="55em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="60em-"] {
+  width: 60em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="60em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="65em-"] {
+  width: 65em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="65em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="70em-"] {
+  width: 70em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="70em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="75em-"] {
+  width: 75em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="75em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="80em-"] {
+  width: 80em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="80em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="85em-"] {
+  width: 85em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="85em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="90em-"] {
+  width: 90em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="90em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="95em-"] {
+  width: 95em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="95em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="100em-"] {
+  width: 100em !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="100em-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="2rem-"] {
+  width: 2rem !important;
+}
+main p > img:first-child[src*="3rem-"] {
+  width: 3rem !important;
+}
+main p > img:first-child[src*="4rem-"] {
+  width: 4rem !important;
+}
+main p > img:first-child[src*="5rem-"] {
+  width: 5rem !important;
+}
+main p > img:first-child[src*="10rem-"] {
+  width: 10rem !important;
+}
+main p > img:first-child[src*="20rem-"] {
+  width: 20rem !important;
+}
+main p > img:first-child[src*="25rrem-"] {
+  width: 25rem !important;
+}
+main p > img:first-child[src*="30rem-"] {
+  width: 30rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="30rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="35rem-"] {
+  width: 35rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="35rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="40rem-"] {
+  width: 40rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="40rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="45rem-"] {
+  width: 45rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="45rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="50rem-"] {
+  width: 50rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="50rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="55rem-"] {
+  width: 55rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="55rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="60rem-"] {
+  width: 60rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="60rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="65rem-"] {
+  width: 65rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="65rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="70rem-"] {
+  width: 70rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="70rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="75rem-"] {
+  width: 75rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="75rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="80rem-"] {
+  width: 80rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="80rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="85rem-"] {
+  width: 85rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="85rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="90rem-"] {
+  width: 90rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="90rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="95rem-"] {
+  width: 95rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="95rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="100rem-"] {
+  width: 100rem !important;
+}
+@media (min-width: 100px) and (max-width: 500px) and (orientation: portrait) {
+  main p > img:first-child[src*="100rem-"] {
+    width: 100% !important;
+  }
+}
+main p > img:first-child[src*="8px-"] {
+  width: 8px !important;
+}
+main p > img:first-child[src*="16px-"] {
+  width: 16px !important;
+}
+main p > img:first-child[src*="24px-"] {
+  width: 24px !important;
+}
+main p > img:first-child[src*="32px-"] {
+  width: 32px !important;
+}
+main p > img:first-child[src*="40px-"] {
+  width: 40px !important;
+}
+main p > img:first-child[src*="48px-"] {
+  width: 48px !important;
+}
+main p > img:first-child[src*="56px-"] {
+  width: 56px !important;
+}
+main p > img:first-child[src*="64px-"] {
+  width: 64px !important;
+}
+main p > img:first-child[src*="72px-"] {
+  width: 72px !important;
+}
+main p > img:first-child[src*="80px-"] {
+  width: 80px !important;
+}
+main p > img:first-child[src*="88px-"] {
+  width: 88px !important;
+}
+main p > img:first-child[src*="96px-"] {
+  width: 96px !important;
+}
+main p > img:first-child[src*=extended-] {
+  width: 100vw !important;
+  margin-left: calc(100vw - 4rem - 100vw);
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+main p > img:first-child[src*=left-] {
+  float: left;
+  margin: 1rem 1rem 1rem 0rem;
+}
+main p > img:first-child[src*=right-] {
+  float: right;
+  margin: 1rem 0rem 1rem 1rem;
+}
+main p > img:first-child[src*=border-] {
+  border: 1px solid #fafafa;
+}
+main p > img:first-child[src*=round-] {
+  margin: 1rem 1rem 1rem 0rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 99em;
+}
+main p > img:first-child[src*=avatar-] {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  padding: 0.2rem;
+}
+main p > img:first-child[src*=block-] {
+  display: block;
+}
+main p > img:first-child[src*=inline-] {
+  display: inline-block;
+}
+main ul {
+  list-style: none;
+}
+main li p,
+main li pre,
+main li blockquote {
+  display: inline;
+}
+main li blockquote {
+  border: none;
+  margin: 0rem;
+  padding-left: 0rem;
+}
+main blockquote blockquote {
+  border: none;
+  margin: 0rem;
+  padding-left: 0rem;
+}
+
+@media (max-width: 483px) {
+  header .title {
+    font-size: 2.5rem !important;
+  }
+  header .title span.subtitle {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 767px) {
+  nav,
+main,
+header,
+footer {
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  }
+
+  #topNavbarMenuIcon {
+    display: inline-block !important;
+    margin-left: calc(100vw - 4.6rem);
+  }
+
+  #topNavbarMenuTrigger:checked + ul {
+    display: block;
+  }
+
+  nav.top-navbar ul {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  footer {
+    display: block;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  footer div {
+    width: 100%;
+  }
+}
+.full-with-vplayer {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin: 2em;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.full-with-vplayer iframe,
+.full-with-vplayer object,
+.full-with-vplayer embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section.news p, section.faq p {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.6em;
+}
+section.news p label:first-child, section.faq p label:first-child {
+  font-weight: 800;
+  color: #1b5e20;
+  font-size: 1.1em;
+  margin: 0.4em 0em 0.4em 0em;
+  width: 100%;
+}
+section.news p label:first-child a, section.faq p label:first-child a {
+  color: #1b5e20;
+  text-decoration: none;
+  cursor: default;
+}
+section.news p label:first-child a:hover, section.faq p label:first-child a:hover {
+  text-decoration: none;
+  cursor: default;
+}
+section.news p cite, section.faq p cite {
+  font-style: normal;
+  font-size: 0.9em;
+  margin-left: 1em;
+  border-left: 0.3em solid #a8a8a8;
+  padding-left: 1em;
+}
+section.news p cite em.quote, section.faq p cite em.quote {
+  display: block;
+  margin: 0.6em 1em 0.6em 1em;
+}
+section.news p cite em.quote::before, section.faq p cite em.quote::before {
+  content: "“";
+}
+section.news p cite em.quote::after, section.faq p cite em.quote::after {
+  content: "”";
+}
+section.news a {
+  font-style: normal;
+  margin-left: 1em;
+  flex-grow: 1;
+  font-weight: 800;
+  margin: 0.5em 0em 0.4em 1em;
+}
+section.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+}
+section.tiles .tile-1 {
+  width: 95%;
+  padding: 0.2em;
+}
+section.tiles .tile-1 * {
+  position: relative;
+  width: 100%;
+}
+section.tiles .tile-2 {
+  width: 47.5%;
+  padding: 0.2em;
+}
+section.tiles .tile-2 * {
+  position: relative;
+  width: 100%;
+}
+section.tiles .tile-3 {
+  width: 31.6666666667%;
+  padding: 0.2em;
+}
+section.tiles .tile-3 * {
+  position: relative;
+  width: 100%;
+}
+section.tiles .tile-4 {
+  width: 23.75%;
+  padding: 0.2em;
+}
+section.tiles .tile-4 * {
+  position: relative;
+  width: 100%;
+}
+section.tiles .tile-5 {
+  width: 19%;
+  padding: 0.2em;
+}
+section.tiles .tile-5 * {
+  position: relative;
+  width: 100%;
+}
+section.tiles .tile-6 {
+  width: 15.8333333333%;
+  padding: 0.2em;
+}
+section.tiles .tile-6 * {
+  position: relative;
+  width: 100%;
+}
+
+/*******************************************************************************
+
+Copyright (c) 2022 Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>  
+Initial developer Massimo Maria Ghisalberti <massimo.ghisalberti@pragmas.org>
+
+This source is released under the terms of the Hacking License.
+The initial developer reserves the right to use the source and any derivative
+CSS or SCSS under other licenses (OSS/FOSS/FLOSS).
+
+*******************************************************************************/
+header.logo {
+  display: flex;
+  margin-top: 4em;
+}
+header.logo img.logo {
+  flex-shrink: 1;
+  width: 12em;
+  position: relative;
+  top: 0em;
+  left: 0em;
+}
+header.logo .motto {
+  margin-top: 1.3em;
+  width: calc(100% - 12em);
+  padding: 0em 0rem 0em 1em;
+}
+header.logo .motto * {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+header.logo .motto .motto-0 {
+  font-family: sans-serif;
+  margin-bottom: 2em;
+  font-size: 2em;
+  transform: scale(2.5, 2.5);
+}
+header.logo .motto .motto-0 span:first-child {
+  font-family: sans-serif;
+  display: inline-block;
+  color: #d32f2f;
+}
+header.logo .motto .motto-0 span:last-child {
+  font-family: sans-serif;
+  display: inline-block;
+  color: #b71c1c;
+  font-weight:bold;
+}
+header.logo .motto .motto-1 {
+  font-family: sans-serif;
+  margin-top: 1.4em;
+  font-size: 1.4em;
+  letter-spacing: 0.2em;
+}
+header.logo .motto .motto-1 span:first-child {
+  font-family: sans-serif;
+  display: block;
+}
+header.logo .motto .motto-1 span:last-child {
+  font-family: sans-serif;
+  display: block;
+  font-weight: bold;
+}
+@media (min-width: 100px) and (max-width: 280px) {
+  header.logo .motto .motto-0 {
+    transform: scale(1.1, 1.4);
+    margin-bottom: 1em;
+  }
+  header.logo .motto .motto-0 span:last-child {
+    margin-top: 0.4em;
+  }
+  header.logo .motto .motto-1 {
+    font-size: 1em;
+    margin-top: 0.4em;
+  }
+  header.logo img.logo {
+    display: none;
+  }
+}
+@media (min-width: 281px) and (max-width: 500px) {
+  header.logo .motto .motto-0 {
+    transform: scale(1.1, 1.4);
+    margin-bottom: 1em;
+  }
+  header.logo .motto .motto-0 span:last-child {
+    margin-top: 0.4em;
+  }
+  header.logo .motto .motto-1 {
+    font-size: 1em;
+    margin-top: 0.4em;
+  }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  header.logo .motto .motto-0 {
+    transform: scale(1.4, 1.4);
+    margin-bottom: 1em;
+  }
+  header.logo .motto .motto-1 {
+    font-size: 1em;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  header.logo .motto .motto-0 {
+    transform: scale(2, 1.4);
+    margin-bottom: 1em;
+  }
+  header.logo .motto .motto-1 {
+    font-size: 1em;
+  }
+}
+@media (min-width: 901px) and (max-width: 920px) {
+  header.logo .motto .motto-0 {
+    transform: scale(2.5, 1.4);
+    margin-top: -0.3em;
+    margin-bottom: 1em;
+  }
+  header.logo .motto .motto-1 {
+    font-size: 1em;
+  }
+}
+
+.button-primary {
+  padding: 0.5em;
+  background-color: #2196f3;
+  color: #f5f5f5;
+  display: inline-block;
+}
+.button-primary:hover {
+  color: white;
+}
+
+.image-tiles .tile {
+  margin: 0.4em;
+  display: inline-block;
+  padding: 0em;
+  background-color: #fafafa;
+  border: 0.4em solid #fafafa;
+}
+.image-tiles .tile-2 {
+  width: 46% !important;
+}
+.image-tiles img {
+  position: absolute;
+  top: 50%;
+  margin: 0em;
+  padding: 0em;
+  width: 100%;
+  transform: translateY(-50%);
+}

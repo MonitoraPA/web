@@ -26,3 +26,11 @@ body {
     text-rendering: optimizeSpeed;
 	font-size: 18px;
 }
+footer a.contact:after{
+	content: "";
+}
+nav {
+	text-align: center;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}

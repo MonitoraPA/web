@@ -1,0 +1,1156 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>MonitoraPA</title>
+  <link href="https://monitora-pa.it/"/>
+  <link type="application/atom+xml" rel="self" href="https://monitora-pa.it/atom.xml"/>
+  <updated>2023-03-23T02:00:00+00:00</updated>
+  <id>http://www.monitora-pa.it/</id>
+  <author>
+    <name>Giacomo Tesio</name>
+    <email>giacomo@tesio.it</email>
+    <uri>http://www.tesio.it/</uri>
+  </author>
+  
+  <!--
+  <entry>
+	<id></id>
+	<link type="text/html" rel="alternate" href=""/>
+	<title>
+		
+	</title>
+	<updated>2023-03-25T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+		]]>
+	</content>
+  </entry>
+  -->
+  
+  <entry>
+	<id>https://www.softwarelibero.it/lettera-al-governo-del-prof-angelo-raffaele-meo</id>
+	<link type="text/html" rel="alternate" href="https://www.softwarelibero.it/lettera-al-governo-del-prof-angelo-raffaele-meo"/>
+	<title>
+		Lettera al Governo: il Recovery Plan per l'informatica e l'educazione aperte
+	</title>
+	<updated>2023-03-25T16:30:00+00:00</updated>
+	<author>
+		<name>Angelo Raffaele Meo</name>
+		<uri>http://www.softwarelibero.it</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Se credete nel nostro Paese, permettetegli di dimostrare le proprie capacità.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/03/24/il-ministro-dell-istruzione-francese-ordina-di-abbandonare-google-e-microsoft.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/03/24/il-ministro-dell-istruzione-francese-ordina-di-abbandonare-google-e-microsoft.html"/>
+	<title>
+		Il Ministro dell'Istruzione francese risponde su Google e Microsoft
+	</title>
+	<updated>2023-03-24T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<author>
+		<name>Stefano Longagnani</name>
+		<uri>https://twitter.com/longagnani</uri>
+	</author>
+	<author>
+		<name>Antonio Esposito</name>
+	</author>
+    <content type="html">
+		<![CDATA[
+        <p>Nella speranza di aiutare i Dirigenti Scolastici alle
+            prese con la redazione della DPIA per i servizi cloud di Google LLC e Microsoft Corporation, 
+            pubblichiamo di seguito la traduzione italiana della <a href="https://questions.assemblee-nationale.fr/q16/16-971QE.htm" target="_blank">risposta del Governo francese 
+            all'interlogazione parlamentare sulla sovranità digitale e la dipendenza delle scuole 
+            da Google e Microsoft</a>.
+            </p>
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/03/23/faq-su-microsoft365.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/03/23/faq-su-microsoft365.html"/>
+	<title>
+		FAQ su Microsoft 365
+	</title>
+	<updated>2023-03-23T02:00:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Risposte alle domande frequenti su Microsoft 365 dall'Autorità Garante per la Protezione dei Dati Personali della federazione tedesca.
+        </p>
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/03/21/ulteriori-chiarimenti-su-gsuite-e-microsoft365.html#q10</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/03/21/ulteriori-chiarimenti-su-gsuite-e-microsoft365.html#q10"/>
+	<title>
+		Ulteriori chiarimenti su Google Workspace e Microsoft 365 nelle scuole
+	</title>
+	<updated>2023-03-25T02:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Nella speranza di aiutare i Dirigenti Scolastici alle prese con la redazione della DPIA per i servizi cloud 
+        di Google LLC e Microsoft Corporation, pubblichiamo di seguito ulteriori risposte alle domande frequenti
+        che abbiamo ricevuto in questi giorni.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/03/09/chiarimenti-sulle-alternative-a-googleworkspace-e-office365.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/03/09/chiarimenti-sulle-alternative-a-googleworkspace-e-office365.html"/>
+	<title>
+        Primi chiarimenti sulle alternative a Google Workspace e Microsoft Office 365
+	</title>
+	<updated>2023-03-09T19:30:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Condividiamo alcuni chiarimenti inviati da Fabio ad alcune scuole che li hanno richiesti, nella speranza che possano essere utili ad altre.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/03/01/gdpr-misure-tecniche-supplementari-efficaci-per-gmail-e-gsuite.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/03/01/gdpr-misure-tecniche-supplementari-efficaci-per-gmail-e-gsuite.html"/>
+	<title>
+		GDPR howto: efficaci misure tecniche supplementari per GMail, Google Drive e Google Workspace
+	</title>
+	<updated>2023-02-15T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Quali efficaci misure tecniche supplementari permetterebbero di continuare ad usare i servizi di Google? Proviamo a spiegarlo alle scuole che ce l'hanno chiesto.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/03/01/3380-richieste-di-dismettere-gmail.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/03/01/3380-richieste-di-dismettere-gmail.html"/>
+	<title>
+		3380 richieste di dismettere GMail (&amp; friends)
+	</title>
+	<updated>2023-03-01T04:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        In trepidante attesa del nuovo Safe Harbor 3.0 (:-D), abbiamo richiesto a 3380 PA di dismettere GMail &amp; friends. 
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/02/28/come-difendersi-da-google-a-scuola.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/02/28/come-difendersi-da-google-a-scuola.html"/>
+	<title>
+		Come difendersi da Google a Scuola
+	</title>
+	<updated>2023-02-28T03:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+    <author>
+		<name>Stefano Longagnani</name>
+		<uri>https://twitter.com/longagnani</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Mini-guida pratica <strong>per Docenti</strong> che intendano richiedere la dismissione dei sistemi di sorveglianza di Google alle scuole in cui lavorano.
+		]]>
+	</content>
+  </entry>
+
+  <entry>
+	<id>https://monitora-pa.it/2023/02/27/come-difendere-gli-studenti-da-google.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/02/27/come-difendere-gli-studenti-da-google.html"/>
+	<title>
+		Come (iniziare a) difendere gli studenti da Google
+	</title>
+	<updated>2023-02-27T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+    <author>
+		<name>Stefano Longagnani</name>
+		<uri>https://twitter.com/longagnani</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Mini-guida pratica <strong>per Genitori</strong> che intendano richiedere la dismissione dei sistemi di sorveglianza di Google nelle scuole dei propri figli.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/02/15/segnalazione-al-garante.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/02/15/segnalazione-al-garante.html"/>
+	<title>
+		Segnalazione al Garante... tutti i gusti più uno.
+	</title>
+	<updated>2023-02-15T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Nuova segnalazione di 5102 Pubbliche Amministrazioni che continuano a trasferire dati personali in USA e Russia.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/02/02/codice_google_abbandonare_la_nave.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/02/02/codice_google_abbandonare_la_nave.html"/>
+	<title>
+		Codice Google: è ora di abbandonare la nave!
+	</title>
+	<updated>2023-02-02T03:20:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Alla luce delle recenti raccomandazioni del EDPB, chiediamo a 45 Atenei che ancora usano i servizi di Google di smettere di violare i diritti di studenti e insegnanti.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/01/17/un_sincero_grazie_a_christian_bernieri.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/01/17/un_sincero_grazie_a_christian_bernieri.html"/>
+	<title>
+		Aggiornata l'Informativa sulla Privacy
+	</title>
+	<updated>2023-01-17T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Un caloroso ringraziamento va al DPO Christian Bernieri per la sua preziosissima peer review.
+		]]>
+	</content>
+  </entry>  
+  
+  <entry>
+	<id>https://monitora-pa.it/2023/01/16/gennaio_2023.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2023/01/16/gennaio_2023.html"/>
+	<title>
+		Buon 2023!
+	</title>
+	<updated>2023-01-16T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        In partenza le prime 6.829 PEC dell'anno di Monitora PA.
+		]]>
+	</content>
+  </entry>  
+  
+  <entry>
+	<id>https://peertube.opencloud.lu/w/us2Ak7PTP9SL79T54NzfGH</id>
+	<link type="text/html" rel="alternate" href="https://peertube.opencloud.lu/w/us2Ak7PTP9SL79T54NzfGH"/>
+	<title>
+		[Garantismi - Live] Le Sfide della Privacy nel 2023
+	</title>
+	<updated>2023-01-07T18:00:00+00:00</updated>
+	<author>
+		<name>Matteo Flora</name>
+		<uri>https://matteoflora.com/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+            <p>
+                Grazie a <a href="https://matteoflora.com/" target="_blank">Matteo Flora</a>, Guido Scorza risponde a Giacomo Tesio sulla necessità di 
+                DPIA e TIA per le scuole che adottano Google Classroom e Microsoft Office 365.<br/>
+                TL;DR: "ovviamente dovrebbero averla".
+            </p>
+            <p>
+                Video completo dell'intervista <a href="https://invidious.weblibre.org/watch?v=YrB5DN8wX9k" target="_blank">[Garantismi LIVE] - Le Sfide della Privacy nel 2023</a> 
+                (anche su <a href="https://monitora-pa.it/exit/youtube.html?v=YrB5DN8wX9k" target="_blank">YouTube</a>)
+            </p>
+        ]]>
+	</content>
+  </entry>
+
+  <entry>
+	<id>https://foia.monitora-pa.it/0x01/</id>
+	<link type="text/html" rel="alternate" href="https://foia.monitora-pa.it/0x01/"/>
+	<title>
+		Tutte le risposte delle scuole al primo FOIA di Monitora PA
+	</title>
+	<updated>2023-01-06T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+        Come annunciato, tutte le risposte al FOIA di Fabio sono disponibili su 
+        <a href="https://foia.monitora-pa.it">https://foia.monitora-pa.it</a>.
+		]]>
+	</content>
+  </entry>
+
+  <entry>
+	<id>https://peertube.opencloud.lu/w/efPPAD8rDELbeA35PrDBzj</id>
+	<link type="text/html" rel="alternate" href="https://peertube.opencloud.lu/w/efPPAD8rDELbeA35PrDBzj"/>
+	<title>
+		Giacomo Tesio risponde alle scuole su Monitora PA
+	</title>
+	<updated>2022-12-08T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+		Breve video in cui Giacomo Tesio, uno degli hacker che lavora a Monitora PA, 
+		spiega le ragioni e gli obiettivi del progetto alle scuole.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2022/12/07/MonitoraPA_Guida_WordPress.pdf</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/12/07/MonitoraPA_Guida_WordPress.pdf"/>
+	<title>
+		WordPress &amp; GDPR - Guida alla risoluzione dei problemi relativi alla privacy
+	</title>
+	<updated>2022-12-07T01:05:00+00:00</updated>
+	<content type="html">
+		<![CDATA[
+		16 slide scritte da uno degli insegnanti che collaborano sulla nostra chat
+				<a href="https://matrix.to/#/%23MonitoraPA:matrix.opencloud.lu" 
+            title="Vai al canale del progetto su Matrix (apre una nuova finestra)"
+            target="_blank">Matrix</a> / <a href="https://t.me/monitoraPA" 
+            title="Vai al canale del progetto su Telegram (apre una nuova finestra)"
+            target="_blank">Telegram</a> per aiutare le scuole in difficoltà con la pulizia di WordPress.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2022/12/05/pulizie_invernali.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it//2022/12/05/pulizie_invernali.html"/>
+	<title>
+		10.215 PEC per le Pulizie Invernali - Dicembre 2022
+	</title>
+	<updated>2022-12-05T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+		In preparazione al Natale, abbiamo chiesto a 10.215 PA di interrompere 30 diversi trasferimenti sistematici di dati personali verso USA, Cina e Russia.
+		]]>
+	</content>
+  </entry>
+
+  <entry>
+	<id>https://monitora-pa.it/2022/11/30/Segnalazione_al_Garante.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/11/30/Segnalazione_al_Garante.html"/>
+	<title>
+		Segnalazione al Garante - Novembre 2022
+	</title>
+	<updated>2022-11-30T23:59:59+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+		Secondo la procedura prevista e ormai consolidata, abbiamo segnalato le 2679 Pubbliche Amministrazioni che continuano a trasferire dati personali dei visitatori dei propri siti presso Google LLC e Cloudflare, Inc all'Autorità Garante per la Protezione dei Dati Personali.
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/2022/11/15/FOIA_Istanze_di_Riesame.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/11/15/FOIA_Istanze_di_Riesame.html"/>
+	<title>
+		F.O.I.A. - Istanze di Riesame
+	</title>
+	<updated>2022-11-15T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+		Procede il percorso del nostro primo FOIA, con 21 istanze di riesame ad altrettanti RPCT regionali.
+		]]>
+	</content>
+  </entry>
+  <entry>
+	<id>https://centroriformastato.it/cittadini-cibernetici-contro-capitalisti-della-sorveglianza/</id>
+	<link type="text/html" rel="alternate" href="https://centroriformastato.it/cittadini-cibernetici-contro-capitalisti-della-sorveglianza/"/>
+	<title>
+		Cittadini “cibernetici” contro capitalisti della sorveglianza
+	</title>
+	<updated>2022-10-20T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<author>
+		<name>Guilio De Petra</name>
+		<uri>https://centroriformastato.it/autore/giulio-de-petra/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[<p>MonitoraPA: come un gruppo di hacker esige il rispetto del Regolamento Generale sulla Protezione dei Dati (GDPR) e della Costituzione. Intervista con Giacomo Tesio.</p>]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://monitora-pa.it/#linuxday-2022</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/#linuxday-2022"/>
+	<title>
+		Monitora PA al Linux Day 2022
+	</title>
+	<updated>2022-10-16T14:40:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[Il 22 ottobre 2022 si parlerà di Monitora PA in diverse sedi del Linux Day:
+				<ul>
+					<li>
+						Dalle 8.45, a Trento: <a target="_blank" title="Dettagli su www.linuxtrent.it (nuova finestra)"
+							href="https://www.linuxtrent.it/linuxday-2022-ce-sempre-unalternativa/"
+							>LinuxDay 2022: c’è sempre un’alternativa!</a><br/>
+							Incontro in collaborazione 
+							con l’istituto scolastico UPT di Arco; durante il corso della mattinata ragioneremo 
+							insieme sulla vera essenza del cosiddetto “cloud”, parleremo di Monitora PA, 
+							l’iniziativa dirompente che un gruppo di attivisti sostenitori del diritto 
+							alla riservatezza stanno portando avanti in questi ultimi mesi, e conosceremo 
+							alternative per la comunicazione sociale e la messaggistica concrete e rispettose 
+							delle persone e della comunità.
+					</li>
+					<li>
+						Alle 11:15, a Bari: <a target="_blank" title="Dettagli su linuxdaybari.it (nuova finestra)"
+							href="https://linuxdaybari.it/session/privacy-e-sicurezza-del-dato-lapproccio-hacker-ugo-lopez-fabio-pietrosanti-giacomo-tesio-walter-vannini-christian-bernieri/"
+							>Privacy e sicurezza del dato: l’approccio hacker</a><br/>
+							Ugo Lopez modererà un dibattito fra
+							i fondatori di Monitora PA, Fabio Pietrosanti e Giacomo Tesio, e due dei DPO più critici nei 
+							confronti del progetto, Walter Vannini e Christian Bernieri.
+					</li>
+					<li>
+						Alle 14.30, online: <a target="_blank" title="Leggi su www.linuxday.it (nuova finestra)"
+							href="https://www.linuxday.it/2022/programma/talk.php?slug=privacy-e-attivismo-la-vicenda-monitora-pa"
+							>Privacy e attivismo: la vicenda Monitora PA</a><br/> 
+							Breve riepilogo delle azioni svolte da Monitora PA 
+							e delle critiche ricevute a cura di Ugo Lopez
+					</li>
+				</ul>
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://yewtu.be/watch?v=SeQD83Nl1eE</id>
+	<link type="text/html" rel="alternate" href="https://yewtu.be/watch?v=SeQD83Nl1eE"/>
+	<title>
+		Usare il FOIA per la trasparenza del trattamento dei dati in ambito pubblico
+	</title>
+	<updated>2022-09-18T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+		<p>Riflessioni (giuridiche) sull'istanza presentata da Monitora PA alle scuole italiane.</p>
+		]]>
+	</content>
+  </entry>
+  
+  <entry>
+	<id>https://www.ondarossa.info/newstrasmissioni/entropia-massima/2022/10/estrattivismo-dati</id>
+	<link type="text/html" rel="alternate" href="https://www.ondarossa.info/newstrasmissioni/entropia-massima/2022/10/estrattivismo-dati"/>
+	<title>
+		Estrattivismo dei dati: Davide Lamanna intervista Giacomo Tesio su Monitora PA
+	</title>
+	<updated>2022-10-10T20:00:00+00:00</updated>
+	<author>
+		<name>Davide Lamanna</name>
+	</author>
+	<content type="html">
+		<![CDATA[
+		Puntata 2 di EM, ciclo Estrattivismo dei dati, parliamo del progetto MonitoraPA insieme ad uno degli sviluppatori. Si tratta di un osservatorio gestito da volontari che si premura di verificare i trasferimenti di dati degli utenti (ossia i cittadini che accedono ai servizi della PA italiana) verso aziende straniere (tipicamente USA). Queste ultime, in virtù di una più favorevole legislazione in vigore nei loro stati di appartenenza, possono fare quello che vogliono di tali dati e sono tenuti a consegnarli al governo su semplice richiesta. In questo modo i cittadini italiani perdono qualunque garanzia sancita dalla legislazione del nostro paese, a partire dalla costituzione stessa. Da due anni, tali trasferimenti sono anche illegali, in base alla normativa europea. A dispetto di ciò, migliaia di PA italiane continuano ad usare servizi di Google e degli altri GAFAM.
+
+		]]>
+	</content>
+  </entry>
+
+   <entry>
+	<id>https://www.pietrobiase.it/reclamo-al-garante-privacy</id>
+	<link type="text/html" rel="alternate" href="https://www.pietrobiase.it/reclamo-al-garante-privacy/"/>
+	<title>
+		Reclamo al Garante Privacy: ecco cos’è e come farlo
+	</title>
+	<updated>2022-09-18T01:05:00+00:00</updated>
+	<author>
+		<name>Pietro Biase</name>
+		<email>pietro@pietrobiase.it</email>
+		<uri>https://www.pietrobiase.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+		Stai cercando informazioni su come fare un reclamo al Garante Privacy? In questo contenuto potrai trovare informazioni dettagliate sulla base della mia esperienza personale in proposito, in particolare per quel che concerne il trattamento di dati personali che avviene sui siti web.
+		]]>
+	</content>
+  </entry>
+ 
+  <entry>
+	<id></id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/09/26/GoogleFonts_dalle_PA_al_Garante.html"/>
+	<title>
+		Google Fonts: dalle PA... al Garante.
+	</title>
+	<updated>2022-09-28T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[
+		<p>Oltre il 70% delle Pubbliche Amministrazioni ha risposto positivamente al nostro appello alla interruzione dei trasferimenti dovuti a Google Fonts.
+				Siamo però stati costretti a segnalarne 3037: c'è ancora molta strada da fare.</p>
+		]]>
+	</content>
+  </entry>
+
+  <entry>
+	<id></id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/09/19/8254_domande_a_Scuola.html"/>
+	<title>
+		8.254 domande... a Scuola
+	</title>
+	<updated>2022-09-19T02:55:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[<p>Parte il primo FOIA massivo della storia italiana.<br/>
+(aka: "Prof! Avrei una domanda! Anzi... 8.254!" :-D)</p>
+		]]>
+	</content>
+  </entry>
+
+  <entry>
+	<id>http://monitora-pa.it/#nuova-pec</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/#nuova-pec"/>
+	<title>
+		Monitora PA: nuova casella PEC!
+	</title>
+	<updated>2022-09-18T01:05:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[<p>Dal 18 settembre 2022, tutte le comunicazioni PEC inviate dalla comunità hacker di Monitora PA utilizzeranno una nuova casella: <a href="mailto:comunicazioni@pec.monitora-pa.it">comunicazioni@pec.monitora-pa.it</a>.
+				La vecchia casella, <a href="mailto:monitorapa@peceasy.it">monitorapa@peceasy.it</a> continuerà ad essere raggiungibile per i prossimi sei mesi, permettendo a chi abbia ricevuto nostre comunicazioni da detta casella di rispondere alla stessa.</p>]]>
+	</content>
+  </entry>
+
+  <entry>
+	<id>http://monitora-pa.it/2022/09/13/Speciale_Elezioni_2022_Segnalazione_al_Garante.html</id>
+	<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/09/13/Speciale_Elezioni_2022_Segnalazione_al_Garante.html"/>
+	<title>
+				Monitora PA: Speciale Elezioni 2022 - Segnalazione al Garante
+                </title>
+	<updated>2022-09-13T23:59:00+00:00</updated>
+	<author>
+		<name>Giacomo Tesio</name>
+		<email>giacomo@tesio.it</email>
+		<uri>http://www.tesio.it/</uri>
+	</author>
+	<content type="html">
+		<![CDATA[<p>
+				Ad oltre 10 giorni dalla nostra richiesta di interrompere i trasferimenti di dati sensibili verso Google, 
+				47 partiti politici italiani continuano a trasferire illegalmente all'estero i nostri dati personali.
+				Li abbiamo segnalati all'Autorità Garante per la Protezione dei Dati Personali.
+                </p><p>Continua su http://monitora-pa.it/2022/09/13/Speciale_Elezioni_2022_Segnalazione_al_Garante.html</p>]]>
+	</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/09/05/cari_amici_linuxari.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/09/05/cari_amici_linuxari.html"/>
+		<title>
+					Cari Amici Linuxari...
+					</title>
+		<updated>2022-09-05T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+					Un appello di Monitora PA a tutti gli amici Linuxari, perchè la libertà cibernetica non si riduca a un privilegio per pochi.
+					</p><p>Continua su http://monitora-pa.it/2022/09/05/cari_amici_linuxari.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/08/28/replies/PartitoPirata.html#monitorapa-to-pp</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/08/28/replies/PartitoPirata.html#monitorapa-to-pp"/>
+		<title>
+					Caro Partito Pirata... LOL ! ! ! :-D
+					</title>
+		<updated>2022-09-02T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+					Speriamo di far cosa gradita a voi ed utile ai vostri
+					sostenitori nel informarvi che il Web è cambiato dai tempi di Mosaic.
+					</p><p>Continua su http://monitora-pa.it/2022/08/28/replies/PartitoPirata.html#monitorapa-to-pp</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/08/28/Speciale_Elezioni_2022.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/08/28/Speciale_Elezioni_2022.html"/>
+		<title>
+					Monitora PA: Speciale Elezioni 2022
+					</title>
+		<updated>2022-08-17T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+					Più di 60 partiti politici italiani trasferiscono illegalmente all'estero i nostri dati personali, 
+					alimentando il capitalismo della sorveglianza che li userà per 
+					alterare i risultati delle prossime elezioni.
+					</p><p>Continua su http://monitora-pa.it//2022/08/28/Speciale_Elezioni_2022.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://webbkoll.dataskydd.net/it/</id>
+		<link type="text/html" rel="alternate" href="https://webbkoll.dataskydd.net/it/"/>
+		<title>
+					Webbkoll finalmente in italiano!
+					</title>
+		<updated>2022-09-01T23:59:00+00:00</updated>
+		<author>
+			<name>Albano Battistella</name>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+					Albano Battistella ha tradotto Webbkoll in Italiano.
+					Si tratta dello strumento indipendente che tipicamente indichiamo alle PA
+					confuse dalla presenza di traccianti come Google Analytics o Google Fonts
+					sul proprio sito o che credono erronamente siano stati rimossi.
+					Ringraziamo sentitamente Albano per l'ottimo lavoro!
+					</p><p>Continua su https://webbkoll.dataskydd.net/it/</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/08/17/guida_google-fonts_local-DRUPAL.pdf</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/08/17/guida_google-fonts_local-DRUPAL.pdf"/>
+		<title>
+					Come utilizzare i Google Fonts localmente su Drupal
+					</title>
+		<updated>2022-08-17T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+					Diffondiamo questa guida pratica alla rimozione di Google Fonts da Drupal, 
+					gentilmente creata e condivisa dalla Professoressa Stefania Concas sulla chat di Monitora PA
+					</p><p>Continua su http://monitora-pa.it//2022/08/17/guida_google-fonts_local-DRUPAL.pdf</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it//2022/08/08/GoogleFonts_in_vista.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it//2022/08/08/GoogleFonts_in_vista.html"/>
+		<title>
+						Google Fonts in vista!
+					</title>
+		<updated>2022-08-08T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Dopo un lungo lavoro durante il mese di luglio, ad agosto abbiamo finalmente varato la nuova architettura del nostro osservatorio automatico distribuito.
+						Speriamo in questo modo di aiutare 10.162 Pubbliche Amministrazioni a ridurre la sorveglianza dei cittadini che vi si affidano...
+					</p><p>Continua su http://monitora-pa.it//2022/08/08/GoogleFonts_in_vista.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/08/02/Domande_allo_StudioLisi_sulla_risposta_per_FedericoLeva.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/08/02/Domande_allo_StudioLisi_sulla_risposta_per_FedericoLeva.html"/>
+		<title>
+						Domande allo Studio Lisi sulla risposta inviata a Federico Leva
+					</title>
+		<updated>2022-08-02T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Pubblichiamo la missiva inviata dal co-fondatore di Monitora PA allo Studio Lisi riguardo al 
+						recente articolo contenente la risposta dello Studio stesso a Federico Leva.
+					</p><p>Continua su http://monitora-pa.it/2022/08/02/Domande_allo_StudioLisi_sulla_risposta_per_FedericoLeva.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/07/26/il-luglio-caldo-di-MonitoraPA.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/07/26/il-luglio-caldo-di-MonitoraPA.html"/>
+		<title>
+						Il luglio caldo di Monitora PA
+					</title>
+		<updated>2022-07-26T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						La liberazione della PA da Google Analytics procede inesorabile mentre i vostri eroi
+						si preparano a nuove battaglie: dalle segnalazioni di Luglio al FOIA al Registro .IT...
+						passando per lo "Speciale Elezioni".
+					</p><p>Continua su http://monitora-pa.it/2022/07/26/il-luglio-caldo-di-MonitoraPA.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/07/14/GoogleAnalytics4_MonitoraPA_risponde_a_TagManagerItalia.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/07/14/GoogleAnalytics4_MonitoraPA_risponde_a_TagManagerItalia.html"/>
+		<title>
+						Google Analytics 4: Monitora PA risponde a Tag Manager Italia
+					</title>
+		<updated>2022-07-14T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Chi difende la produttività delle aziende italiane ed europee che competono 
+						con Google & friends, senza appoggi politici, senza sovvenzioni militari 
+						e rispettando la Legge?
+					</p><p>Continua su http://monitora-pa.it/2022/07/14/GoogleAnalytics4_MonitoraPA_risponde_a_TagManagerItalia.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/07/07/1311_nuove_pec.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/07/07/1311_nuove_pec.html"/>
+		<title>
+						1311 nuove PEC
+					</title>
+		<updated>2022-07-07T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Breve resoconto del nostro giugno di fuoco e due parole sulle 1311 nuove PEC inviate da Monitora PA.
+					</p><p>Continua su http://monitora-pa.it/2022/07/07/1311_nuove_pec.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www.agendadigitale.eu/sicurezza/privacy/monitorapa-risponde-a-google-ecco-perche-analytics-4-e-fumo-negli-occhi/</id>
+		<link type="text/html" rel="alternate" href="https://www.agendadigitale.eu/sicurezza/privacy/monitorapa-risponde-a-google-ecco-perche-analytics-4-e-fumo-negli-occhi/"/>
+		<title>
+						Privacy, Google Analytics 4 è fumo negli occhi: ecco perché non risolve il problema
+					</title>
+		<updated>2022-07-04T23:59:00+00:00</updated>
+		<author>
+			<name>Pietro Biase</name>
+			<email>pietro@pietrobiase.it</email>
+			<uri>https://www.pietrobiase.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Anche Google Analytics 4 trasferisce verso Google i dati personali degli utenti e non è, quindi, Gdpr compliant. Restano tutti i problemi segnalati da MonitoraPA e evidenziati dai Garanti Ue. Tutto quello che Google sa di noi e come influisce sui nostri comportamenti grazie ai dati raccolti coi suoi servizi.
+					</p><p>Continua su https://www.agendadigitale.eu/sicurezza/privacy/monitorapa-risponde-a-google-ecco-perche-analytics-4-e-fumo-negli-occhi/</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www.infosec.news/2022/07/02/news/riservatezza-dei-dati/monitorapa-ora-parlano-gli-hacker/</id>
+		<link type="text/html" rel="alternate" href="https://www.infosec.news/2022/07/02/news/riservatezza-dei-dati/monitorapa-ora-parlano-gli-hacker/"/>
+		<title>
+						MonitoraPA: ora parlano gli hacker
+					</title>
+		<updated>2022-07-02T23:59:00+00:00</updated>
+		<author>
+			<name>Stefano Gazzella</name>
+			<uri>https://www.gdpready.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Intervista a MonitoraPA, la comunità hacker che vuole individuare e segnalare al Garante problemi di conformità delle pubbliche amministrazioni italiane.
+					</p><p>Continua su https://www.infosec.news/2022/07/02/news/riservatezza-dei-dati/monitorapa-ora-parlano-gli-hacker/</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www.ascii.it/google-viola-privacy/</id>
+		<link type="text/html" rel="alternate" href="https://www.ascii.it/google-viola-privacy/"/>
+		<title>
+						Le agenzie europee e il Garante confermano: Google permette l'accesso indiscriminato ai dati alle 
+						Autorità governative e le agenzie di intelligence statunitensi. 
+					</title>
+		<updated>2022-06-25T23:59:00+00:00</updated>
+		<author>
+			<name>As.C.I.I. Associazione Consumatori Italiano Internet</name>
+			<email>info@ascii.it</email>
+			<uri>https://www.ascii.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Iniziano anche le prime richieste di risarcimento dei danni, l'As.C.I.I. Associazione dei Consumatori ( www.ascii.it ) 
+						ritiene che ai sensi dell'art. 82 del Regolamento Privacy (UE 2016/679) il consumatore ha il diritto di ottenere 
+						il risarcimento del danno per violazione del trattamento dei dati.
+					</p><p>Continua su https://www.ascii.it/google-viola-privacy/</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www.pietrobiase.it/google-analytics-nella-pa-monitorapa-invia-la-segnalazione-al-garante-per-la-protezione-dei-dati/</id>
+		<link type="text/html" rel="alternate" href="https://www.pietrobiase.it/google-analytics-nella-pa-monitorapa-invia-la-segnalazione-al-garante-per-la-protezione-dei-dati/"/>
+		<title>
+						Google Analytics nella PA: MonitoraPA invia la segnalazione al Garante per la protezione dei dati.
+					</title>
+		<updated>2022-06-22T23:59:00+00:00</updated>
+		<author>
+			<name>Pietro Biase</name>
+			<email>pietro@pietrobiase.it</email>
+			<uri>https://www.pietrobiase.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p></p><p>Continua su https://www.pietrobiase.it/google-analytics-nella-pa-monitorapa-invia-la-segnalazione-al-garante-per-la-protezione-dei-dati/</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/06/22/segnalazione-al-garante.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/06/22/segnalazione-al-garante.html"/>
+		<title>
+						La prima segnalazione al Garante della Privacy nella storia di Monitora PA.
+					</title>
+		<updated>2022-06-22T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p></p><p>Continua su http://monitora-pa.it/2022/06/22/segnalazione-al-garante.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www.ascii.it/1867-2/</id>
+		<link type="text/html" rel="alternate" href="https://www.ascii.it/1867-2/"/>
+		<title>
+						As.C.I.I. Associazione Consumatori Italiani Internet sostiene il progetto Monitora PA.
+					</title>
+		<updated>2022-06-17T23:59:00+00:00</updated>
+		<author>
+			<name>Marco Andreoli</name>
+			<uri>https://marcoandreoli.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p></p><p>Continua su https://www.ascii.it/1867-2/</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://inv.riverside.rocks/watch?v=S21aHf5LCBc&amp;t=51m28s</id>
+		<link type="text/html" rel="alternate" href="https://inv.riverside.rocks/watch?v=S21aHf5LCBc&amp;t=51m28s"/>
+		<title>
+						Monitora PA al convegno ePrivacy XXX.
+					</title>
+		<updated>2022-06-17T23:59:00+00:00</updated>
+		<author>
+			<name>Progetto Winston Smith</name>
+			<email>segreteria@winstonsmith.org</email>
+			<uri>https://www.winstonsmith.org/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Gli interventi di Marco Ciurcina (Studio Legale.it / Nexa Center), 
+						e Andrea Lisi (Studio LegaLe Lisi) sul contesto giuridico e politico
+						in cui opera Monitora PA seguito dalla tavola rotonda moderata da 
+						Enrica Priolo con Valentina Longo, Marco Ciurcina, 
+						Fabio Pietrosanti (Hermes Center nonché Co-fondatore di MonitoraPA) 
+						e Marco Calamari (Progetto Winston Smith).
+					</p><p>Continua su https://inv.riverside.rocks/watch?v=S21aHf5LCBc&t=51m28s</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/06/14/faq-cnil.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/06/14/faq-cnil.html"/>
+		<title>
+						Domande e risposte sulle diffide della CNIL relative all'uso di Google Analytics
+					</title>
+		<updated>2022-06-14T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Le clausole contrattuali standard e le garanzie aggiuntive possono consentire l'utilizzo di
+			Google Analytics? È possibile configurare lo strumento Google Analytics in modo da non trasferire dati
+			personali al di fuori dell'Unione Europea? È possibile configurare Google Analytics in modo che solo i dati anonimi vengano
+			trasferiti negli Stati Uniti? Questa interpretazione delle conseguenze della sentenza "Schrems 2" della CNIL è
+			condivisa a livello europeo?
+						A queste e ad altre domande risponde l'Autorità Garante della Privacy francese.
+					</p><p>Continua su http://monitora-pa.it/2022/06/14/faq-cnil.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/06/12/una-passeggiata-tra-i-fiori.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/06/12/una-passeggiata-tra-i-fiori.html"/>
+		<title>
+						Una passeggiata tra i fiori...
+					</title>
+		<updated>2022-06-12T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Breve antologia delle risposte che stiamo ricevendo in questi giorni.
+					</p><p>Continua su http://monitora-pa.it/2022/06/12/una-passeggiata-tra-i-fiori.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www.cybersecurity360.it/legal/privacy-dati-personali/monitorapa-primo-passo-via-google-analytics-dagli-enti-cosa-cambia/</id>
+		<link type="text/html" rel="alternate" href="https://www.cybersecurity360.it/legal/privacy-dati-personali/monitorapa-primo-passo-via-google-analytics-dagli-enti-cosa-cambia/"/>
+		<title>
+						MonitoraPA, primo passo via Google Analytics dagli enti: cosa cambia
+					</title>
+		<updated>2022-06-07T23:59:00+00:00</updated>
+		<author>
+			<name>Marco Ciurcina</name>
+			<email>ciurcina@studiolegale.it</email>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						A maggio quasi ottomila PA che si servivano di Google Analytics sono 
+						state invitate via PEC a rimuovere il servizio: si tratta di un primo 
+						passo del progetto MonitoraPA, step che offre l'occasione di riflettere 
+						sui fronti critici del noto servizio di analisi del traffico web già oggetto 
+						di pronunce delle autorità garanti privacy francese e austriaca.
+					</p><p>Continua su https://www.cybersecurity360.it/legal/privacy-dati-personali/monitorapa-primo-passo-via-google-analytics-dagli-enti-cosa-cambia/</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/06/04/4155-nuove-PEC.mp4</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/06/04/4155-nuove-PEC.mp4"/>
+		<title>
+						4155 nuove PEC in partenza...
+					</title>
+		<updated>2022-06-04T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						L'invio della nuova PEC
+						alle 4155 Pubbliche Amministrazioni che ancora utilizzano Google Analytics,
+						nonostante la nostra precedente segnalazione. 
+					</p><p>Continua su http://monitora-pa.it/2022/06/04/4155-nuove-PEC.mp4</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/06/01/nuovo_giro_nuova_corsa.mp4</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/06/01/nuovo_giro_nuova_corsa.mp4"/>
+		<title>
+						Nuovo giro, nuova corsa!
+					</title>
+		<updated>2022-06-01T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p></p><p>Continua su http://monitora-pa.it/2022/06/01/nuovo_giro_nuova_corsa.mp4</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>http://monitora-pa.it/2022/05/30/ongoing-hacks-202206.html</id>
+		<link type="text/html" rel="alternate" href="https://monitora-pa.it/2022/05/30/ongoing-hacks-202206.html"/>
+		<title>
+						Ongoing hacks: giugno 2022
+					</title>
+		<updated>2022-05-30T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Notizie e programmi a breve termine della comunità di Monitora PA.
+					</p><p>Continua su http://monitora-pa.it/2022/05/30/ongoing-hacks-202206.html</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://copernicani.it/civic-hackers-per-una-pubblica-amministrazione-migliore-un-sollecito-agli-enti-pubblici-per-il-rispetto-delle-normative-sulla-privacy/</id>
+		<link type="text/html" rel="alternate" href="https://copernicani.it/civic-hackers-per-una-pubblica-amministrazione-migliore-un-sollecito-agli-enti-pubblici-per-il-rispetto-delle-normative-sulla-privacy/"/>
+		<title>
+						Civic hackers per una Pubblica Amministrazione migliore: un sollecito agli enti pubblici per il rispetto delle normative sulla privacy
+					</title>
+		<updated>2022-05-26T23:59:00+00:00</updated>
+		<author>
+			<name>Associazione Copernicani</name>
+			<email>segreteria@copernicani.it</email>
+			<uri>https://copernicani.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						Nato dall'unione di forti competenze in ambito informatico e legale
+						e animato dal comune spirito di servizio verso il cittadino e lo Stato, 
+						il progetto MonitoraPA ha raggiunto un numero elevato di responsabili della
+						protezione dei dati della Pubblica Amministrazione, ottenendo da una parte 
+						rapidissimi e significativi adeguamenti alle indicazioni del Garante per 
+						la Privacy italiano, dall'altra suscitando anche reazioni contrastanti 
+						che stanno animando un vivace dibattito in rete.
+					</p><p>Continua su https://copernicani.it/civic-hackers-per-una-pubblica-amministrazione-migliore-un-sollecito-agli-enti-pubblici-per-il-rispetto-delle-normative-sulla-privacy/</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://peertube.opencloud.lu/w/dFw6RyXL3BQjp7BunVKQqR</id>
+		<link type="text/html" rel="alternate" href="https://peertube.opencloud.lu/w/dFw6RyXL3BQjp7BunVKQqR"/>
+		<title>
+						GOOGLE ANALYTICS e Pubbliche Amministrazioni ~8.000 PA sono fuori legge. E ora?
+					</title>
+		<updated>2022-05-13T23:59:00+00:00</updated>
+		<author>
+			<name>Matteo Flora</name>
+			<email>mf@matteoflora.com</email>
+			<uri>https://mgpf.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p></p><p>Continua su https://peertube.opencloud.lu/w/dFw6RyXL3BQjp7BunVKQqR</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://friendica.opencloud.lu/display/5a211d91-6162-7bdb-7689-475694786427</id>
+		<link type="text/html" rel="alternate" href="https://friendica.opencloud.lu/display/5a211d91-6162-7bdb-7689-475694786427"/>
+		<title>
+						Fuoco alle polveri!
+					</title>
+		<updated>2022-05-11T23:59:00+00:00</updated>
+		<author>
+			<name>Giacomo Tesio</name>
+			<email>giacomo@tesio.it</email>
+			<uri>http://www.tesio.it/</uri>
+		</author>
+		<content type="html">
+			<![CDATA[<p>
+						In partenza le prime 7833 segnalazioni alle Pubbliche Amministrazioni che usano #GoogleAnalytics sul
+						proprio sito web, in piena violazione del #GDPR.
+					</p><p>Continua su https://friendica.opencloud.lu/display/5a211d91-6162-7bdb-7689-475694786427</p>]]>
+		</content>
+	</entry>
+	<entry>
+		<id>https://github.com/hermescenter/monitorapa/commit/add4584227391b900ca9f7c1a09e5fe4735cbdd4</id>
+		<link type="text/html" rel="alternate" href="https://github.com/hermescenter/monitorapa/commit/add4584227391b900ca9f7c1a09e5fe4735cbdd4"/>
+		<title>
+						Initial commit
+					</title>
+		<updated>2022-01-31T23:59:00+00:00</updated>
+		<author>
+			<name>Fabio Pietrosanti</name>
+			<email>fabio@pietrosanti.it</email>
+		</author>
+		<content type="html">
+			<![CDATA[<p></p><p>Continua su https://github.com/hermescenter/monitorapa/commit/add4584227391b900ca9f7c1a09e5fe4735cbdd4</p>]]>
+		</content>
+	</entry>
+	
+
+</feed>
